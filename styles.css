@@ -1439,6 +1439,10 @@ padding-top: 17rem!important;
 
 }
 
+#body-content-a{
+  margin-top: 40rem;
+}
+
 /*about page content*/
 #history-body-content {
   padding: 4rem 3rem !important;
@@ -9117,6 +9121,7 @@ font-size: 8rem!important;
     padding-right: 2rem;
     padding-top: 1.5rem;
     padding-bottom: 6rem;
+    margin-top:12rem;
 }
 .h6-fb{
   font-size: 1rem!important;
