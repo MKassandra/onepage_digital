@@ -2379,28 +2379,28 @@ font-size: 2.8rem!important;
 .btn-history {
     position: fixed;
     bottom: 400px;
-    left: 25px;
+    right: 25px;
     display: none;
 }
 
 .btn-who {
     position: fixed;
     bottom: 370px;
-    left: 25px;
+    right: 25px;
     display: none;
 }
 
 .btn-meet {
     position: fixed;
     bottom: 340px;
-    left: 25px;
+    right: 25px;
     display: none;
 }
 
 .btn-top-about {
     position: fixed;
     bottom: 310px;
-    left: 25px;
+    right: 25px;
     display: none;
 }
 
@@ -7090,28 +7090,28 @@ height: 100% !important;*/
 .btn-5 {
     position: fixed;
     bottom: 400px;
-    left: 25px;
+    right: 25px;
     display: none;
 }
 
 .btn-6 {
     position: fixed;
     bottom: 370px;
-    left: 25px;
+    right: 25px;
     display: none;
 }
 
 .btn-7 {
     position: fixed;
     bottom: 340px;
-    left: 25px;
+    right: 25px;
     display: none;
 }
 
 .btn-8 {
     position: fixed;
     bottom: 310px;
-    left: 25px;
+    right: 25px;
     display: none;
 }
 
@@ -9164,7 +9164,7 @@ font-size: 8rem!important;
 } */
 /*lets talk page*/
 #talk-body-content {
-    background-image: url("images/bg/talk_new.jpg") !important;
+    /*background-image: url("images/bg/talk_new.jpg") !important;*/
     background-size: cover;
     padding-left: 2rem;
     padding-right: 2rem;
