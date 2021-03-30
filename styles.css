@@ -93,6 +93,18 @@ strong {
   height: 13rem;
   width: auto;
 }
+@media screen and (min-width:600px) and (max-width:800px){
+  .cashmate2{
+    height: 7rem;
+    width: auto;
+}
+}
+@media screen and (min-width:200px) and (max-width:599px){
+  .cashmate2{
+    height: 4rem;
+    width: auto;
+}
+}
 
 .cashmate3{
   height: 40rem;
