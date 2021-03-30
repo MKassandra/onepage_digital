@@ -1444,7 +1444,7 @@ padding-top: 17rem!important;
 
 }
 
-#body-content-a{
+#body-content-a2{
   margin-top: 10rem;
 }
 
@@ -1768,7 +1768,7 @@ padding-top: 17rem!important;
       padding: 1rem 3rem!important;
   }
   .row-w{
-padding-top: 17rem!important;
+/*padding-top: 17rem!important;*/
   }
 }
 @media screen and (max-width: 1024px) {
@@ -1777,7 +1777,7 @@ padding-top: 17rem!important;
       padding: 1rem 3rem!important;
   }
   .row-w{
-padding-top: 17rem!important;
+/*padding-top: 17rem!important;*/
   }
 }
 @media screen and (max-width: 1153px) {
@@ -1786,7 +1786,7 @@ padding-top: 17rem!important;
       padding: 4rem 3rem!important;
   }
   .row-w{
-padding-top: 17rem!important;
+/*padding-top: 17rem!important;*/
   }
 }
 
@@ -1796,7 +1796,7 @@ padding-top: 17rem!important;
       padding: 4rem 3rem!important;
   }
   .row-w{
-padding-top: 17rem!important;
+/*padding-top: 17rem!important;*/
   }
 }
 @media all and (min-width: 1281px) and (max-width: 1443px) {
@@ -9158,7 +9158,7 @@ font-size: 8rem!important;
     padding-right: 2rem;
     padding-top: 1.5rem;
     padding-bottom: 6rem;
-    
+
 
 }
 .h6-fb{
