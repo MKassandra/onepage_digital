@@ -1,5 +1,4 @@
 html {
-    scroll-behavior: smooth;
     zoom: 100% !important;
 }
 
@@ -1466,7 +1465,7 @@ padding-top: 17rem!important;
     padding-top: 1rem;
     line-height: 1.2;
     color: black;
-    text-align: justify;
+    text-align: left;
     background-image: url("images/new/BRB websites assets/history/Asset 2.png");
     /*background-image: url("images/history2.jpg");*/
     background-size: cover;
