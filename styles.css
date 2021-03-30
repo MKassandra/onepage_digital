@@ -107,6 +107,11 @@ strong {
   width: auto;
 }
 
+.cashmate6{
+  height: 20rem;
+  width: auto;
+}
+
 .card1{
   margin-left: 10rem;
   z-index: 1;
@@ -1440,7 +1445,7 @@ padding-top: 17rem!important;
 }
 
 #body-content-a{
-  margin-top: 18rem;
+  margin-top: 10rem;
 }
 
 /*about page content*/
@@ -2599,7 +2604,27 @@ hr {
 }
 
 
+@media screen and (min-width:290px) and (max-width: 800px)  {
+  .product-s-1{
+    background-image: url("images/new/mobile/Asset 14.png");
+  }
 
+  .product-s-2{
+    background-image: url("images/new/mobile/Asset 12.png");
+  }
+
+  .product-s-2-A{
+    background-image: url("images/new/mobile/Asset 13.png");
+  }
+
+  .product-s-4{
+    background-image: url("images/new/mobile/Asset 11.png");
+  }
+
+  .product-s-3{
+    background-image: url("images/new/mobile/Asset 21.png");
+  }
+}
 
 
 
@@ -8602,13 +8627,21 @@ font-size: 1.3rem!important;
 */
 /*partner page*/
 #partner-body-content {
-    /*padding: 0rem 1rem;
-    background-image: url("images/bg/partner_new.jpg") !important;*/
-    height: 35rem;
+    /*padding: 0rem 1rem;*/
+    height: 45rem;
+    background-image: url("images/new/BRB websites assets/partners/Asset 75vis.png");
     background-size: cover;
     background-position: right;
 
+
 }
+@media screen and (min-width:290px) and (max-width: 800px)  {
+  .#partner-body-content{
+    background-image: url("images/new/mobile/Asset 20.png");
+    height: 60rem!important;
+  }
+}
+
 
 .partner-img {
     margin-top: -5rem;
@@ -8640,7 +8673,8 @@ padding-left: 36rem !important;
 /*MEDIA-PARTNER*/
 @media screen and (min-width: 250px) and  (max-width: 440px) {
   #partner-body-content{
-    height: auto;
+      background-image: url("images/new/mobile/Asset 20.png");
+      height: 60rem!important;
   }
   .col-acm{
       margin-right: 3rem!important;
@@ -8669,7 +8703,8 @@ padding-left: 36rem !important;
 
 @media screen and (min-width: 441px) and  (max-width: 550px) {
   #partner-body-content{
-    height: auto;
+      background-image: url("images/new/mobile/Asset 20.png");
+      height: 60rem!important;
   }
   .col-acm{
       margin-right: 3rem!important;
@@ -8697,7 +8732,8 @@ padding-left: 36rem !important;
 
 @media screen and (min-width:551px) and  (max-width: 650px) {
   #partner-body-content{
-    height: auto;
+      background-image: url("images/new/mobile/Asset 20.png");
+      height: 60rem!important;
   }
   .col-acm{
       margin-right: 3rem!important;
@@ -8725,7 +8761,8 @@ padding-left: 36rem !important;
 
 @media screen and (min-width:651px) and  (max-width: 813px) {
   #partner-body-content{
-    height: auto;
+      background-image: url("images/new/mobile/Asset 20.png");
+    height: 60rem!important;
   }
   .col-acm{
       margin-right: 3rem!important;
