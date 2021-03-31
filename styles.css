@@ -105,6 +105,19 @@ strong {
 }
 }
 
+.aboutIMG{
+  height: 30rem;
+  width: auto;
+}
+
+@media screen and (min-width:200px) and (max-width:700px){
+  .aboutIMG{
+    height: 20rem;
+    width: auto;
+  }
+}
+
+
 .cashmate3{
   height: 40rem;
   width: auto;
@@ -1458,6 +1471,15 @@ padding-top: 17rem!important;
 #body-content-a2{
   margin-top: 10rem;
 }
+.aboutMain{
+  
+    background-image: url("images/new/BRB websites assets/history/Asset 2.png");
+    /*background-image: url("images/history2.jpg");*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 /*about page content*/
 #history-body-content {
@@ -1730,33 +1752,41 @@ padding-top: 17rem!important;
     background-repeat: no-repeat;
 }
 
-#who-body-content2 {
-    /*
-    padding: 4rem 6rem !important;
-    padding-top: 2rem;
-    line-height: 2;
-    color: black;
-    text-align: justify;
-    background-color: white;
-    background-size: cover !important;
-    background-position: left;
-    background-repeat: no-repeat;*/
-    padding: 4rem 3rem !important;
-  /*  padding-top: 17rem !important;
-    padding-bottom: 11rem !important;*/
-    line-height: 1;
-    color: black;
-    text-align: justify;
-    background-image: url("images/new/Asset\ 4.png") !important;
-    /*background-image: url("images/who2.jpg") !important;*/
-    background-size: cover !important;
-    background-position:  top left;
-    background-repeat: no-repeat;
+#who-body-content2, #mission-body-content,#vission-body-content,#history-body-content{
+  /*padding: 4rem 3rem !important;*/
+  line-height: 1;
+  color: black;
+  text-align: justify;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
+
+#who-body-content2 {
+  background-image: url("images/new/Asset\ 4.png");
+}
+
+#mission-body-content{
+  background-image: url("images/new/BRB websites assets/mission/Asset 118.png");
+}
+
+#vission-body-content{
+  background-image: url("images/new/BRB websites assets/vission/Asset 36.png");
+  }
+
+
+
+/*
+.row-m{
+padding-top: 17rem;
+}*/
+
+
+/*
 .row-who{
     padding-top: 10rem !important;
-}
+} */
 
 /*MEDIA-WHO*/
 
@@ -1938,32 +1968,9 @@ padding-top: 17rem!important;
 
   .ul-none {
   list-style-type: none;
-}
-#mission-body-content{
-    padding: 4rem 3rem !important;
-
-    line-height: 1;
-    color: black;
-    text-align: justify;
-    background-image: url("images/new/BRB websites assets/mission/Asset 118.png");
-    background-size: cover !important;
-    background-repeat: no-repeat;
-    text-align: center;
-}
-.row-m{
-  padding-top: 17rem;
+  text-align: left!important;
 }
 
-#vission-body-content{
-  padding: 4rem 3rem !important;
-  line-height: 1;
-  color: black;
-  text-align: justify;
-  background-image: url("images/new/BRB websites assets/vission/Asset 36.png");
-  background-size: cover !important;
-  background-repeat: no-repeat;
-  text-align: center;
-}
 
 
 #meet-body-content {
@@ -2653,39 +2660,44 @@ hr {
 }
 .h3-p{
   padding-top: 1rem;
-  color: #008000; /*white*/
+  color: #4c008a;
   font-weight: bolder;
 }
 
+.containerHome{
+  padding-top: 10rem;
+}
+
+/*
 .h3-p{
   padding-top: 1rem;
     font-weight: bolder;
-  }
+  }*/
 
-.h3-customize{
+/*.h3-customize{
   padding-top: 7rem;
-  padding-left:10rem;
+  padding-left:10rem;*/
 }
-.h3-upgrade{
+/*.h3-upgrade{
   padding-top: 7rem;
-  padding-left:10rem;
+  padding-left:10rem;*/
 /*  margin-top: 1rem;*/
 }
 
-.h3-cashless{
+./*h3-cashless{
   padding-top: 8rem;
-  padding-left:10rem;
+  padding-left:10rem;*/
 /*margin-top: 1rem;*/
 }
 
-.h3-access{
+/*.h3-access{
   padding-top: 7rem;
   padding-left:10rem;
 /*margin-top: 0rem;*/
 }
-.h3-simple{
+/*.h3-simple{
   padding-top: 10rem;
-  padding-left:6rem;
+  padding-left:6rem;*/
 }
 
 .col-p-down{
@@ -2942,60 +2954,34 @@ left:0.3rem;
 }
 
 /*for product page*/
+.s_customize, .s_upgrade, .s_cashless,.s_access,.s_simple{
+  /*padding: 2rem 2rem !important;
+  padding-top: 5rem!important;*/
+  color: #3a3a3b !important;
+  background-size: cover !important;
+  background-position: top !important;
+  height: 40rem;
+  background-repeat: no-repeat !important;
+}
+
 .s_customize {
-    padding: 2rem 2rem !important;
-    padding-top: 5rem!important;
-    color: #3a3a3b !important;
       background-image: url("images/bg/p-slide2.png") !important;
-    background-size: cover !important;
-    background-position: top !important;
-    height: 40rem;
-    background-repeat: no-repeat !important;
 }
 
 .s_upgrade {
-    padding: 2rem 2rem  !important;
-    padding-top: 5rem!important;
-    color: #3a3a3b !important;
   background-image: url("images/bg/p-slide1.jpg") !important;
-    background-size: cover !important;
-    background-position: top !important;
-    height: 40rem;
-    background-repeat: no-repeat !important;
 }
 
 .s_cashless {
-    padding: 2rem 2rem  !important;
-    padding-top: 5rem!important;
-    color: #3a3a3b !important;
-      background-image: url("images/bg/p-slide4.jpg") !important;
-
-    background-size: cover !important;
-    background-position: top !important;
-    height: 40rem;
-    background-repeat: no-repeat !important;
+    background-image: url("images/bg/p-slide4.jpg") !important;
 }
 
 .s_access {
-    padding:  2rem 2rem  !important;
-    padding-top: 5rem!important;
-    color: #3a3a3b !important;
     background-image: url("images/bg/p-slide3.png") !important;
-    background-size: cover !important;
-    background-position: top !important;
-    height: 40rem;
-    background-repeat: no-repeat !important;
 }
 
 .s_simple {
-    padding:2rem 2rem !important;
-    color: #3a3a3b !important;
-      padding-top: 5rem!important;
     background-image: url("images/bg/p-slide5_2.jpg") !important;
-    background-size: cover !important;
-    background-position: top !important;
-    height: 40rem;
-    background-repeat: no-repeat !important;
 }
 /*MEDIA-PRODUCT*/
 
