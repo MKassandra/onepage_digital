@@ -135,6 +135,10 @@ strong {
   height: 20rem;
   width: auto;
 }
+.cashmate7{
+  height: 14rem;
+  width: auto;
+}
 
 .card1{
   margin-left: 10rem;
@@ -1487,7 +1491,7 @@ padding-top: 17rem!important;
     padding-top: 1rem;
     line-height: 1.2;
     color: black;
-    text-align: left;
+    text-align: left im !important;
     background-image: url("images/new/BRB websites assets/history/Asset 2.png");
     /*background-image: url("images/history2.jpg");*/
     background-size: cover;
@@ -1773,6 +1777,9 @@ padding-top: 17rem!important;
   background-size: cover !important;
   background-repeat: no-repeat;
   text-align: center;
+}
+#who-body-content2{
+  padding-top: 5rem;
 }
 
 
@@ -2517,6 +2524,32 @@ hr {
     border-radius: 5px !important;*/
 }
 
+
+.card, .upi, .cobrand, .acquiring,  .instapay{
+  padding: 5rem 5rem 0rem 5rem;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 0rem!important;
+}
+
+.card{
+  background-image: url("images/new/BRB websites assets/owned/Asset 19.png");
+}
+.upi{
+  background-image: url("images/new/BRB websites assets/UPI/Asset\ 17.png");
+}
+.cobrand{
+  background-image: url("images/new/BRB websites assets/co\ branded/Asset 21.png");
+}
+.acquiring{
+  background-image: url("images/new/BRB websites assets/international/Asset\ 34.png");
+}
+.instapay{
+  background-image: url("images/new/BRB websites assets/instapay/Asset\ 27.png");
+}
+
 .product-s-1{
   padding: 4rem 0rem;
   color: black;
@@ -2576,7 +2609,7 @@ hr {
 }
 
 .col-i-d{
-  margin-top: 19rem;
+  margin-top: 15rem;
 }
 
 .product-s-5{
