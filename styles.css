@@ -32,9 +32,6 @@ html {
     src:url('font/open-sans/OpenSans-Semibold.ttf');
 }
 
-
-
-
 .t-down{
     padding: 10rem 10rem;
     text-align:center;
@@ -45,7 +42,6 @@ body {
     /*background-image: url('images/bg_main.jpg');
   background-size: contain !important;
   background-position: center !important;*/
-
     width: 100%;
 }
 
@@ -110,9 +106,24 @@ strong {
   width: auto;
 }
 
+.productIMG{
+  height: 35rem;
+  width: auto;
+}
+
+.productIMG_mobile{
+  height: 25rem;
+  width: auto;
+}
+
 @media screen and (min-width:200px) and (max-width:700px){
   .aboutIMG{
     height: 15rem;
+    width: auto;
+  }
+
+  .productIMG{
+    height: 25rem;
     width: auto;
   }
 }
@@ -176,6 +187,19 @@ strong {
 .cashmate8{
   height: 5rem;
   width: auto;
+}
+
+@media screen and (min-width:700px) and (max-width:900px){
+  .historyIMG{
+    height: 0rem;
+    width: auto;
+    display: none;
+  }
+
+  .historyIMG_mobile{
+    height: 13rem;
+    width: auto;
+  }
 }
 
 .card1{
@@ -462,7 +486,6 @@ color: #3a3a3b !important;
 
 .navbar-toggler{
     margin-top:2rem !important;
-
 }
 
 
@@ -485,31 +508,10 @@ color: #3a3a3b !important;
   /*  color:  #ba9dd4 !important;*/
 }
 
-.about {
+.about,.services,.product,.partners,.letsTalk {
     color: #3a3a3b !important;
     /*font-family: 'Noto Serif', serif !important;*/
-    font-size: 1.4rem !important;
-    font-weight: bolder !important;
-}
-
-.services {
-    color: #3a3a3b !important;
-    /*font-family: 'Noto Serif', serif !important;*/
-    font-size: 1.4rem !important;
-    font-weight: bolder !important;
-}
-
-.product {
-    color: #3a3a3b !important;
-    /*font-family: 'Noto Serif', serif !important;*/
-    font-size: 1.4rem !important;
-    font-weight: bolder !important;
-}
-
-.partners {
-    color: #3a3a3b !important;
-    /*font-family: 'Noto Serif', serif !important;*/
-    font-size: 1.4rem !important;
+    font-size: 1.3rem !important;
     font-weight: bolder !important;
 }
 
@@ -519,12 +521,6 @@ color: #3a3a3b !important;
     font-family: 'Noto Serif', serif !important;
     font-size: 1rem !important;
 }*/
-.letsTalk {
-    color: #3a3a3b !important;
-    /*font-family: 'Noto Serif', serif !important;*/
-    font-size: 1.4rem !important;
-    font-weight: bolder !important;
-}
 
 #navbarNav {
     margin-bottom: 0;
@@ -584,49 +580,16 @@ color: #3a3a3b !important;
 }
 
 /* Border Manipulation */
-.about-border {
+.ul-holder {
+  margin-bottom: 5rem;
+}
+
+.about-border,.services-border,.product-border,.partners-border {
     margin-top: 0.5rem;
     border: 1px solid;
-    border-right-color: #3a3a3b !important;
-    border-top: none !important;
-    border-left: none !important;
-    border-bottom: none;
-    padding-right: 1rem;
-    margin-right: 1rem;
-}
-
-.ul-holder {
-    margin-bottom: 5rem;
-}
-
-.services-border {
-  margin-top: 0.5rem;
-    border: 1px solid;
-    border-right-color: #3a3a3b !important;
-    border-top: none !important;
-    border-left: none !important;
-    border-bottom: none;
-    padding-right: 1rem;
-    margin-right: 1rem;
-}
-
-.product-border {
-  margin-top: 0.5rem;
-    border: 1px solid;
-    border-right-color: #3a3a3b !important;
-    border-top: none !important;
-    border-left: none !important;
-    border-bottom: none;
-    padding-right: 1rem;
-    margin-right: 1rem;
-}
-
-.partners-border {
-  margin-top: 0.5rem;
-    border: 1px solid;
-    border-right-color: #3a3a3b !important;
-    border-top: none !important;
-    border-left: none !important;
+    border-right-color: #3a3a3b;
+    border-top: none;
+    border-left: none;
     border-bottom: none;
     padding-right: 1rem;
     margin-right: 1rem;
@@ -635,9 +598,9 @@ color: #3a3a3b !important;
 .letsTalk-border {
   margin-top: 0.5rem;
     border: 0px solid;
-    border-right-color: #3a3a3b !important;
-    border-top: none !important;
-    border-left: none !important;
+    border-right-color: #3a3a3b;
+    border-top: none ;
+    border-left: none;
     border-bottom: none;
     padding-right: 1rem;
     margin-right: 1rem;
@@ -645,217 +608,111 @@ color: #3a3a3b !important;
 
 /*MEDIA-NAVBAR*/
 @media screen and (min-width: 1440px) {
-    .about {
+    .about,.about-dlist,.services,.product,.partners,.log-btn,.letsTalk{
         font-size: 1.6rem !important;
     }
-
-    .about-dlist {
-        font-size: 1.6rem !important;
-    }
-
-    .services {
-        font-size: 1.6rem !important;
-    }
-
-    .product {
-        font-size: 1.6rem !important;
-    }
-
-    .partners {
-        font-size: 1.6rem !important;
-    }
-
-    .log-btn {
-        font-size: 1.6rem !important;
-    }
-
-    .letsTalk {
-        font-size: 1.6rem !important;
-    }
-
 }
 
 @media screen and (min-width: 1600px) {
-    .about {
+    .about,.about-dlist,.services,.product,.partners,.log-btn,.letsTalk{
         font-size: 1.9rem !important;
     }
-
-    .about-dlist {
-        font-size: 1.9rem !important;
-    }
-
-    .services {
-        font-size: 1.9rem !important;
-    }
-
-    .product {
-        font-size: 1.9rem !important;
-    }
-
-    .partners {
-        font-size: 1.9rem !important;
-    }
-
-    .log-btn {
-        font-size: 1.9rem !important;
-    }
-
-    .letsTalk {
-        font-size: 1.9rem !important;
-    }
-
 }
 
 @media screen and (min-width: 1810px) {
-    .about {
-        font-size: 2.1rem !important;
-    }
-
-    .about-dlist {
-        font-size: 2.1rem !important;
-    }
-
-    .services {
-        font-size: 2.1rem !important;
-    }
-
-    .product {
-        font-size: 2.1rem !important;
-    }
-
-    .partners {
-        font-size: 2.1rem !important;
-    }
-
-    .log-btn {
-        font-size: 2.1rem !important;
-    }
-
-    .letsTalk {
+    .about,.about-dlist,.services,.product,.partners,.log-btn,.letsTalk {
         font-size: 2.1rem !important;
     }
 }
 
-@media screen and (min-width: 1920px) {
-    .about {
-        font-size: 2.3rem !important;
-    }
+    /*Navbar manipulation*/
+        /* Media Rules */
+        @media screen and (max-width: 1087px) {
+        .about,.about-dlist,.services,.product,.partners,.log-btn,.letsTalk{
+              font-size: 0.7rem !important;
+          }
+          .btn-border {
+              margin-right: 1.5rem;
+          }
+          .navbar-toggler{
+            margin-top:0rem!important;
+          }
+          .about-border {
+              border: 1px solid;
+              border-right-color: #3a3a3b !important;
+              border-top: none !important;
+              border-left: none !important;
+              border-bottom: none;
+              padding-right: 1rem;
+              margin-right: 1rem;
+          }
+      }
 
-    .about-dlist {
-        font-size: 2.3rem !important;
-    }
+      @media screen and (max-width: 940px) {
 
-    .services {
-        font-size: 2.3rem !important;
-    }
+          .dropdown-item,
+              {
+              font-size: 0.7rem !important;
+          }
 
-    .product {
-        font-size: 2.3rem !important;
-    }
+          .dropdown {
+              margin-right: 16px !important;
+              padding-right: 1rem !important;
+          }
 
-    .partners {
-        font-size: 2.3rem !important;
-    }
+          .about,.about-dlist,.services,.product,.partners,.log-btn,.letsTalk{
+              font-size: 0.7rem !important;
+          }
+          .navbar-toggler{
+            margin-top:0rem!important;
+          }
 
-    .log-btn {
-        font-size: 2.3rem !important;
-    }
+          .about-border {
+              border: 1px solid;
+              border-right-color: #3a3a3b !important;
+              border-top: none !important;
+              border-left: none !important;
+              border-bottom: none;
+              padding-right: 1rem;
+              margin-right: 0;
+          }
+          .letsTalk-border{
+          border: 1px solid;
+          border-right-color: #3a3a3b !important;
+          border-top: none !important;
+          border-left: none !important;
+          border-bottom: none;}
+      }
 
-    .letsTalk {
-        font-size: 2.3rem !important;
-    }
+      @media screen and (max-width: 450px) {
+          .brblogo {
+              height: 3rem;
+              width: 6rem;
+              margin-left: 0.1rem !important;
+              margin-right: 0.5rem;
+          }
 
-}
+          .cashmate {
+              height: 2.5rem;
+              width: 2.5rem;
+          }
+          .navbar-toggler{
+            margin-top:0rem!important;
+          }
 
-@media screen and (min-width: 2640px) {
-    .about {
-        font-size: 2.8rem !important;
-    }
-
-    .about-dlist {
-        font-size: 2.8rem !important;
-    }
-
-    .services {
-        font-size: 2.8rem !important;
-    }
-
-    .product {
-        font-size: 2.8rem !important;
-    }
-
-    .partners {
-        font-size: 2.8rem !important;
-    }
-
-    .log-btn {
-        font-size: 2.8rem !important;
-    }
-
-    .letsTalk {
-        font-size: 2.8rem !important;
-    }
-}
-
-@media screen and (min-width: 4050px) {
-    .about {
-        font-size: 4.5rem !important;
-    }
-
-    .about-dlist {
-        font-size: 4.5rem !important;
-    }
-
-    .services {
-        font-size: 4.5rem !important;
-    }
-
-    .product {
-        font-size: 4.5rem !important;
-    }
-
-    .partners {
-        font-size: 4.5rem !important;
-    }
-
-    .log-btn {
-        font-size: 4.5rem !important;
-    }
-
-    .letsTalk {
-        font-size: 4.5rem !important;
-    }
-}
-
-@media screen and (min-width: 5400px) {
-    .about {
-        font-size: 6rem !important;
-    }
-
-    .about-dlist {
-        font-size: 6rem !important;
-    }
-
-    .services {
-        font-size: 6rem !important;
-    }
-
-    .product {
-        font-size: 6rem !important;
-    }
-
-    .partners {
-        font-size: 6rem !important;
-    }
-
-    .log-btn {
-        font-size: 6rem !important;
-    }
-
-    .letsTalk {
-        font-size: 6rem !important;
-    }
-}
+          .about,.about-dlist,.services,.product,.partners,.log-btn,.letsTalk{
+              font-size: 0.9rem !important;
+          }
+          .about-border {
+              border: 1px solid;
+              border-right-color: #3a3a3b !important;
+              border-top: none !important;
+              border-left: none !important;
+              border-bottom: none;
+              padding-right: 0.1rem;
+              margin-right: 0;
+          }
+      }
 
 /* Button Header */
 .log-btn {
@@ -882,14 +739,14 @@ color: #3a3a3b !important;
 }
 /*Footer contact info*/
 footer {
-    position:absolute;
+    /*position:absolute;*/
+    margin-top: -1rem;
     background-color:#8104e7 !important;
     color: white;
     font-size: 0.8rem !important;
-    height: 3rem;
+    height: 5rem;
     bottom: 0;
     width: 100%;
-    padding: 1rem 3rem;
 }
 
 /*Home page slideshow*/
@@ -1000,29 +857,6 @@ padding-top: 9rem!important;}
   font-size: 5.4rem!important;
 }
 }
-
-@media screen and (min-width: 4050px) {
-.home-body{height: 118.9rem;
-margin-top: -13rem!important;
-padding-top: 13rem!important;
-}
-.h1-home-front{
-  font-size: 8.2rem!important;
-}
-}
-
-@media screen and (min-width: 5400px) {
-.home-body{height: 160.9em;
-margin-top: -17rem!important;
-padding-top: 17rem!important;
-}
-.h1-home-front{
-  font-size: 10.8rem!important;
-}
-}
-
-
-
 
 
 .s_custom {
@@ -8737,8 +8571,9 @@ font-size: 1.3rem!important;
 /*partner page*/
 #partner-body-content {
     /*padding: 0rem 1rem;*/
+    padding-top: 5rem;
     height: 45rem;
-    background-image: url("images/new/BRB websites assets/partners/Asset 75vis.png");
+  /*  background-image: url("images/new/BRB websites assets/partners/Asset 75vis.png");*/
     background-size: cover;
     background-position: right;
 
@@ -8746,7 +8581,6 @@ font-size: 1.3rem!important;
 }
 @media screen and (min-width:290px) and (max-width: 800px)  {
   .#partner-body-content{
-    background-image: url("images/new/mobile/Asset 20.png");
     height: 60rem!important;
   }
 }
@@ -8775,14 +8609,21 @@ padding-left: 36rem !important;
 }
 
 .partner-display{
-  height: 6rem;
+  height: 10rem;
   width: auto;
   margin: 1rem 0rem;
 }
+
+.partner-display2{
+  height: autp;
+  width: 14rem;
+  margin: 1rem 0rem;
+}
+
 /*MEDIA-PARTNER*/
 @media screen and (min-width: 250px) and  (max-width: 440px) {
   #partner-body-content{
-      background-image: url("images/new/mobile/Asset 20.png");
+      
       height: 60rem!important;
   }
   .col-acm{
@@ -8812,7 +8653,7 @@ padding-left: 36rem !important;
 
 @media screen and (min-width: 441px) and  (max-width: 550px) {
   #partner-body-content{
-      background-image: url("images/new/mobile/Asset 20.png");
+      
       height: 60rem!important;
   }
   .col-acm{
@@ -8841,7 +8682,7 @@ padding-left: 36rem !important;
 
 @media screen and (min-width:551px) and  (max-width: 650px) {
   #partner-body-content{
-      background-image: url("images/new/mobile/Asset 20.png");
+     
       height: 60rem!important;
   }
   .col-acm{
@@ -8870,7 +8711,7 @@ padding-left: 36rem !important;
 
 @media screen and (min-width:651px) and  (max-width: 813px) {
   #partner-body-content{
-      background-image: url("images/new/mobile/Asset 20.png");
+  
     height: 60rem!important;
   }
   .col-acm{
@@ -9867,185 +9708,4 @@ padding: 4rem 0rem!important;
 }
 
 
-        /*Navbar manipulation*/
-        /* Media Rules */
-
-
-
-        @media screen and (max-width: 1087px) {
-            .about {
-                font-size: 0.7rem !important;
-            }
-
-            .about-dlist {
-                font-size: 0.7rem !important;
-            }
-
-            .services {
-                font-size: 0.7rem !important;
-            }
-
-            .product {
-                font-size: 0.7rem !important;
-            }
-
-            .partners {
-                font-size: 0.7rem !important;
-            }
-
-            .log-btn {
-                font-size: 0.7rem !important;
-            }
-
-            .letsTalk {
-                font-size: 0.7rem !important;
-            }
-
-            .btn-border {
-                margin-right: 1.5rem;
-            }
-
-            .navbar-toggler{
-              margin-top:0rem!important;
-            }
-
-
-            .about-border {
-                border: 1px solid;
-                border-right-color: #3a3a3b !important;
-                border-top: none !important;
-                border-left: none !important;
-                border-bottom: none;
-                padding-right: 1rem;
-                margin-right: 1rem;
-            }
-        }
-
-        @media screen and (max-width: 940px) {
-
-            .dropdown-item,
-                {
-                font-size: 0.7rem !important;
-            }
-
-            .dropdown {
-                margin-right: 16px !important;
-                padding-right: 1rem !important;
-            }
-
-            .services {
-                font-size: 0.7rem !important;
-            }
-
-            .product {
-                font-size: 0.7rem !important;
-            }
-
-            .about {
-                font-size: 0.7rem !important;
-            }
-
-            .about-dlist {
-                font-size: 0.7rem !important;
-            }
-
-            .partners {
-                font-size: 0.7rem !important;
-            }
-
-            .log-btn {
-                font-size: 0.7rem !important;
-            }
-
-            .letsTalk {
-                font-size: 0.7rem !important;
-            }
-
-            .navbar-toggler{
-              margin-top:0rem!important;
-            }
-
-            .about-border {
-                border: 1px solid;
-                border-right-color: #3a3a3b !important;
-                border-top: none !important;
-                border-left: none !important;
-                border-bottom: none;
-                padding-right: 1rem;
-                margin-right: 0;
-            }
-            .letsTalk-border{
-            border: 1px solid;
-            border-right-color: #3a3a3b !important;
-            border-top: none !important;
-            border-left: none !important;
-            border-bottom: none;}
-        }
-
-        @media screen and (max-width: 450px) {
-            .brblogo {
-                height: 3rem;
-                width: 6rem;
-                margin-left: 0.1rem !important;
-                margin-right: 0.5rem;
-            }
-
-            .cashmate {
-                height: 2.5rem;
-                width: 2.5rem;
-            }
-            .navbar-toggler{
-              margin-top:0rem!important;
-            }
-
-            .services {
-                font-size: 0.9rem !important;
-            }
-
-            .product {
-                font-size: 0.9rem !important;
-            }
-
-            .about {
-                font-size: 0.9rem !important;
-            }
-
-            .about-dlist {
-                font-size: 0.9rem !important;
-            }
-
-            .partners {
-                font-size: 0.9rem !important;
-            }
-
-            .log-btn {
-                font-size: 0.9rem !important;
-            }
-
-            .letsTalk {
-                font-size: 0.9rem !important;
-            }
-
-            .about-border {
-                border: 1px solid;
-                border-right-color: #3a3a3b !important;
-                border-top: none !important;
-                border-left: none !important;
-                border-bottom: none;
-                padding-right: 0.1rem;
-                margin-right: 0;
-            }
-        }
-
-
-
-        /*Footer contact info
-    footer {
-      font-size: 0.8rem !important;
-      height: 100px;
-      bottom: 0;
-      width: 100%;
-      padding: 1rem 3rem;
-      color: #4ebab5 !important;
-      background-color: #00081d !important;
-    }*/
+    
