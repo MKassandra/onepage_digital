@@ -38,10 +38,6 @@ html {
 }
 body {
     font-family: openSans !important;
-    /* background-image: bodyimg.png !important; */
-    /*background-image: url('images/bg_main.jpg');
-  background-size: contain !important;
-  background-position: center !important;*/
     width: 100%;
 }
 
@@ -58,6 +54,16 @@ a {
     color: white;
 }
 
+.h3-p{
+  padding-top: 1rem;
+  color: #4c008a;
+  font-weight: bolder;
+}
+
+.purple{
+  color: #4c008a;
+}
+
 strong {
     font-weight: bolder !important;
 }
@@ -66,35 +72,156 @@ strong {
 /* Logo Size */
 .brblogo {
   margin-top: -0.3rem;
-      height: auto;
-  /*  height: 3rem;*
-    width: 6.9rem;*/
-    width: 8rem;
-    /* margin-left: 2rem;*/
-    margin-right: 0.5rem;
+  height: auto;
+  width: 8rem;
+  margin-right: 0.5rem;
 }
 
 .cashmate {
   margin-top: -0.5rem;
-    height: 3.1rem;
-    width: 3.1rem;
+  height: 3.1rem;
+  width: 3.1rem;
 }
 
-.cashmate2{
+/*MEDIA-LOGO*/
+@media screen and (min-width: 1440px) {
+  .brblogo {
+    margin-top: -0.3rem;
+        height: auto;
+      width: 9rem;
+      margin-right: 0.5rem;
+  }
+  .cashmate {
+    margin-top: -0.5rem;
+      height: 3.5rem;
+      width: 3.5rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .brblogo {
+    margin-top: -0.3rem;
+        height: auto;
+      width: 11rem;
+      margin-right: 0.5rem;
+  }
+  .cashmate {
+    margin-top: -0.5rem;
+      height: 4.1rem;
+      width: 4.1rem;
+  }
+}
+@media screen and (min-width: 1810px) {
+  .brblogo {
+    margin-top: -0.3rem;
+        height: auto;
+      width: 12rem;
+      margin-right: 0.5rem;
+  }
+  .cashmate {
+    margin-top: -0.5rem;
+      height: 4.5rem;
+      width: 4.5rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .brblogo {
+    margin-top: -0.3rem;
+        height: auto;
+      width: 12.9rem;
+      margin-right: 0.5rem;
+  }
+  .cashmate {
+    margin-top: -0.5rem;
+      height: 4.9rem;
+      width: 4.9rem;
+  }
+}
+
+
+.cardIMG1{
   height: 13rem;
   width: auto;
 }
+.cardIMG2{
+  height: 20rem;
+  width: auto;
+}
+.instaIMG{
+  height: 6rem;
+  width: auto;
+}
+
+
+@media screen and (max-width:1281px){
+  .cardIMG1{
+    height: 12rem;
+    width: auto;
+  }
+  .cardIMG2{
+    height: 19rem;
+    width: auto;
+  }
+  .instaIMG{
+    height: 6rem;
+    width: auto;
+  }
+}
+
+@media screen and (max-width:1153px){
+  .cardIMG1{
+    height: 12rem;
+    width: auto;
+  }
+  .cardIMG2{
+    height: 17rem;
+    width: auto;
+  }
+  .instaIMG{
+    height: 6rem;
+    width: auto;
+  }
+}
+
+@media screen and (max-width:1025px){
+  .cardIMG1{
+    height: 12rem;
+    width: auto;
+  }
+  .cardIMG2{
+    height: 15rem;
+    width: auto;
+  }
+  .instaIMG{
+    height: 6rem;
+    width: auto;
+  }
+}
+
+@media screen and (max-width:801px){
+  .cardIMG1{
+    height: 12rem;
+    width: auto;
+  }
+  .cardIMG2{
+    height: 10rem;
+    width: auto;
+  }
+  .instaIMG{
+    height: 6rem;
+    width: auto;
+  }
+}
 @media screen and (min-width:600px) and (max-width:800px){
-  .cashmate2{
+  .cardIMG1{
     height: 7rem;
     width: auto;
 }
 }
 @media screen and (min-width:200px) and (max-width:599px){
-  .cashmate2{
+  .cardIMG1{
     height: 4rem;
     width: auto;
-}
+  }
 }
 
 .aboutIMG{
@@ -112,6 +239,43 @@ strong {
   width: auto;
 }
 
+@media screen and (max-width:1281px){
+  .productIMG{
+    height: 30rem;
+    width: auto;
+  }
+}
+
+@media screen and (max-width:1153px){
+  .aboutIMG{
+    height: 30rem;
+    width: auto;
+  }
+  
+  .productIMG{
+    height: 30rem;
+    width: auto;
+  }
+}
+
+@media screen and (max-width:1025px){
+  .aboutIMG{
+    height: 30rem;
+    width: auto;
+  }
+  
+  .productIMG{
+    height: 26rem;
+    width: auto;
+  }
+}
+
+@media screen and (max-width:801px){
+  .productIMG{
+    height: 21rem;
+    width: auto;
+  }
+}
 @media screen and (min-width:200px) and (max-width:700px){
   .aboutIMG{
     height: 15rem;
@@ -119,22 +283,12 @@ strong {
   }
 
   .productIMG{
-    height: 25rem;
+    height: 13rem;
     width: auto;
   }
 }
 
-@media screen and (max-width:1152px){
-  .aboutIMG{
-    height: 30rem;
-    width: auto;
-  }
-  
-  .productIMG{
-    height: 25rem;
-    width: auto;
-  }
-}
+
 
 .historyIMG{
   height: 13rem;
@@ -201,33 +355,6 @@ strong {
 }
 
 
-.cashmate3{
-  height: 40rem;
-  width: auto;
-}
-.cashmate4{
-  height: 30rem;
-  width: auto;
-}
-.cashmate5{
-  height: 6rem;
-  width: auto;
-}
-
-.cashmate6{
-  height: 20rem;
-  width: auto;
-}
-.cashmate7{
-  height: 13rem;
-  width: auto;
-}
-
-.cashmate8{
-  height: 5rem;
-  width: auto;
-}
-
 @media screen and (min-width:700px) and (max-width:900px){
   .historyIMG{
     height: 0rem;
@@ -262,196 +389,6 @@ strong {
   position: relative;
 }
 
-
-/*MEDIA-LOGO*/
-@media screen and (min-width: 1440px) {
-  .brblogo {
-    margin-top: -0.3rem;
-        height: auto;
-      width: 9rem;
-      margin-right: 0.5rem;
-  }
-  .cashmate {
-    margin-top: -0.5rem;
-      height: 3.5rem;
-      width: 3.5rem;
-  }
-}
-@media screen and (min-width: 1600px) {
-  .brblogo {
-    margin-top: -0.3rem;
-        height: auto;
-      width: 11rem;
-      margin-right: 0.5rem;
-  }
-  .cashmate {
-    margin-top: -0.5rem;
-      height: 4.1rem;
-      width: 4.1rem;
-  }
-}
-@media screen and (min-width: 1810px) {
-  .brblogo {
-    margin-top: -0.3rem;
-        height: auto;
-      width: 12rem;
-      margin-right: 0.5rem;
-  }
-  .cashmate {
-    margin-top: -0.5rem;
-      height: 4.5rem;
-      width: 4.5rem;
-  }
-}
-@media screen and (min-width: 1920px) {
-  .brblogo {
-    margin-top: -0.3rem;
-        height: auto;
-      width: 12.9rem;
-      margin-right: 0.5rem;
-  }
-  .cashmate {
-    margin-top: -0.5rem;
-      height: 4.9rem;
-      width: 4.9rem;
-  }
-}
-
-/*
-.first-nav{
-    background-image: url("purple-only.png");
-    height: 2rem !important;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.second-nav{
-  background: white;
-    top: 10px;
-    color: #3a3a3b !important;
-    font-weight: bolder !important;
-} */
-
-.first-nav{
-/*  background-color: #ba95ff;
-  background-image:linear-gradient(rgba(186,149,255), rgba(208, 176, 255))!important;*/
-  font-family: myBento !important;
-  background-image:linear-gradient(#ba95ff, #d0b0ff)!important;
-}
-
-.second-nav{
-/*  background-color: #d0b0ff;*/
-font-family: myBento_nav2 !important;
-  font-weight: lighter!important;
-background-image:linear-gradient(#d0b0ff,#ba95ff)!important;
-  text-align: center !important;
-  top: -0.1rem;
-}
-/*MEDIA-SECOND NAV*/
-@media all and (min-width: 280px) and (max-width: 550px) {
-  .second-nav{
-    height: 0rem;
-  }
-}
-@media all and (min-width: 551px) and (max-width: 899px) {
-  .second-nav{
-    font-size: 0.7rem!important;
-  }
-}
-
-@media all and (min-width: 990px) and (max-width: 1280px) {
-  .second-nav{
-    font-size: 0.7rem!important;
-  }
-}
-@media all and (min-width: 1279px) and (max-width: 1443px) {
-  .second-nav{
-    font-size: 0.9rem!important;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-.second-nav{
-  font-size: 1.14rem!important;
-}
-}
-@media screen and (min-width: 1600px) {
-.second-nav{
-  font-size: 1.3rem!important;
-}
-}
-@media screen and (min-width: 1810px) {
-.second-nav{
-  font-size: 1.4rem!important;
-}
-}
-@media screen and (min-width: 1920px) {
-.second-nav{
-  font-size: 1.62rem!important;
-}
-}
-@media screen and (min-width: 2640px) {
-.second-nav{
-  font-size: 2.30rem!important;
-}
-}
-@media screen and (min-width: 4050px) {
-.second-nav{
-  font-size: 3.53rem!important;
-}
-}
-@media screen and (min-width: 5400px) {
-.second-nav{
-  font-size: 4.8rem!important;
-}
-}
-
-.nav-link{
-  padding: 0rem 0rem !important;
-}
-
-.second-nav-item{
-padding: 0.2rem 0.6rem !important;
-}
-
-
-.second-nav-item:hover{
-    color:  #730ac4 !important;
-}
-.second-nav-item:active{
-  color:#730ac4 !important;
-}
-.second-nav-item:focus{
-  color:#730ac4 !important;
-}
-
-
-.ul-holder{
-  margin-top:-1.2rem !important
-}
-
-@media all and (min-width: 280px) and (max-width: 550px) {
-  .ul-holder{
-    margin-top:0rem !important
-  }
-}
-
-
-.navbar-dark .nav-item > .nav-link.active  {
-    color:#ba95ff !important;
-    background-color: red !important;
-}
-
-
-.second-n-border{
-    border: 1px solid;
-    border-right-color: #3a3a3b !important;
-    border-top: none !important;
-    border-left: none !important;
-    border-bottom: none;
-}
-
 .navbar-transparent{
   font-family: myBento !important;
   background-color: transparent;
@@ -463,25 +400,34 @@ padding: 0.2rem 0.6rem !important;
   }
 }
 
+
+.ul-holder{
+  /*margin-top:-1.2rem !important*/
+}
+
+@media all and (min-width: 280px) and (max-width: 550px) {
+  .ul-holder{
+    margin-top:0rem !important
+  }
+}
 /* Navbar Style   */
-.h-color,
-.header-nav,
-.nav-custom {
+.h-color, .header-nav, .nav-custom {
 color: #3a3a3b !important;
   background-color: white;
-    /* background-image: url("images/navcolor.png")!important;*/
 }
 
 /* Paddings Header Section */
-#header-nav {
-    /*padding: 1.2rem 2rem 0 2rem;*/
-}
+/*#header-nav {
+    padding: 1.2rem 2rem 0 2rem;
+}*/
 
 .navbar-toggler{
     margin-top:2rem !important;
 }
-
-
+#navbarNav {
+  margin-bottom: 0;
+  margin-top: 0;
+}
 .navbar{
   padding: 0.2rem 1rem !important;
   /*padding: 0.2rem 1rem !important;*/
@@ -493,25 +439,11 @@ color: #3a3a3b !important;
 margin-top: 0rem;
 margin-bottom: 0rem;
 color: #3a3a3b !important;
-    /*color: #730ac4 !important;*/
 }
 
 .navbar ul li a:hover {
   color:  #730ac4 !important;
-  /*  color:  #ba9dd4 !important;*/
 }
-/*
-.log-btn {
-    color: #4ebab5 !important;
-    font-family: 'Noto Serif', serif !important;
-    font-size: 1rem !important;
-}*/
-
-#navbarNav {
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
 .navbar-toggler, .navbar-toggler-icon{
     border-color: transparent;
 }
@@ -523,7 +455,6 @@ color: #3a3a3b !important;
 
 /*dropdown color*/
 .navbar-custom .dropdown-menu {
-   /* background-image:linear-gradient(#ba95ff, #d0b0ff)!important;*/
   background-color: transparent !important;
     color: #3a3a3b  !important;
     /*bg color*/
@@ -532,8 +463,6 @@ color: #3a3a3b !important;
 
 .navbar-custom .dropdown-item {
     color: #3a3a3b !important;
-    /*text color*/
-    /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem;
 }
 
@@ -624,19 +553,19 @@ hr {
     }
 }
 
-    /*Navbar manipulation*/
-        /* Media Rules */
-        @media screen and (max-width: 991px) {
-        .about,.about-dlist,.services,.product,.partners,.log-btn,.letsTalk,.a-drop{
+/*Navbar manipulation*/
+/* Media Rules */
+@media screen and (max-width: 991px) {
+  .about,.about-dlist,.services,.product,.partners,.log-btn,.letsTalk,.a-drop{
               font-size: 0.7rem !important;
           }
-          .btn-border {
+  .btn-border {
               margin-right: 1.5rem;
           }
-          .navbar-toggler{
+  .navbar-toggler{
             margin-top:0rem!important;
           }
-          .about-border {
+  .about-border {
               border: 1px solid;
               border-right-color: #3a3a3b !important;
               border-top: none !important;
@@ -647,7 +576,7 @@ hr {
           }
       }
 
-      @media screen and (max-width: 940px) {
+@media screen and (max-width: 940px) {
 
           .dropdown-item,
               {
@@ -683,7 +612,7 @@ hr {
           border-bottom: none;}
       }
 
-      @media screen and (max-width: 450px) {
+ @media screen and (max-width: 450px) {
           .brblogo {
               height: 3rem;
               width: 6rem;
@@ -713,32 +642,9 @@ hr {
           }
       }
 
-/* Button Header */
-.log-btn {
-    color: #4ebab5 !important;
-    border-color: #4ebab5 !important;
-}
-
-.log-btn:hover,
-.log-btn:focus,
-.log-btn:active {
-    background-color: #4ebab5 !important;
-    color: white !important;
-}
-
-.log-btn.active {
-    background-color: #4ebab5 !important;
-}
-
-.purple-banner2{
-  background-image: url("purple-bar2.png") !important;
-  background-repeat: no-repeat !important;
-  background-position: center;
-  background-size: cover!important;
-}
 /*Footer contact info*/
 footer {
-    padding:1rem 1rem;
+    padding:0rem 2rem 1rem 2rem;
     position:absolute;
     background-color:#8104e7 !important;
     color: white;
@@ -1380,32 +1286,7 @@ padding-top: 9rem!important;}
 
 
 /*about page content*/
-#history-body-content {
-  padding: 4rem 3rem !important;
-    padding-top: 1rem;
-    line-height: 1.2;
-    color: black;
-    text-align: left im !important;
-    background-image: url("images/new/BRB websites assets/history/Asset 2.png");
-    /*background-image: url("images/history2.jpg");*/
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 
-}
-
-#history-body-content2 {
-    /*padding: 4rem 3rem !important;*/
-    padding-top: 1rem;
-    line-height: 1.2;
-    color: black;
-    text-align: justify;
-    /*background-image: url("images/meet2.png");*/
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
 .col-hide{
   visibility: hidden;
 }
@@ -1500,46 +1381,6 @@ padding-top: 9rem!important;}
 }
 
 
-/*
-@media screen and (max-width: 299px) {
-
-    .h1-about {
-        font-size: 3rem !important;
-        text-align: center !important;
-        padding: 0 0 !important;
-    }
-
-    .row-h {
-        padding: 0 2rem !important;
-    }
-}
-
-@media screen and (max-width: 480px) {
-  #history-body-content {
-    background-position: center !important;
-    padding: 1rem 1rem !important;
-  }
-    .row-h {
-        padding: 0 2rem !important;
-    }
-
-    .col-who-1{
-      margin-left: 0rem !important;
-    }
-
-    .h1-about {
-        text-align: center;
-        padding: 0 0 !important;
-    }
-
-}
-@media screen and (min-width: 1280px) {
-#history-body-content{
-  padding: 4rem 3rem !important;
-    padding-top: 1rem;
-    line-height: 1.2;
-}
-}
 
 */
 
@@ -1604,53 +1445,7 @@ padding-top: 9rem!important;}
   }
 }
 
-/*@media screen and (max-width: 800px) {
-  #history-body-content {
-    background-position: center !important;
-  }
-    .row-h {
-        padding: 0 5rem !important;
-    }
 
-    .col-who-1{
-      margin-left: 0rem !important;
-    }
-
-    .h1-about {
-        text-align: center;
-        padding: 0 0 !important;
-    }
-
-}
-
-@media screen and (max-width: 400px) {
-
-    .h1-about {
-        font-size: 3rem !important;
-        text-align: center !important;
-        padding: 0 0 !important;
-    }
-
-    .row-h {
-        padding: 0 2rem !important;
-    }
-}*/
-
-
-
-#who-body-content {
-    padding: 4rem 3rem !important;
-    /*padding-top: 17rem !important;
-    padding-bottom: 11rem !important;*/
-    line-height: 1;
-    color: black;
-    text-align: justify;
-    background-image: url("images/bg/who_new.jpg") !important;
-    /*background-image: url("images/who2.jpg") !important;*/
-    background-size: cover !important;
-    background-position:  center;
-    background-repeat: no-repeat;
-}
 
 #who {
   background-image: url("images/new/BRB websites assets/who we are/Asset\ 4.png");
@@ -1677,12 +1472,31 @@ padding-top: 9rem!important;}
   text-align: center;
 }
 
-@media screen and (max-width:1024) {
-  
-#who, #mission,#vision,#history{
-  padding: 2rem 2rem 0rem 2rem; 
+
+@media screen and (max-width:1281px){
+  #who, #mission,#vision,#history{
+    padding: 4rem 4rem 0rem 4rem;
   }
 }
+
+@media screen and (max-width:1153px){
+  #who, #mission,#vision,#history{
+    padding: 3rem 3rem 0rem 3rem;
+  }
+}
+
+@media screen and (max-width:1025px){
+  #who, #mission,#vision,#history{
+    padding: 2rem 2rem 0rem 2rem;
+  }
+}
+
+@media screen and (max-width:801px){
+  #who, #mission,#vision,#history{
+    padding: 1rem 1rem 0rem 1rem;
+  }
+}
+
 
 
 #who-body-content2{
@@ -2313,6 +2127,11 @@ font-size: 2.8rem!important;
   text-align: center;
 }
 
+.agency-txt{
+  padding-top: 4rem;
+  padding-left: 2rem;
+}
+
 
 /*about page: vertical nagigation */
 .btn-history {
@@ -2472,140 +2291,34 @@ hr {
   background-image: url("images/new/BRB websites assets/agency/Asset\ 20.png");
 }
 
-.acquiring{
-  
-}
-
-.product-s-1{
-  padding: 4rem 0rem;
-  color: black;
-  background-image: url("images/new/BRB websites assets/co\ branded/Asset 21.png");
-  /*background-image: url("images/meet2.png");*/
-  background-size: cover!important;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-bottom: 0rem;
-}
-
-.product-s-2{
-  padding: 4rem 1rem;
-  color: black;
-  text-align: center;
-  background-image: url("images/new/BRB websites assets/UPI/Asset\ 17.png");
-  /*background-image: url("images/meet2.png");*/
-  background-size: cover!important;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-bottom: 0rem;
-}
-
-.product-s-2-A{
-  padding: 4rem 0rem;
-  color: black;
-  text-align: center;
-  background-image: url("images/new/BRB websites assets/owned/Asset 19.png");
-  /*background-image: url("images/meet2.png");*/
-  background-size: cover!important;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-bottom: 0rem;
-}
-
-
-.product-s-3{
-  padding: 4rem 1rem;
-  color: black;
-  background-image: url("images/new/BRB websites assets/instapay/Asset\ 27.png");
-  /*background-image: url("images/meet2.png");*/
-  background-size: cover!important;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-bottom: 0rem;
-}
-
-.product-s-4{
-  padding: 4rem 1rem;
-  color: black;
-  background-image: url("images/new/BRB websites assets/international/Asset\ 34.png");
-  /*background-image: url("images/meet2.png");*/
-  background-size: cover!important;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-bottom: 0rem;
-}
-
 .col-i-d{
   margin-top: 15rem;
 }
 
-.product-s-5{
-  padding: 4rem 0rem;
-  color: black;
-  background-image: url("images/new/BRB websites assets/team/Asset 76.png");
-  /*background-image: url("images/meet2.png");*/
-  background-size: cover!important;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-bottom: 1rem;
-}
 
-.product-s-6{
-  padding: 4rem 0rem;
-  color: black;
-  background-image: url("images/new/BRB websites assets/team/Asset 76.png");
-  /*background-image: url("images/meet2.png");*/
-  background-size: cover!important;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-bottom: 1rem;
-}
-
-.product-s-7{
-  padding: 4rem 0rem;
-  color: black;
-  background-image: url("images/new/BRB websites assets/team/Asset 76.png");
-  /*background-image: url("images/meet2.png");*/
-  background-size: cover!important;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-bottom: 1rem;
-}
-
-.product-s-8{
-  padding: 4rem 0rem;
-  color: black;
-  background-image: url("images/new/BRB websites assets/team/Asset 76.png");
-  /*background-image: url("images/meet2.png");*/
-  background-size: cover!important;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-bottom: 1rem;
-}
-
-
-@media screen and (min-width:290px) and (max-width: 800px)  {
-  .product-s-1{
-    background-image: url("images/new/mobile/Asset 14.png");
-  }
-
-  .product-s-2{
-    background-image: url("images/new/mobile/Asset 12.png");
-  }
-
-  .product-s-2-A{
-    background-image: url("images/new/mobile/Asset 13.png");
-  }
-
-  .product-s-4{
-    background-image: url("images/new/mobile/Asset 11.png");
-  }
-
-  .product-s-3{
-    background-image: url("images/new/mobile/Asset 21.png");
+@media screen and (max-width:1281px){
+  .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
+    padding: 4rem 4rem 0rem 4rem;
   }
 }
 
+@media screen and (max-width:1153px){
+  .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
+    padding: 3rem 3rem 0rem 3rem;
+  }
+}
 
+@media screen and (max-width:1025px){
+  .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
+    padding: 2rem 2rem 0rem 2rem;
+  }
+}
+
+@media screen and (max-width:801px){
+  .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
+    padding: 1rem 1rem 0rem 1rem;
+  }
+}
 
 
 /*product page content*/
@@ -2619,52 +2332,12 @@ hr {
     background-size: cover;
     /*padding: 0 4rem;*/
 }
-.h3-p{
-  padding-top: 1rem;
-  color: #4c008a;
-  font-weight: bolder;
-}
-
-.purple{
-  color: #4c008a;
-}
 
 
 .containerHome{
   padding-top: 10rem;
 }
 
-/*
-.h3-p{
-  padding-top: 1rem;
-    font-weight: bolder;
-  }*/
-
-/*.h3-customize{
-  padding-top: 7rem;
-  padding-left:10rem;*/
-}
-/*.h3-upgrade{
-  padding-top: 7rem;
-  padding-left:10rem;*/
-/*  margin-top: 1rem;*/
-}
-
-./*h3-cashless{
-  padding-top: 8rem;
-  padding-left:10rem;*/
-/*margin-top: 1rem;*/
-}
-
-/*.h3-access{
-  padding-top: 7rem;
-  padding-left:10rem;
-/*margin-top: 0rem;*/
-}
-/*.h3-simple{
-  padding-top: 10rem;
-  padding-left:6rem;*/
-}
 
 .col-p-down{
   margin-top:23rem;
@@ -6475,401 +6148,6 @@ margin: 0 -3rem;
     width: 30%;
 }
 
-/*full screen service page*/
-
-.service-body-content{
-  /*background-image: url("images/bg/service_bg_all.png") !important;*/
-  background-size: cover;
-  background-position: top center;
-}
-
-
-.balance {
-    padding: 6em 6em !important;
-    padding-left: 60em !important;
-    padding-top: 4em !important;
-    color: #3a3a3b;
-  text-align: justify !important;
- background-image: url("images/bg/bal2_new.jpg") !important;
-    /*   background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/balance_bg1.png") !important;*/
-    background-size: cover;
-  height: 45rem;
-    background-position: top right;
-    background-repeat: no-repeat !important;
-}
-.balance-text{
-  margin-top: 14rem;
-  font-weight: bolder !important;
-}
-/* backup solution incase scrollify go bananas
-height: 100% !important;
-width: 100% !important;*/
-
-.withdrawal {
-    padding: 6em 10em !important;
-    padding-left: 10em !important;
-    padding-top: 15em !important;
-    padding-right: 48em !important;
-      text-align: justify !important;
-    color: #3a3a3b;
-   background-image: url("images/bg/withdraw_new.jpg") !important;
-  /*   background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/withdraw.png") !important;*/
-    /*background-blend-mode: overlay;
-    background-color: rgba(255, 255, 255, 0.6);*/
-    background-size: cover;
-    height: 45rem;
-    background-position: top right;
-    background-repeat: no-repeat !important;
-
-}
-
-.withdraw-text{
-  margin-top: 7rem;
-  font-weight: bolder !important;
-}
-
-/* backup solution incase scrollify go bananas
-height: 100% !important;
-width: 100% !important;
- h1{
-  font-weight: bold !important;
-}*/
-
-.bills {
-    padding: 6em 6em !important;
-    padding-left: 53em !important;
-    /*padding-right: 35rem !important;
-    padding-left: 10em !important;
-      padding-top: 19em !important;*/
-
-      padding-top: 5em !important;
-    color: #3a3a3b;
-    text-align: justify!important;
-   background-image:url("images/bg/bills_new.jpg") !important;
-  /*   background-image: linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%),url("images/bg/bills_bg2.png") !important;*/
-    /*background-blend-mode: overlay;*/
-    /*background-color: rgba(232, 160, 213, 0.2);*/
-    background-size: cover;
-    height: 45rem;
-    /* backup solution incase scrollify go bananas
-  height: 100% !important;
-  width: 100% !important;*/
-    background-position: center;
-    background-repeat: no-repeat !important;
-}
-
-.bills-text{
-  margin-top: 20rem;
-  font-weight: bolder !important;
-}
-
-.purchase {
-    padding: 6em 10em !important;
-    padding-left: 7em !important;
-    padding-right: 51em !important;
-  /*  padding-top: 15em !important;*/
-  padding-top: 5em !important;
-    color: #3a3a3b;
-    text-align: justify;
- background-image:url("images/bg/purchase_new.jpg") !important;
-    /*   background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/purchase_bg2.png") !important;*/
-    /*background-blend-mode: overlay;
-    background-color: rgb(255, 255, 255, 0.5);*/
-    background-size: cover;
-    height: 45rem;
-    /* backup solution incase scrollify go bananas
-  height: 100% !important;
-  width: 100% !important;*/
-    background-position: top center;
-    background-repeat: no-repeat !important;
-}
-
-.purchase-text{
-  margin-top: 11rem;
-  font-weight: bolder !important;
-}
-
-.payroll {
-    padding: 6em 6em !important;
-    padding-left: 55em !important;
-      padding-top: 3em !important;
-    /*
-    padding-left: 10em !important;
-    padding-right: 35rem !important;
-
-    padding-top: 20em !important;*/
-    color: #3a3a3b;
-    text-align: justify;
-  background-image: url("images/bg/payroll_new.jpg") !important;
-    /*  background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/payroll_bg2.png") !important;*/
-    /*background-blend-mode: overlay;
-    background-color: rgb(255, 255, 255, 0.3);*/
-    background-size: cover;
-    height: 45rem;
-    /* backup solution incase scrollify go bananas
-  height: 100% !important;
-  width: 100% !important;*/
-    background-position: center;
-    background-repeat: no-repeat !important;
-}
-.payroll-text{
-  margin-top: 12rem;
-  font-weight: bolder !important;
-}
-
-.e-bank {
-    padding: 6em 10em !important;
-    padding-left: 40em !important;
-    /*padding-right: 15rem !important;
-    padding-top: 1rem !important;*/
-      padding-top: 1rem !important;
-    color: #3a3a3b;
-    text-align: justify;
-  background-image:url("images/bg/ebank_new.jpg") !important;
-    /*  background-image: linear-gradient(to right, rgba(251,251,251,1) 30%, rgba(255,255,255,0) 100%),url("images/bg/ebank_bg.png") !important;*/
-    /*background-blend-mode: overlay;
-    background-color: rgb(255, 255, 255, 0.7);*/
-    background-size: cover;
-    height: 45rem;
-    width: 100% !important;
-    background-position: left;
-    background-repeat: no-repeat !important;
-}
-
-.ebank-text{
-  margin-top: 10rem;
-  font-weight: bolder !important;
-}
-
-/*additional ebank*/
-small {
-    font-size: 1rem !important;
-}
-
-.icon-ebank {
-    height: 6rem;
-    width: 4rem;
-}
-
-.ebank2 {
-    margin-left: -2rem;
-    width: 6rem;
-}
-
-.row-ebank {
-    margin-top: 3rem !important;
-}
-
-.bank1 {
-    margin-left: 0rem !important;
-}
-
-.bank2 {
-    margin-top: -1rem !important;
-    margin-left: 1.5rem !important;
-}
-
-/*additional end*/
-.eload {
-    /*padding: 19em 8em !important;
-  padding-left: 85em !important;
-  padding-top: 30em !important;
-  color: white;
-  width: 100% !important;
-  height: 7em !important;
-  background-image: url("images/s_eload.png") !important;
-  background-size: cover;
-*/
-    padding: 6em 10em !important;
-    padding-right: 35rem !important;
-    padding-left: 10em !important;
-    padding-top: 15em !important;
-    color: #3a3a3b;
- background-image: url("images/bg/eload_new.jpg") !important;
-    /*   background-image: url("images/bg/eload_bg.png") !important;*/
-    background-size: cover;
-    /*background-blend-mode: overlay;
-    background-color: rgba(255, 255, 255, 0.5);*/
-    height: 45rem;
-
-    background-position: center;
-    background-repeat: no-repeat !important;
-}
-
-.eload-text{
-    margin-top: 15rem;
-    font-weight: bolder !important;
-}
-
-/* backup solution incase scrollify go bananas
-height: 100% !important;
-width: 100% !important;*/
-/*padding-left: 50em !important;*/
-
-
-.remit {
-    /*
-  padding: 19em 8em !important;
-  padding-left: 85em !important;
-  padding-bottom: 30em !important;
-  color: white;
-  width: 100% !important;
-  background-image: url("images/s_remit.png") !important;
-  background-size: cover;
-  background-repeat: no-repeat;
-  */
-    padding: 6em 10em !important;
-    padding-left: 49em !important;
-    padding-right: 10rem !important;
-    padding-top: 10rem !important;
-    color: #3a3a3b;
-    text-align: justify!important;
-    background-image: url("images/bg/remittance_new.jpg") !important;
-/*    background-image: url("images/bg/remit_bg2.png") !important;*/
-    background-size: cover;
-    height: 45rem !important;
-    width: 100% !important;
-    background-position: left;
-    background-repeat: no-repeat !important;
-}
-
-.remit-text{
-  font-weight: bolder !important;
-}
-
-.fund {
-    /*
-  padding: 19em 8em;
-  padding-left: 85em !important;
-  padding-top: 30em !important;
-  color: white;
-  width: 100% !important;
-  background-image: url("images/s_transfer.png") !important;
-  background-size: cover;
-  background-repeat: no-repeat;
-*/
-    padding: 6em 10em !important;
-    padding-left: 5em !important;
-    padding-right: 50rem !important;
-    padding-top: 10em !important;
-    color: #3a3a3b ;
-    text-align: justify;
-   background-image: url("images/bg/fund_new.jpg") !important;
-  /*   background-image: url("images/bg/fund_bg.png") !important;
-    background-blend-mode: overlay;
-    background-color: rgba(255, 255, 255, 0.7);*/
-    background-size: cover;
-    height: 45rem !important;
-    width: 100% !important;
-    background-position: center;
-    background-repeat: no-repeat !important;
-}
-
-.fund-text{
-    font-weight: bolder !important;
-}
-
-.mobile {
-    /*
-  padding: 19em 8em !important;
-  padding-left: 85em !important;
-  padding-top: 30em !important;
-  color: white;
-  width: 100% !important;
-  background-image: url("images/s_mobile.png") !important;
-  background-size: cover;
-  background-repeat: no-repeat; */
-    padding: 6em 10em !important;
-    padding-right: 10em !important;
-    padding-left: 45em !important;
-    padding-top: 10em !important;
-    color: #3a3a3b;
-    text-align: justify;
- background-image: url("images/bg/mobile_new.jpg") !important;
-    /*   background-image: url("images/bg/mobile_bg2.png") !important;*/
-    background-size: cover;
-    height: 45rem;
-    width: 100% !important;
-    background-position: center;
-    background-repeat: no-repeat !important;
-}
-
-.mobile-text{
-    font-weight: bolder !important;
-}
-
-/*height: 100% !important;*/
-
-.online {
-    /*
-  padding: 19em 8em !important;
-  padding-left: 85em !important;
-  padding-top: 30em !important;
-  color: white;
-  width: 100% !important;
-  background-image: url("images/s_obank.png") !important;
-  background-size: cover;
-  background-repeat: no-repeat; */
-    padding: 6em 10em !important;
-    padding-right: 5rem !important;
-    padding-left: 60em !important;
-    padding-top: 13em !important;
-    color:  #3a3a3b;
-    text-align: justify;
- background-image: url("images/bg/online_new.jpg") !important;
-      /* background-image: url("images/bg/online_bg.png") !important;*/
-    background-size: cover;
-    /*background-blend-mode: overlay;
-    background-color: rgba(255, 255, 255, 0.7);*/
-    height: 45rem;
-
-    width: 100% !important;
-    background-position: center;
-    background-repeat: no-repeat !important;
-}
-
-.online-text{
-  margin-top: 7rem;
-  font-weight: bolder !important;
-}
-/*height: 100% !important;*/
-
-
-.ewallet {
-    /*
-  padding: 19em 8em !important;
-  padding-right: 85em !important;
-  padding-top: 30em !important;
-  color: white;
-  width: 100% !important;
-  background-image: url("images/s_ewallet.png") !important;
-  background-size: cover;
-  background-repeat: no-repeat; */
-    padding: 6em 10em !important;
-    padding-right: 45rem !important;
-    padding-left: 5em !important;
-    padding-top: 7em !important;
-    color: #3a3a3b;
-    text-align: justify;
-  background-image: url("images/bg/ewallet_new.jpg") !important;
-/*      background-image: url("images/bg/ewallet_bg.png") !important;*/
-    background-size: cover;
-    /*background-blend-mode: overlay;
-    background-color: rgba(255, 255, 255, 0.5);*/
-    height: 45rem;
-
-    width: 100% !important;
-    background-position: center;
-    background-repeat: no-repeat !important;
-}
-
-/* backup solution incase scrollify go bananas
-height: 100% !important;*/
-
-.ewallet-text{
-    font-weight: bolder !important;
-}
-
 /*services icon*/
 .icon-service {
     height: 4rem;
@@ -7104,1458 +6382,62 @@ height: 100% !important;*/
 
 @media screen and (max-width: 1152px) {
 
-.balance{
-padding-left: 47rem!important;
-background-position: right;
 }
 
-.withdrawal{
-  padding-right: 40rem!important;
-  background-position: right;
+@media all and (min-width:1153px) and (max-width: 1280px) {
+
 }
 
-.bills{
-  padding-top: 1rem!important;
-  padding-left: 43rem!important;
-background-position: right;
+@media all and (min-width:1281px) and (max-width: 2770px) {/*max-width: 1870px*/
+
 }
 
-.purchase{
-  padding-right: 49rem!important;
-background-position: right;
+@media screen and (min-width: 1440px) {/*max-width: 1870px*/
+
+ }
+
+@media screen and (min-width: 1660px) {/*max-width: 1870px*/
+
 }
 
-.payroll{
-  padding-left: 40rem!important;
-background-position: right;
-}
-.e-bank{
-    padding-left: 30rem!important;
-background-position: right;
-}
-.eload{
-  padding-top: 10rem!important;
-background-position: right;
-}
-.remit{
-  padding-top: 10rem!important;
-  padding-left: 39rem!important;
-  padding-right: 5rem!important;
-background-position: right;
-}
-.fund{
-  padding-right: 47rem!important;
-background-position: right;
-}
-.mobile{
-  padding-left: 35rem!important;
-  padding-right: 7rem!important;
-background-position: right;
-}
-.online{
-  padding-top: 15rem!important;
-  padding-left: 48rem!important;
-  padding-right: 5rem!important;
-background-position: right;
-}
-.ewallet{
-  background-position: right;
-}
+@media screen and (min-width: 1800px) {/*max-width: 1870px*/
+
 }
 
-@media all (min-width:1153px) and (max-width: 1280px) {
 
-.balance{
-padding-left: 55rem!important;
-background-position: left;
+@media screen and (min-width: 1960px) {/*max-width: 1870px*/
+
 }
 
-.withdrawal{
-  padding-right: 40rem!important;
-  background-position: left;
+@media screen and (min-width: 2710px) {/*max-width: 1870px*/
+ 
 }
 
-.bills{
-  padding-top: 1rem!important;
-background-position: left;
-}
-
-.purchase{
-  padding-right: 49rem!important;
-background-position: left;
-}
-
-.payroll{
-  padding-left: 50rem!important;
-background-position: left;
-}
-.e-bank{
-background-position: left;
-}
-.eload{
-  padding-top: 10rem!important;
-background-position: left;
-}
-.remit{
-  padding-top: 10rem!important;
-  padding-left: 49rem!important;
-background-position: left;
-}
-.fund{
-  padding-right: 45rem!important;
-background-position: left;
-}
-.mobile{
-background-position: left;
-}
-.online{
-background-position: left;
-}
-.ewallet{
-  background-position: left;
-}
-}
-    @media all (min-width:1281px) and (max-width: 2770px) {/*max-width: 1870px*/
-
-      .balance {
-          padding: 6em 6em !important;
-          padding-left: 60em !important;
-          padding-top: 4em !important;
-          color: #3a3a3b;
-        text-align: justify !important;
-       background-image: url("images/bg/bal2_new.jpg") !important;
-          /*   background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/balance_bg1.png") !important;*/
-        background-size: 100% 100%;
-        height: 45rem;
-        width: 100% !important;
-          background-repeat: no-repeat !important;
-      }
-      .balance-text{
-        margin-top: 14rem;
-        font-weight: bolder !important;
-      }
-      /* backup solution incase scrollify go bananas
-      height: 100% !important;
-      width: 100% !important;*/
-
-      .withdrawal {
-          padding: 6em 10em !important;
-          padding-left: 10em !important;
-          padding-top: 15em !important;
-          padding-right: 48em !important;
-            text-align: justify !important;
-          color: #3a3a3b;
-         background-image: url("images/bg/withdraw_new.jpg") !important;
-        /*   background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/withdraw.png") !important;*/
-          /*background-blend-mode: overlay;
-          background-color: rgba(255, 255, 255, 0.6);*/
-          background-size: 100% 100%;
-          height: 45rem;
-          width: 100% !important;
-          background-repeat: no-repeat !important;
-
-      }
-
-      .withdraw-text{
-        margin-top: 7rem;
-        font-weight: bolder !important;
-      }
-
-      /* backup solution incase scrollify go bananas
-      height: 100% !important;
-      width: 100% !important;
-       h1{
-        font-weight: bold !important;
-      }*/
-
-      .bills {
-          padding: 6em 6em !important;
-          padding-left: 56em !important;
-          /*padding-right: 35rem !important;
-          padding-left: 10em !important;
-            padding-top: 19em !important;*/
-padding-top: 1rem !important;
-            /*padding-top: 4em !important;*/
-          color: #3a3a3b;
-          text-align: justify!important;
-         background-image:url("images/bg/bills_new.jpg") !important;
-        /*   background-image: linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%),url("images/bg/bills_bg2.png") !important;*/
-          /*background-blend-mode: overlay;*/
-          /*background-color: rgba(232, 160, 213, 0.2);*/
-          background-size: 100% 100%;
-          height: 45rem;
-          width: 100% !important;
-          /* backup solution incase scrollify go bananas
-        height: 100% !important;
-        width: 100% !important;*/
-          background-repeat: no-repeat !important;
-      }
-
-      .bills-text{
-        margin-top: 20rem;
-        font-weight: bolder !important;
-      }
-
-      .purchase {
-          padding: 6em 10em !important;
-          padding-left: 7em !important;
-          padding-right: 51em !important;
-        /*  padding-top: 15em !important;*/
-        padding-top: 5em !important;
-          color: #3a3a3b;
-          text-align: justify;
-       background-image:url("images/bg/purchase_new.jpg") !important;
-          /*   background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/purchase_bg2.png") !important;*/
-          /*background-blend-mode: overlay;
-          background-color: rgb(255, 255, 255, 0.5);*/
-          background-size: 100% 100%;
-          height: 45rem;
-          width: 100% !important;
-          /* backup solution incase scrollify go bananas
-        height: 100% !important;
-        width: 100% !important;*/
-          background-repeat: no-repeat !important;
-      }
-
-      .purchase-text{
-        margin-top: 11rem;
-        font-weight: bolder !important;
-      }
-
-      .payroll {
-          padding: 6em 6em !important;
-          padding-left: 55em !important;
-            padding-top: 3em !important;
-          /*
-          padding-left: 10em !important;
-          padding-right: 35rem !important;
-
-          padding-top: 20em !important;*/
-          color: #3a3a3b;
-          text-align: justify;
-        background-image: url("images/bg/payroll_new.jpg") !important;
-          /*  background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/payroll_bg2.png") !important;*/
-          /*background-blend-mode: overlay;
-          background-color: rgb(255, 255, 255, 0.3);*/
-          background-size: 100% 100%;
-          height: 45rem;
-          width: 100% !important;
-          /* backup solution incase scrollify go bananas
-        height: 100% !important;
-        width: 100% !important;*/
-          background-repeat: no-repeat !important;
-      }
-      .payroll-text{
-        margin-top: 12rem;
-        font-weight: bolder !important;
-      }
-
-      .e-bank {
-          padding: 6em 10em !important;
-          padding-left: 40em !important;
-          /*padding-right: 15rem !important;
-          padding-top: 1rem !important;*/
-            padding-top: 1rem !important;
-          color: #3a3a3b;
-          text-align: justify;
-        background-image:url("images/bg/ebank_new.jpg") !important;
-          /*  background-image: linear-gradient(to right, rgba(251,251,251,1) 30%, rgba(255,255,255,0) 100%),url("images/bg/ebank_bg.png") !important;*/
-          /*background-blend-mode: overlay;
-          background-color: rgb(255, 255, 255, 0.7);*/
-          background-size: 100% 100%;
-          height: 45rem;
-          width: 100% !important;
-          background-repeat: no-repeat !important;
-      }
-
-      .ebank-text{
-        margin-top: 10rem;
-        font-weight: bolder !important;
-      }
-
-      /*additional ebank*/
-      small {
-          font-size: 1rem !important;
-      }
-
-      .icon-ebank {
-          height: 6rem;
-          width: 4rem;
-      }
-
-      .ebank2 {
-          margin-left: -2rem;
-          width: 6rem;
-      }
-
-      .row-ebank {
-          margin-top: 3rem !important;
-      }
-
-      .bank1 {
-          margin-left: 0rem !important;
-      }
-
-      .bank2 {
-          margin-top: -1rem !important;
-          margin-left: 1.5rem !important;
-      }
-
-
-
-        .eload {
-            padding: 6em 10em !important;
-            padding-right: 45em !important;
-            padding-top: 15em !important;
-          background-image: url("images/bg/eload_new.jpg") !important;
-            /*  background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_eload.png") !important;*/
-            background-size: 100% 100%;
-            height: 45rem;
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-
-        .remit {
-            padding: 6em 10em !important;
-            padding-left: 47em !important;
-        padding-top: 10em !important;
-              /*    padding-top: 38em !important;*/
-          background-image: url("images/bg/remittance_new.jpg") !important;
-            /*  background-image: linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%),url("images/bg/remit_bg2.png") !important;*/
-            background-size: 100% 100%;
-            height: 45rem;
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-
-        .fund {
-            padding: 6em 7em !important;
-            padding-right: 50em !important;
-              /*  padding-top: 39em !important;*/
-          padding-top: 10em !important;
-            background-image: url("images/bg/fund_new.jpg") !important;
-          /*  background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_transfer.png") !important;*/
-            background-size: 100% 100%;
-            height: 45rem;
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-
-        .mobile {
-            padding: 6em 10em !important;
-            padding-left: 50em !important;
-            padding-top: 10em !important;
-            /*  padding-top: 45em !important;*/
-            text-align: justify;
-         background-image: url("images/bg/mobile_new.jpg") !important;
-            /*   background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_mobile.png") !important;*/
-            /*background-color: rgba(255, 255, 255, 0.5) !important;
-            background-blend-mode: overlay;*/
-            background-size: 100% 100%;
-            height: 45rem;
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-
-        .online {
-            padding: 6em 6em !important;
-            padding-left: 60em !important;
-            padding-top: 12em !important;
-              background-image: url("images/bg/online_new.jpg") !important;
-              /*
-
-  padding-top: 43em !important;
-          background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_obank.png") !important;*/
-            background-size: 100% 100%;
-            height: 45rem;
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-
-        .ewallet {
-            padding: 6em 10em !important;
-            padding-right: 45em !important;
-              padding-top: 10em !important;
-
-              background-image: url("images/bg/ewallet_new.jpg") !important;
-              /*
-                padding-top: 40em !important;
-
-          background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_ewallet.png") !important;*/
-            background-size: 100% 100%;
-            height: 45rem;
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-    }
-
-    @media screen and (min-width: 1440px) {/*max-width: 1870px*/
-.display-p{
-font-size: 1.3rem!important;
-}
-.balance-text, .withdraw-text, .bills-text, .purchase-text, .payroll-text, .ebank-text, .eload-text,
- .remit-text, .funds-text, .mobile-text, .online-text, .ewallet-text{
-      font-size: 2.3rem!important;
-}
-
-      .balance {
-        height: 50rem;
-        padding-left: 65rem!important;
-      }
-
-      .withdrawal {
-          height: 50rem;
-    padding-right: 50rem!important;
-      }
-
-      .bills {
-          height: 50rem;
-            padding-left: 65rem!important;
-      }
-
-      .purchase {
-          height: 50rem;
-          padding-top: 8rem !important;
-            padding-right: 59rem!important;
-      }
-
-      .payroll {
-          height: 50rem;
-          padding-left: 60rem!important;
-      }
-
-      .e-bank {
-          height: 50rem;
-          padding-top: 4rem !important;
-            padding-left: 45rem!important;
-      }
-
-        .eload {
-            height: 50rem;
-        }
-
-        .remit {
-            height: 50rem !important;
-              padding-left: 50rem!important;
-        }
-
-        .fund {
-            height: 50rem !important;
-              padding-right: 60rem!important;
-        }
-
-        .mobile {
-            height: 50rem;
-        }
-
-        .online {
-            height: 50rem;
-            padding-top:15rem !important;
-              padding-left: 69rem!important;
-        }
-
-        .ewallet {
-            height: 50rem;
-        }
-    }
-
-    @media screen and (min-width: 1660px) {/*max-width: 1870px*/
-      .display-p{
-      font-size: 1.6rem!important;
-      }
-      .balance-text, .withdraw-text, .bills-text, .purchase-text, .payroll-text, .ebank-text, .eload-text,
-       .remit-text, .funds-text, .mobile-text, .online-text, .ewallet-text{
-            font-size: 2.6rem!important;
-      }
-      .balance {
-        height: 60rem;
-        padding-top: 10rem !important;
-          padding-left: 74rem!important;
-      }
-
-      .withdrawal {
-          height: 60rem;
-
-      }
-
-      .bills {
-          height: 60rem;
-      }
-
-      .purchase {
-          height: 60rem;
-      }
-
-      .payroll {
-          height: 60rem;
-          padding-top: 8rem !important;
-
-      }
-
-      .e-bank {
-          height: 60rem;
-      }
-
-        .eload {
-            height: 60rem;
-        }
-
-        .remit {
-            height: 60rem !important;
-        }
-
-        .fund {
-            height: 60rem !important;
-        }
-
-        .mobile {
-            height: 60rem;
-        }
-
-        .online {
-            height: 60rem;
-        }
-
-        .ewallet {
-            height: 60rem;
-        }
-    }
-
-    @media screen and (min-width: 1800px) {/*max-width: 1870px*/
-
-      .balance {
-
-          padding-left: 80rem!important;
-      }
-
-      .withdrawal {
-
-
-      }
-
-      .bills {
-        padding-left: 75rem!important;
-      }
-
-      .purchase {
-        padding-right: 70rem!important;
-      }
-
-      .payroll {
-          padding-top: 8rem !important;
-
-      }
-
-      .e-bank {
-        padding-left: 50rem!important;
-      }
-
-        .eload {
-
-        }
-
-        .remit {
-
-        }
-
-        .fund {
-
-        }
-
-        .mobile {
-          padding-left: 60rem!important;
-        }
-
-        .online {
-              padding-left: 83rem!important;
-        }
-
-        .ewallet {
-            padding-right: 60rem!important;
-        }
-    }
-
-
-    @media screen and (min-width: 1960px) {/*max-width: 1870px*/
-      .display-p{
-      font-size: 2.1rem!important;
-      }
-      .balance-text, .withdraw-text, .bills-text, .purchase-text, .payroll-text, .ebank-text, .eload-text,
-       .remit-text, .funds-text, .mobile-text, .online-text, .ewallet-text{
-            font-size: 2.9rem!important;
-      }
-      .balance {
-        height: 75rem;
-        padding-top: 17rem!important;
-        padding-left: 89rem!important;
-      }
-
-      .withdrawal {
-          height: 75rem;
-          padding-top: 27rem !important;
-
-      }
-
-      .bills {
-          height: 75rem;
-          padding-top: 20rem !important;
-          padding-left: 80rem !important;
-      }
-
-      .purchase {
-          height: 75rem;
-              padding-top: 18rem !important;
-              padding-right: 79rem !important;
-      }
-
-      .payroll {
-          height: 75rem;
-          padding-top: 15rem !important;
-          padding-left: 79rem !important;
-      }
-
-      .e-bank {
-          height: 75rem;
-          padding-top: 13rem !important;
-          padding-left: 59rem !important;
-      }
-
-        .eload {
-            height: 75rem;
-              padding-top: 33rem !important;
-        }
-
-        .remit {
-            height: 75rem !important;
-            padding-top: 13rem !important;
-            padding-left: 59rem !important;
-        }
-
-        .fund {
-            height: 75rem !important;
-            padding-top: 13rem !important;
-            padding-right: 69rem !important;
-        }
-
-        .mobile {
-            height: 75rem;
-            padding-top: 13rem !important;
-            padding-left: 59rem !important;
-        }
-
-        .online {
-            height: 75rem;
-            padding-top: 27rem !important;
-            padding-left: 89rem !important;
-        }
-
-        .ewallet {
-            height: 75rem;
-        }
-    }
-
-    @media screen and (min-width: 2710px) {/*max-width: 1870px*/
-      .balance {
-        padding-left: 120rem!important;
-      }
-
-      .withdrawal {
-            padding-right: 100rem!important;
-
-      }
-
-      .bills {
-          padding-left: 115rem !important;
-      }
-
-      .purchase {
-              padding-right: 109rem !important;
-      }
-
-      .payroll {
-
-          padding-left: 100rem !important;
-      }
-
-      .e-bank {
-          padding-left: 80rem !important;
-      }
-
-        .eload {
-              padding-top: 33rem !important;
-        }
-
-        .remit {
-            padding-top: 15rem !important;
-            padding-left: 89rem !important;
-        }
-
-        .fund {
-            padding-right: 99rem !important;
-        }
-
-        .mobile {
-            padding-left: 89rem !important;
-        }
-
-        .online {
-            padding-top: 27rem !important;
-            padding-left: 120rem !important;
-        }
-
-        .ewallet {
-            padding-top: 17rem !important;
-            padding-right: 100rem !important;
-        }
-    }
-
-    @media screen and (min-width: 4050px) {/*max-width: 1870px*/
-      .display-p{
-      font-size: 4.1rem!important;
-      }
-      .balance-text, .withdraw-text, .bills-text, .purchase-text, .payroll-text, .ebank-text, .eload-text,
-       .remit-text, .fund-text, .mobile-text, .online-text, .ewallet-text{
-            font-size: 4.9rem!important;
-      }
-      .balance {
-        height: 145rem;
-        padding-top: 60rem!important;
-        padding-left: 170rem!important;
-      }
-
-      .withdrawal {
-          height: 145rem;
-          padding-top: 60rem !important;
-          padding-right: 100rem!important;
-      }
-
-      .bills {
-          height: 145rem;
-          padding-top: 70rem !important;
-            padding-left: 175rem !important;
-      }
-
-      .purchase {
-          height: 145rem;
-              padding-top: 55rem !important;
-        padding-right: 159rem !important;
-      }
-
-      .payroll {
-          height: 145rem;
-          padding-top: 45rem !important;
-        padding-left: 159rem !important;
-      }
-
-        .e-bank {
-          height: 145rem;
-          padding-top: 30rem !important;
-            padding-left: 130rem !important;
-      }
-
-        .eload {
-            height: 145rem;
-              padding-top: 63rem !important;
-        }
-
-        .remit {
-            height: 145rem !important;
-            padding-top: 40rem !important;
-            padding-left: 140rem !important;
-        }
-
-        .fund {
-            height: 145rem !important;
-            padding-top: 30rem !important;
-          padding-right: 160rem !important;
-        }
-
-        .mobile {
-            height: 145rem;
-            padding-top: 35rem !important;
-            padding-left: 135rem !important;
-        }
-
-        .online {
-            height: 145rem;
-            padding-top: 69rem !important;
-            padding-left: 179rem !important;
-        }
-
-        .ewallet {
-            height: 145rem;
-            padding-top: 37rem !important;
-            padding-right: 150rem !important;
-        }
-    }
-
-    @media screen and (min-width: 5400px) {/*max-width: 1870px*/
-      .display-p{
-      font-size: 6.1rem!important;
-      }
-      .balance-text, .withdraw-text, .bills-text, .purchase-text, .payroll-text, .ebank-text, .eload-text,
-       .remit-text, .fund-text, .mobile-text, .online-text, .ewallet-text{
-            font-size: 6.9rem!important;
-      }
-
-      .balance {
-        height: 190rem;
-        padding-top: 60rem!important;
-        padding-left: 235rem!important;
-      }
-
-      .withdrawal {
-          height: 190rem;
-          padding-top: 60rem !important;
-          padding-right: 155rem!important;
-      }
-
-      .bills {
-          height: 190rem;
-          padding-top: 70rem !important;
-            padding-left: 215rem !important;
-      }
-
-      .purchase {
-          height: 190rem;
-          padding-top: 55rem !important;
-    padding-right: 209rem !important;
-      }
-
-      .payroll {
-          height: 190rem;
-          padding-top: 45rem !important;
-        padding-left: 205rem !important;
-      }
-
-      .e-bank {
-          height: 190rem;
-          padding-top: 40rem !important;
-            padding-left: 150rem !important;
-      }
-
-        .eload {
-            height: 190rem;
-              padding-top: 83rem !important;
-        }
-
-        .remit {
-            height: 190rem !important;
-            padding-top: 40rem !important;
-            padding-left: 190rem !important;
-        }
-
-        .fund {
-            height: 190rem !important;
-            padding-top: 40rem !important;
-          padding-right: 190rem !important;
-        }
-
-        .mobile {
-            height: 190rem;
-            padding-top: 40rem !important;
-            padding-left: 185rem !important;
-        }
-
-        .online {
-            height: 190rem;
-            padding-top: 79rem !important;
-            padding-left: 245rem !important;
-        }
-
-        .ewallet {
-            height: 190rem;
-            padding-top: 47rem !important;
-            padding-right: 200rem !important;
-        }
-    }
-/*
-    @media screen and (max-width: 1270px) {
-        .eload {
-            padding: 13rem 8rem !important;
-            color: #3a3a3b;
-            background-image: url("images/bg/eload_new.jpg") !important;
-            background-size: cover;
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-
-        .remit {
-            padding: 10rem 6rem !important;
-            color: #3a3a3b;
-            background-image: url("images/bg/remittance_new.jpg") !important;
-            background-size: cover;
-
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-
-        .fund {
-            padding: 7rem 8rem !important;
-            color: #3a3a3b ;
-            background-image: url("images/bg/fund_new.jpg") !important;
-            background-size: cover;
-
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-
-        .mobile {
-            padding: 7rem 8rem !important;
-            color:  #3a3a3b;
-            background-image: url("images/bg/mobile_new.jpg") !important;
-
-            background-size: cover;
-            height: 35rem;
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-
-        .online {
-            padding: 7rem 8rem !important;
-            color:  #3a3a3b;
-            background-image: url("images/bg/online_new.jpg") !important;
-            background-size: cover;
-
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-
-        .ewallet {
-            padding: 13rem 7rem !important;
-            color: #3a3a3b;
-            background-image: url("images/bg/ewallet_new.jpg") !important;
-            background-size: cover;
-
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-
-      }*/
-
+ 
 @media screen and (max-width: 1080px) {
-  .balance, .withdrawal, .bills, .purchase, .payroll, .e-bank, .eload,
-   .remit, .fund, .mobile, .online, .ewallet{
-     background-color: rgba(255, 255, 255, 0.5) !important;
-     background-blend-mode: overlay;
-  }
-
-    .h1-s {
-        font-size: 4rem !important;
-    }
-
-    .display-p{
-        font-size: 1.2rem !important;
-    }
-
-    .hr1 {
-        margin: 0 0;
-        border: 3px solid #4ebab5 !important;
-        border-radius: 2px !important;
-        width: 30%;
-    }
-
-    .balance {
-        padding: 2rem 4rem !important;
-        padding-top: 5rem !important;
-        text-align: justify;
-        background-size: cover;
-        /*height: 45rem;*/
-        background-position: left;
-        background-repeat: no-repeat !important;
-    }
-
-    .withdrawal {
-        padding: 2rem 4rem !important;
-        padding-top: 10rem !important;
-        text-align: justify;
-        background-size: cover;
-        /*height: 45rem;*/
-        background-position: left;
-        background-repeat: no-repeat !important;
-
-    }
-
-    .bills {
-        padding: 2rem 4rem !important;
-        padding-top: 5rem !important;
-        text-align: justify;
-        background-size: cover;
-        /*height: 45rem;*/
-        background-position: left;
-
-        background-repeat: no-repeat !important;
-    }
-
-    .purchase {
-        padding: 2rem 4rem !important;
-        padding-top: 5rem !important;
-        text-align: justify;
-        background-size: cover;
-        /*height: 45rem;*/
-        background-position: left;
-        background-repeat: no-repeat !important;
-    }
-
-    .payroll {
-        padding: 2rem 4rem !important;
-        padding-top: 5rem !important;
-        text-align: justify;
-        background-size: cover;
-        /*height: 45rem;*/
-        background-position: left;
-        background-repeat: no-repeat !important;
-    }
-
-
-    .e-bank {
-        padding: 2rem 4rem !important;
-        padding-top: 5rem !important;
-        text-align: justify;
-        background-size: cover;
-      /*  height: 55rem;
-        width: 100% !important;*/
-        background-position: left;
-        background-repeat: no-repeat !important;
-    }
-
-    /*additional ebank*/
-    small {
-        font-size: 1rem !important;
-    }
-
-    .icon-ebank {
-        height: 4rem;
-        width: 2em;
-    }
-
-    .ebank2 {
-        margin-left: 0rem;
-        width: 6rem;
-    }
-
-    .row-ebank {
-        margin-top: 3rem !important;
-
-        text-align: center;
-    }
-
-    .bank1 {
-        margin-left: 0 !important;
-    }
-
-    .bank2 {
-        margin-top: 0 !important;
-        margin-left: 0!important;
-    }
-
-    .eload {
-        padding: 2rem 4rem !important;
-        padding-top: 10rem !important;
-        text-align: justify;
-        background-size: cover;
-      /*  height: 55rem;
-        width: 100% !important;*/
-        background-position: left;
-        background-repeat: no-repeat !important;
-    }
-
-
-    .remit {
-        padding: 2rem 4rem !important;
-        padding-top: 15rem !important;
-        text-align: justify;
-        background-size: cover;
-      /*  height: 55rem;
-        width: 100% !important;*/
-        background-position: left;
-        background-repeat: no-repeat !important;
-    }
-
-    .fund {
-        padding: 2rem 4rem !important;
-        padding-top: 15rem !important;
-        text-align: justify;
-        background-size: cover;
-      /*  height: 55rem;
-        width: 100% !important;*/
-        background-position: left;
-        background-repeat: no-repeat !important;
-    }
-
-
-    .mobile {
-        padding: 2rem 4rem !important;
-        padding-top: 15rem !important;
-        text-align: justify;
-        background-size: cover;
-      /*  height: 55rem;
-        width: 100% !important;*/
-        background-position: left;
-        background-repeat: no-repeat !important;
-    }
-
-    /*height: 100% !important;*/
-
-    .online {
-        padding: 2rem 4rem !important;
-        padding-top: 5rem !important;
-        text-align: justify;
-        background-size: cover;
-      /*  height: 55rem;
-        width: 100% !important;*/
-        background-position: left;
-        background-repeat: no-repeat !important;
-    }
-
-
-    .ewallet {
-        padding: 2rem 4rem !important;
-        padding-top: 15rem !important;
-        text-align: justify;
-        background-size: cover;
-      /*  height: 55rem;
-        width: 100% !important;*/
-        background-position: left;
-        background-repeat: no-repeat !important;
-    }
-
-    .btn-nav {
+.btn-nav {
         border: 0px solid;
         padding: 0rem 0rem !important;
     }
 
-    .btn-1 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-2 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-3 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-4 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-5 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-6 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-7 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-8 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-9 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-10 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-11 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-12 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-top {
+    .btn-1, .btn-2,  .btn-3,.btn-4, .btn-5, .btn-6, .btn-7, .btn-8, .btn-9, .btn-10,.btn-11,.btn-12,.btn-top{
         bottom: 0px;
         right: 0px;
     }
 }
 
 @media screen and (max-width: 480px) {
-
-    /*services page content*/
-    .h1-s {
-        font-size: 2.5rem !important;
-          text-align: center;
-    }
-
-    .display-p{
-        font-size: 1.1rem !important;
-    }
-
-    .balance,.withdrawal,.bills,.purchase,.payroll,.e-bank,.eloaod,.remit,.fund,
-    .mobile,.online,.ewallet{
-      height: 45rem;
-      background-position: top;
-    }
-
-    .balance {
-        padding: 2rem 2rem !important;
-        padding-top: 1rem !important;
-    }
-
-    .withdrawal {
-        padding: 2rem 2rem !important;
-        padding-top: 10rem !important;
-    }
-
-    .bills {
-        padding: 2rem 2rem !important;
-        padding-top: 10rem !important;
-    }
-
-    .purchase {
-        padding: 2rem 2rem !important;
-        padding-top: 6rem !important;
-    }
-
-    .payroll {
-        padding: 2rem 2rem !important;
-        padding-top: 5rem !important;
-    }
-
-
-    .e-bank {
-        padding: 2rem 2rem !important;
-        padding-top: 1rem !important;
-    }
-
-    .col-bank{
-      text-align: center;
-    }
-
-    /*additional ebank*/
-    small {
-        font-size: 1rem !important;
-    }
-
-    .icon-ebank {
-
-        height: 2rem;
-        width: 2rem;
-    }
-
-
-    .row-ebank {
-        text-align:center !important;
-        margin-top: 3rem !important;
-        margin-left: 0rem !important;
-    }
-
-    .bank1 {
-        margin-left: 0rem !important;
-
-    }
-
-    .ebank2 {
-        margin-top: 1rem !important;
-        margin-left: 1rem;
-
-    }
-
-    .eload {
-        padding: 2rem 2rem !important;
-        padding-top: 10rem !important;
-    }
-
-
-    .remit {
-        padding: 2rem 2rem !important;
-          padding-top: 10rem !important;
-    }
-
-    .fund {
-        padding: 2rem 2rem !important;
-          padding-top: 10rem !important;
-    }
-
-
-    .mobile {
-        padding: 2rem 2rem !important;
-        padding-top: 10rem !important;
-    }
-
-    /*height: 100% !important;*/
-
-    .online {
-        padding: 2rem 2rem !important;
-        padding-top: 10rem !important;
-    }
-
-
-    .ewallet {
-
-        padding: 2rem 2rem !important;
-        padding-top: 10rem !important;
-    }
-
-    .btn-1 {
+    .btn-1, .btn-2,  .btn-3,.btn-4, .btn-5, .btn-6, .btn-7, .btn-8, .btn-9, .btn-10,.btn-11,.btn-12,.btn-top{
         bottom: 0px;
         right: 0px;
     }
 
-    .btn-2 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-3 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-4 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-5 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-6 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-7 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-8 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-9 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-10 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-11 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-12 {
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .btn-top {
-        bottom: 0px;
-        right: 0px;
-    }
 }
 
-        /*media screen for service page (adjust for mobile screen)*/
-        @media screen and (max-width: 320px) {
-            .display-3 {
-                font-size: 2rem !important;
-                text-align: center !important;
-            }
-/*
-            .eload {
-                color: #3a3a3b;
-                text-align: justify;
-                background-image: url("images/s_eload.png") !important;
-                background-size: cover;
-                background-position: center;
-                width: 100% !important;
-                background-repeat: no-repeat !important;
-            }
-
-            .remit {
-                padding: 10rem 3rem !important;
-                color: #3a3a3b;
-                text-align: justify;
-                background-image: url("images/bg/remit_bg2.png") !important;
-                background-size: cover;
-                background-color: rgba(255, 255, 255, 0.5); !important;
-                background-blend-mode: overlay;
-                height: 25rem;
-                width: 100% !important;
-                background-repeat: no-repeat !important;
-            }
-
-            .fund {
-                padding: 10em 5rem !important;
-                color: #3a3a3b ;
-                text-align: justify;
-                background-image: url("images/s_transfer.png") !important;
-                background-size: cover;
-                background-color: rgba(255, 255, 255, 0.5) !important;
-                background-blend-mode: overlay;
-                height: 25rem;
-                width: 100% !important;
-                background-repeat: no-repeat !important;
-            }
-
-            .mobile {
-                padding: 10rem 5rem !important;
-                text-align: justify;
-                color:  #3a3a3b;
-                background-image: url("images/s_mobile.png") !important;
-                background-color: rgba(255, 255, 255, 0.5) !important;
-                background-blend-mode: overlay;
-                height: 25rem;
-                width: 100% !important;
-                background-repeat: no-repeat !important;
-            }
-
-            .online {
-                padding: 10rem 5rem !important;
-                color: #3a3a3b;
-                text-align: justify;
-                background-image: url("images/s_obank.png") !important;
-                background-size: cover;
-                background-color: rgba(255, 255, 255, 0.5) !important;
-                background-blend-mode: overlay;
-                height: 25rem;
-                width: 100% !important;
-                background-repeat: no-repeat !important;
-            }
-
-            .ewallet {
-                padding: 2rem 5rem !important;
-                color: #3a3a3b !important;
-                text-align: justify;
-                background-image: url("images/s_ewallet.png") !important;
-                background-size: cover;
-                background-color: rgba(255, 255, 255, 0.5) !important;
-                background-blend-mode: overlay;
-                height: 25rem;
-                width: 100% !important;
-                background-repeat: no-repeat !important;
-            } */
-        }
+/*media screen for service page (adjust for mobile screen)*/
+@media screen and (max-width: 320px) {
+  
+}
 
 /*
         .slideanim {visibility:hidden;}
@@ -8591,6 +6473,7 @@ font-size: 1.3rem!important;
 #partner-body-content {
     /*padding: 0rem 1rem;*/
     padding-top: 5rem;
+    padding-bottom: 67rem;
     height: 45rem;
   /*  background-image: url("images/new/BRB websites assets/partners/Asset 75vis.png");*/
     background-size: cover;
@@ -9137,8 +7020,9 @@ font-size: 8rem!important;
     background-size: cover;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 3.5rem;
-    padding-bottom: 6rem;
+    /*padding-top: 3.5rem;*/
+    padding-bottom: 15rem;
+    /*padding-bottom: 6rem;*/
 
 
 }
