@@ -45,11 +45,7 @@ body {
     width: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1, h2, h3, h4, h5 {
     font-family: myBento_head !important;
 }
 
@@ -277,45 +273,6 @@ strong {
       width: 4.9rem;
   }
 }
-@media screen and (min-width: 2640px) {
-  .brblogo {
-    margin-top: -0.3rem;
-        height: auto;
-      width: 14rem;
-      margin-right: 0.5rem;
-  }
-  .cashmate {
-    margin-top: -0.5rem;
-      height: 5.1rem;
-      width: 5.1rem;
-  }
-}
-@media screen and (min-width: 4050px) {
-  .brblogo {
-    margin-top: -0.3rem;
-        height: auto;
-      width: 22rem;
-      margin-right: 0.5rem;
-  }
-  .cashmate {
-    margin-top: -0.5rem;
-      height: 9.1rem;
-      width: 9.1rem;
-  }
-}
-@media screen and (min-width: 5400px) {
-  .brblogo {
-    margin-top: -0.3rem;
-        height: auto;
-      width: 29rem;
-      margin-right: 0.5rem;
-  }
-  .cashmate {
-    margin-top: -0.5rem;
-      height: 11.5rem;
-      width: 11.5rem;
-  }
-}
 
 /*
 .first-nav{
@@ -454,7 +411,7 @@ padding: 0.2rem 0.6rem !important;
 
 .navbar-transparent{
   font-family: myBento !important;
-    background-color: transparent!important;
+  background-color: transparent;
 }
 
 @media all and (max-width: 770px) {
@@ -462,13 +419,6 @@ padding: 0.2rem 0.6rem !important;
     background-image:linear-gradient(#ba95ff, #d0b0ff)!important;
   }
 }
-
-
-.bg-custom{
-    background-color: white;
-}
-
-
 
 /* Navbar Style   */
 .h-color,
@@ -507,14 +457,6 @@ color: #3a3a3b !important;
   color:  #730ac4 !important;
   /*  color:  #ba9dd4 !important;*/
 }
-
-.about,.services,.product,.partners,.letsTalk {
-    color: #3a3a3b !important;
-    /*font-family: 'Noto Serif', serif !important;*/
-    font-size: 1.3rem !important;
-    font-weight: bolder !important;
-}
-
 /*
 .log-btn {
     color: #4ebab5 !important;
@@ -528,8 +470,7 @@ color: #3a3a3b !important;
 }
 
 .navbar-toggler, .navbar-toggler-icon{
-
-    border-color: #ba9dd4 !important;
+    border-color: transparent;
 }
 
 /*No arrow in dropdown*/
@@ -550,7 +491,14 @@ color: #3a3a3b !important;
     color: #3a3a3b !important;
     /*text color*/
     /*font-family: 'Noto Serif', serif !important;*/
-    font-size: 1rem !important;
+    font-size: 1rem;
+}
+
+@media screen and (max-width:991px){
+  .navbar-custom .dropdown-item {
+  font-size: 0.7rem;
+  text-align: right;
+}
 }
 
 .navbar-custom .dropdown-item:hover,
@@ -582,6 +530,14 @@ color: #3a3a3b !important;
 /* Border Manipulation */
 .ul-holder {
   margin-bottom: 5rem;
+}
+hr {
+  border: 1px solid #3a3a3b !important;
+}
+.about,.services,.product,.partners,.letsTalk {
+  /*font-family: 'Noto Serif', serif !important;*/
+  font-size: 1.3rem !important;
+  font-weight: bolder !important;
 }
 
 .about-border,.services-border,.product-border,.partners-border {
@@ -627,8 +583,8 @@ color: #3a3a3b !important;
 
     /*Navbar manipulation*/
         /* Media Rules */
-        @media screen and (max-width: 1087px) {
-        .about,.about-dlist,.services,.product,.partners,.log-btn,.letsTalk{
+        @media screen and (max-width: 991px) {
+        .about,.about-dlist,.services,.product,.partners,.log-btn,.letsTalk,.a-drop{
               font-size: 0.7rem !important;
           }
           .btn-border {
@@ -739,14 +695,18 @@ color: #3a3a3b !important;
 }
 /*Footer contact info*/
 footer {
-    /*position:absolute;*/
-    margin-top: -1rem;
+    padding:1rem 1rem;
+    position:absolute;
     background-color:#8104e7 !important;
     color: white;
     font-size: 0.8rem !important;
     height: 5rem;
     bottom: 0;
     width: 100%;
+}
+
+.footer-bottom {
+  padding: 1rem 1rem !important;
 }
 
 /*Home page slideshow*/
@@ -834,7 +794,7 @@ footer {
 }
 @media screen and (min-width: 1810px) {
 .home-body{
-  height: 60.9rem;
+height: 60.9rem;
 margin-top: -8rem!important;
 padding-top: 8rem!important;
 }
@@ -843,7 +803,8 @@ padding-top: 8rem!important;
 }
 }
 @media screen and (min-width: 1920px) {
-.home-body{height: 65.9rem;}
+.home-body{
+  height: 65.9rem;}
 .h1-home-front{
   font-size: 4.5rem!important;
 }
@@ -1405,15 +1366,16 @@ padding-top: 9rem!important;}
 .col-hide{
   visibility: hidden;
 }
-/*
+
 .col-h-up{
   margin-top: -22rem;
 }
-*/
+
 .row-h {
   /*  padding: 0 2rem !important;*/
     padding-top: 10rem !important;
     padding-bottom: 3rem !important;
+    text-align: left!important;
 }
 
 .row-a {
@@ -2421,17 +2383,11 @@ font-size: 2.8rem!important;
 }
 
 /*product page content*/
-/*product content page*/
+
 hr {
-  border: 1px solid white !important;
-  margin-top: 0rem !important;
-  margin-bottom: 0.05rem !important;
-  /*
-    border: 10px solid #4ebab5 !important;
-    border-radius: 5px !important;*/
+    margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
 }
-
-
 .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
   padding: 5rem 5rem 0rem 5rem;
   text-align: center;
@@ -2459,6 +2415,10 @@ hr {
 
 .agency{
   background-image: url("images/new/BRB websites assets/agency/Asset\ 20.png");
+}
+
+.acquiring{
+  
 }
 
 .product-s-1{
@@ -7013,8 +6973,8 @@ height: 100% !important;*/
 
 .btn-4 {
     position: fixed;
-    bottom: 430px;
-    left: 25px;
+    bottom: 425px;
+    right: 25px;
     display: none;
 }
 
@@ -9227,9 +9187,7 @@ th {
     color: #3a3a3b !important;
 }
 
-.footer-bottom {
-    padding: 1rem 1rem !important;
-}
+
 
 #inputMDEx,
 #textarea-char-counter,
