@@ -124,38 +124,81 @@ strong {
   }
 }
 
+@media screen and (max-width:1152px){
+  .aboutIMG{
+    height: 30rem;
+    width: auto;
+  }
+  
+  .productIMG{
+    height: 25rem;
+    width: auto;
+  }
+}
+
 .historyIMG{
   height: 13rem;
   width: auto;
 }
 
 .historyIMG_mobile{
-  height: 0rem;
+  height: 10rem;
   width: auto;
-  display: none;
+  
 }
 
 @media screen and (min-width:200px) and (max-width:699px){
   .historyIMG{
-    height: 0rem;
-    width: auto;
     display: none;
   }
 }
 @media screen and (min-width:700px) and (max-width:900px){
-  .historyIMG{
-    height: 0rem;
+ 
+  .historyIMG_mobile{
+    height: 20rem;
     width: auto;
+  }
+  .historyIMG{
     display: none;
   }
 
+}
+
+@media screen and (max-width:2075px) {
   .historyIMG_mobile{
-    height: 13rem;
-    width: auto;
+    display: none;
   }
 }
 
+@media screen and (max-width:1275px) {
+  .historyIMG{
+    height: 10rem;
+    width: auto;
+  }
+  .historyIMG_mobile{
+    display: none;
+  }
+}
 
+@media screen and (max-width:1152px) {
+  .historyIMG{
+    height: 9rem;
+    width: auto;
+  }
+  .historyIMG_mobile{
+    display: none;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .historyIMG{
+    height: 8rem;
+    width: auto;
+  }
+  .historyIMG_mobile{
+    display: none;
+  }
+}
 
 
 .cashmate3{
@@ -700,7 +743,7 @@ footer {
     background-color:#8104e7 !important;
     color: white;
     font-size: 0.8rem !important;
-    height: 5rem;
+    height: auto;
     bottom: 0;
     width: 100%;
 }
@@ -1633,6 +1676,15 @@ padding-top: 9rem!important;}
   background-repeat: no-repeat;
   text-align: center;
 }
+
+@media screen and (max-width:1024) {
+  
+#who, #mission,#vision,#history{
+  padding: 2rem 2rem 0rem 2rem; 
+  }
+}
+
+
 #who-body-content2{
   padding-top: 5rem;
 }
@@ -1882,6 +1934,9 @@ padding-top: 17rem!important;
     padding-bottom: 10rem!important;
 }
 
+.meet-sm{
+  font-size: small!important;
+}
 .h6-bod-name{
     text-align: center !important;
     font-size:0.9rem;
@@ -2953,7 +3008,6 @@ height: 45rem;
 
   .h3-p{
     font-size:1.4rem;
-    padding-left: 4rem;
   }
 
   .s_customize{
@@ -8541,9 +8595,8 @@ font-size: 1.3rem!important;
   /*  background-image: url("images/new/BRB websites assets/partners/Asset 75vis.png");*/
     background-size: cover;
     background-position: right;
-
-
 }
+
 @media screen and (min-width:290px) and (max-width: 800px)  {
   .#partner-body-content{
     height: 60rem!important;
@@ -8580,9 +8633,22 @@ padding-left: 36rem !important;
 }
 
 .partner-display2{
-  height: autp;
-  width: 14rem;
+  height: auto;
+  width: 12rem;
   margin: 1rem 0rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .partner-display{
+    height: 1rem;
+    width: auto;
+  }
+  
+  .partner-display2{
+    height: auto;
+    width: 8rem;
+  }
+  
 }
 
 /*MEDIA-PARTNER*/
