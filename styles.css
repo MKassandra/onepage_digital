@@ -276,6 +276,10 @@ strong {
 }
 
 @media screen and (max-width:801px){
+  .aboutIMG{
+    height: 23rem;
+    width: auto;
+  }
   .productIMG{
     height: 21rem;
     width: auto;
@@ -2131,6 +2135,15 @@ font-size: 2.8rem!important;
   font-weight: bolder;
   text-align: center;
 }
+ @media screen and (max-width:1025px){
+  .h1-who{
+    font-size: 3.5rem;
+  }
+  .h2-about,.h2-insta {
+    font-size: 1.8rem;
+  }
+  
+ }
 
 .agency-txt{
   padding-top: 4rem;
