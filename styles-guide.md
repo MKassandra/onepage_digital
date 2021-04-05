@@ -29,6 +29,7 @@ must be from HIGHEST to LOWEST
 ## Colors
 Purple: #4c008a
 Text Gray: #3a3a3b
+Highlight light purle: #be99ff
 
 ### Font size
 - Font size: 18px
