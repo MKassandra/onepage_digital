@@ -657,6 +657,7 @@ footer {
     position:absolute;
     background-color:#8104e7 !important;
     color: white;
+    text-align: center;
     font-size: 0.8rem !important;
     height: auto;
     bottom: 0;
@@ -6490,6 +6491,8 @@ margin: 0 -3rem;
 /*partner page*/
 #partner-body-content {
     /*padding: 0rem 1rem;*/
+    padding-right: 2rem;
+    padding-left: 2rem;
     padding-top: 5rem;
     padding-bottom: 67rem;
     height: 45rem;
@@ -6528,14 +6531,14 @@ padding-left: 36rem !important;
 }
 
 .partner-display{
-  height: 10rem;
+  height: 5rem;
   width: auto;
   margin: 1rem 0rem;
 }
 
 .partner-display2{
   height: auto;
-  width: 12rem;
+  width: 10rem;
   margin: 1rem 0rem;
 }
 
