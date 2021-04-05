@@ -2350,7 +2350,7 @@ hr {
     margin-top: 0rem !important;
   margin-bottom: 0rem !important;
 }
-.cards, .upi, .cobrand, .acquiring,.instapay,.agency,.terms{
+.cards, .upi, .cobrand, .acquiring,.instapay,.agency,{
   padding: 5rem 5rem 0rem 5rem;
   text-align: center;
   background-size: cover;
@@ -2382,7 +2382,10 @@ hr {
 .col-i-d{
   margin-top: 15rem;
 }
-
+.terms{
+  padding: 10rem 5rem;
+  text-align: justify;
+}
 
 @media screen and (max-width:1281px){
   .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
