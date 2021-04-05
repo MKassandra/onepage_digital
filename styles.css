@@ -310,6 +310,90 @@ strong {
   
 }
 
+@media screen and (max-width:2075px) {
+  .historyIMG_mobile{
+    display: none;
+  }
+}
+
+@media screen and (max-width:1276px) {
+  .historyIMG{
+    height: 12.5rem;
+    width: auto;
+  }
+  .historyIMG_mobile{
+    display: none;
+  }
+}
+@media screen and (max-width:1235px)/*between*/ {
+  .historyIMG{
+    height: 11.6rem;
+    width: auto;
+  }
+  .historyIMG_mobile{
+    display: none;
+  }
+}
+
+@media screen and (max-width:1153px) {
+  .historyIMG{
+    height: 11.6rem;
+    width: auto;
+  }
+  .historyIMG_mobile{
+    display: none;
+  }
+}
+
+@media screen and (max-width:1131px)/*between*/ {
+  .historyIMG{
+    height: 10.6rem;
+    width: auto;
+  }
+}
+
+@media screen and (max-width:1025px) {
+  .historyIMG{
+    height: 10.6rem;
+    width: auto;
+  }
+  .historyIMG_mobile{
+    display: none;
+  }
+}
+
+@media screen and (max-width:1020px)/*between*/{
+  .historyIMG{
+    height: 9.5rem;
+    width: auto;
+  }
+}
+
+
+@media screen and (max-width:900px){
+  .historyIMG{
+    height: 9rem;
+    width: auto;
+  }
+}
+@media screen and (max-width:866px){
+  .historyIMG{
+    height: 8rem;
+    width: auto;
+  }
+}
+
+@media screen and (max-width:412px){
+  .historyIMG{
+    display: none;
+  }
+  .historyIMG_mobile{
+    height: 10rem;
+    width: auto;
+  }
+}
+
+/*
 @media screen and (min-width:200px) and (max-width:699px){
   .historyIMG{
     display: none;
@@ -324,58 +408,7 @@ strong {
   .historyIMG{
     display: none;
   }
-
-}
-
-@media screen and (max-width:2075px) {
-  .historyIMG_mobile{
-    display: none;
-  }
-}
-
-@media screen and (max-width:1275px) {
-  .historyIMG{
-    height: 12.5rem;
-    width: auto;
-  }
-  .historyIMG_mobile{
-    display: none;
-  }
-}
-
-@media screen and (max-width:1152px) {
-  .historyIMG{
-    height: 9rem;
-    width: auto;
-  }
-  .historyIMG_mobile{
-    display: none;
-  }
-}
-
-@media screen and (max-width:1024px) {
-  .historyIMG{
-    height: 8rem;
-    width: auto;
-  }
-  .historyIMG_mobile{
-    display: none;
-  }
-}
-
-
-@media screen and (min-width:700px) and (max-width:900px){
-  .historyIMG{
-    height: 0rem;
-    width: auto;
-    display: none;
-  }
-
-  .historyIMG_mobile{
-    height: 13rem;
-    width: auto;
-  }
-}
+}*/
 
 .card1{
   margin-left: 10rem;
@@ -1304,6 +1337,13 @@ padding-top: 9rem!important;}
 .col-h-up{
   margin-top: -22rem;
 }
+
+@media screen and (max-width:412px){
+  .col-h-up{
+    margin-top: 0rem;
+  }
+}
+
 
 .row-h {
   /*  padding: 0 2rem !important;*/
@@ -2310,7 +2350,7 @@ hr {
     margin-top: 0rem !important;
   margin-bottom: 0rem !important;
 }
-.cards, .upi, .cobrand, .acquiring,.instapay,.agency{
+.cards, .upi, .cobrand, .acquiring,.instapay,.agency,.terms{
   padding: 5rem 5rem 0rem 5rem;
   text-align: center;
   background-size: cover;
@@ -6531,8 +6571,9 @@ margin: 0 -3rem;
 }
 
 @media screen and (min-width:290px) and (max-width: 800px)  {
-  .#partner-body-content{
-    height: 60rem!important;
+  #partner-body-content{
+    padding:0rem 3rem;
+    height: 40rem!important;
   }
 }
 
