@@ -163,7 +163,7 @@ strong {
     width: auto;
   }
   .cardIMG2{
-    height: 19rem;
+    height: 17rem;
     width: auto;
   }
   .instaIMG{
@@ -178,7 +178,7 @@ strong {
     width: auto;
   }
   .cardIMG2{
-    height: 17rem;
+    height: 15rem;
     width: auto;
   }
   .instaIMG{
@@ -314,11 +314,15 @@ strong {
   .historyIMG_mobile{
     display: none;
   }
+  .historyIMG{
+    height: 11.2rem;
+    width: auto;
+  }
 }
 
 @media screen and (max-width:1276px) {
   .historyIMG{
-    height: 12.5rem;
+    height: 11.2rem;
     width: auto;
   }
   .historyIMG_mobile{
@@ -327,7 +331,7 @@ strong {
 }
 @media screen and (max-width:1235px)/*between*/ {
   .historyIMG{
-    height: 11.6rem;
+    height: 10.5rem;
     width: auto;
   }
   .historyIMG_mobile{
@@ -337,7 +341,7 @@ strong {
 
 @media screen and (max-width:1153px) {
   .historyIMG{
-    height: 11.6rem;
+    height: 9.9rem;
     width: auto;
   }
   .historyIMG_mobile{
@@ -347,7 +351,7 @@ strong {
 
 @media screen and (max-width:1131px)/*between*/ {
   .historyIMG{
-    height: 10.6rem;
+    height: 9.5rem;
     width: auto;
   }
 }
@@ -1549,13 +1553,13 @@ padding-top: 9rem!important;}
 
 @media screen and (max-width:1281px){
   #who, #mission,#vision,#history{
-    padding: 4rem 4rem 0rem 4rem;
+    padding: 4rem 9rem 0rem 9rem;
   }
 }
 
 @media screen and (max-width:1153px){
   #who, #mission,#vision,#history{
-    padding: 3rem 3rem 0rem 3rem;
+    padding: 3rem 8rem 0rem 8rem;
   }
 }
 
@@ -1852,7 +1856,7 @@ padding-top: 17rem!important;
   margin-top: 8rem !important;
 }
 .row-bod-end1{
-  margin-top: -10rem !important;
+  margin-top: 0rem !important;
 }
 .bod-right{
   margin-right: 1rem;
@@ -1929,6 +1933,15 @@ padding-top: 17rem!important;
       width:9rem;
       padding-bottom: 0.5rem;
   }
+}
+
+@media all and (min-width: 1161px) and (max-width: 1278px) {
+  .bod-picture2{
+      height:8rem;
+      width:8rem;
+      padding-bottom: 0.5rem;
+  }
+
 }
 @media all and (min-width: 1279px) and (max-width: 1443px) {
   .bod-picture{
@@ -2088,7 +2101,7 @@ font-size: 2.8rem!important;
 }
 
 .row-bod-end1{
-  margin-top: -10rem!important;
+  margin-top: 0rem!important;
 }
 
 }
@@ -2205,6 +2218,18 @@ font-size: 2.8rem!important;
   font-weight: bolder;
   text-align: center;
 }
+@media screen and (max-width:1281px){
+  .h2-insta {
+    font-size: 1.6rem;
+  }
+ }
+
+@media screen and (max-width:1153px){
+  .h2-insta {
+    font-size: 1.5rem;
+  }
+ }
+
  @media screen and (max-width:1025px){
   .h1-who{
     font-size: 3.5rem;
@@ -2387,15 +2412,21 @@ hr {
   text-align: justify;
 }
 
+@media screen and (max-width:1681px){
+  .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
+    padding: 7rem 9rem 0rem 9rem;
+  }
+}
+
 @media screen and (max-width:1281px){
   .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
-    padding: 4rem 4rem 0rem 4rem;
+    padding: 4rem 9rem 0rem 9rem;
   }
 }
 
 @media screen and (max-width:1153px){
   .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
-    padding: 3rem 3rem 0rem 3rem;
+    padding: 3rem 8rem 0rem 8rem;
   }
 }
 
