@@ -320,9 +320,9 @@ strong {
   }
 }
 
-@media screen and (max-width:1276px) {
+@media screen and (max-width:1281px) {
   .historyIMG{
-    height: 11.2rem;
+    height: 10.8rem;
     width: auto;
   }
   .historyIMG_mobile{
@@ -1097,9 +1097,9 @@ padding-top: 9rem!important;}
         padding-top: 3.5rem !important;
         margin: 0 0 !important;
     }
-    a {
+    /*a {
         color: #3a3a3b !important;
-    }
+    }*/
  .contact-content{
    padding-top: 3rem!important;
 
@@ -2225,14 +2225,17 @@ font-size: 2.8rem!important;
  }
 
 @media screen and (max-width:1153px){
-  .h2-insta {
+  .h2-insta,.h2-about {
     font-size: 1.5rem;
+  }
+   .h1-who{
+    font-size: 3.5rem;
   }
  }
 
  @media screen and (max-width:1025px){
   .h1-who{
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .h2-about,.h2-insta {
     font-size: 1.8rem;
