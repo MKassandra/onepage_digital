@@ -382,7 +382,7 @@ strong {
 }
 @media screen and (max-width:866px){
   .historyIMG{
-    height: 8rem;
+    height: 7.8rem;
     width: auto;
   }
 }
@@ -1342,6 +1342,11 @@ padding-top: 9rem!important;}
   margin-top: -22rem;
 }
 
+@media screen and (max-width:801px){
+  .col-h-up{
+    margin-top: -17rem;
+  }
+}
 @media screen and (max-width:412px){
   .col-h-up{
     margin-top: 0rem;
@@ -1354,6 +1359,7 @@ padding-top: 9rem!important;}
     padding-top: 10rem !important;
     padding-bottom: 3rem !important;
     text-align: left!important;
+    
 }
 
 .row-a {
@@ -1389,9 +1395,10 @@ padding-top: 9rem!important;}
 
 @media screen and (max-width:801px){
   .row-col-h{
-    padding: 0rem 2rem;
-    font-size: small;
+    padding: 0rem 1rem;
+    font-size: 0.6rem;
   }
+  
 }
 /*MEDIA-HISTORY*/
 @media screen and (max-width: 299px) {
@@ -1571,7 +1578,7 @@ padding-top: 9rem!important;}
 
 @media screen and (max-width:801px){
   #who, #mission,#vision,#history{
-    padding: 1rem 1rem 0rem 1rem;
+    padding: 2rem 3rem 0rem 3rem;
   }
 }
 
