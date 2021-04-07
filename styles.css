@@ -239,6 +239,10 @@ strong {
   width: auto;
 }
 
+.product-left{
+  margin-right: 6rem;
+}
+
 .productIMG_mobile{
   height: 25rem;
   width: auto;
@@ -1358,7 +1362,7 @@ padding-top: 9rem!important;}
   /*  padding: 0 2rem !important;*/
     padding-top: 10rem !important;
     padding-bottom: 3rem !important;
-    text-align: left!important;
+    text-align: justify!important;
     
 }
 
@@ -1824,6 +1828,7 @@ padding-top: 17rem!important;
 
 #meet-body-content3 {
     padding: 4rem 0rem;
+    padding-top: 7rem;
     color: black;
     background-image: url("images/new/BRB websites assets/team/Asset 76.png");
     /*background-image: url("images/meet2.png");*/
@@ -2429,8 +2434,19 @@ hr {
 }
 
 .col-i-d{
-  margin-top: 15rem;
+  margin-top: 20rem;
 }
+
+@media screen and (max-width:1281px){
+  .col-i-d{
+    margin-top: 18rem;
+  }
+}
+
+@media screen and (max-width:1153px){
+
+}
+
 .terms{
   padding: 10rem 5rem;
   text-align: justify;
@@ -6627,7 +6643,9 @@ margin: 0 -3rem;
     background-size: cover;
     background-position: right;
 }
-
+.partner-dev{
+  text-align: center;
+}
 @media screen and (min-width:290px) and (max-width: 800px)  {
   #partner-body-content{
     padding:0rem 3rem;
@@ -6666,8 +6684,25 @@ padding-left: 36rem !important;
 
 .partner-display2{
   height: auto;
-  width: 10rem;
+  width: 11rem;
   margin: 1rem 0rem;
+}
+
+.partner-display3{
+  height: 7rem;
+  width: auto;
+  margin: 1rem 0rem;
+}
+
+.partner-display4{
+  height: 6rem;
+  width: auto;
+  margin: 0rem 0rem;
+}
+
+
+.partner-down{
+  margin-top:3rem
 }
 
 @media screen and (max-width: 1024px) {
@@ -6961,6 +6996,7 @@ z-index: 999;
 @media screen and  (min-width: 1440px) {
   #partner-body-content {
       height: 45rem;
+      
   }
   .partner-display{
     margin: 1rem 0;
@@ -7328,7 +7364,7 @@ small {
 
 .btn-stalk {
     padding: 1rem 5rem !important;
-    background-color: #a683bc!important;
+    background-color: #c4a1ff !important;
     margin: 0rem 9rem !important;
 }
 

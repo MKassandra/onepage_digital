@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+        body {
+	margin: 0;
+	padding: 0;
+}
+
+.section {
+	position: relative;
+	background: #eee;
+    height: 50rem;
+	font-family: sans-serif;
+}
+
+.title {
+	font-size: 2em;
+	top: 50%;
+	position: absolute;
+	height: 1em;
+	width: 100%;
+	text-align: center;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+.black {
+	color: #333;
+}
+
+.link {
+	font-size: .75em;
+	background: #f66;
+	display: inline-block;
+	padding: 1.5em;
+	cursor: pointer;
+	color: #fff;
+}
+
+.link:hover {
+	opacity: .5;
+}
+
+.link:nth-child(2) {
+	background: #3cd;
+	float: right;
+}
+
+.second {
+	background: #f66;
+	color: #FFF;
+}
+
+.third {
+	background: #3cd;
+	color: #FFF;
+}
+
+video {
+	height: 100vh;
+}
+
+    </style>
+
+    <script>
+        // scrollify
+
+$.scrollify({
+	section : ".section",
+	sectionName : "section-name",
+	interstitialSection : "",
+	easing: "easeOutCubic",
+	scrollSpeed: 2000,
+	offset : 0,
+	scrollbars: false,
+	standardScrollElements: "",
+	setHeights: true,
+	overflowScroll: true,
+	updateHash: true,
+	touchScroll: true,
+	before: function() {},
+	after: function() {},
+	afterResize: function() {},
+	afterRender: function() {}
+});
+
+    </script>
+    <body>
+    <div class="section first" data-div-name="first">
+        <div class="title black">DIV 01</div>
+        <div class="link link3">GO TO THIRD</div>
+        <div class="link link2">GO TO SECOND</div>
+    </div>
+    
+    <div class="section second" data-div-name="second">
+        <div class="title">DIV 02</div>
+    </div>
+    
+    <div class="section third" data-div-name="#third">
+        <div class="title">DIV 03</div>
+    </div>
+    
+</body>
+</html>
