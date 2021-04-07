@@ -6702,7 +6702,7 @@ padding-left: 36rem !important;
 
 
 .partner-down{
-  margin-top:3rem
+  margin-top:3rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -6717,6 +6717,8 @@ padding-left: 36rem !important;
   }
   
 }
+
+
 
 /*MEDIA-PARTNER*/
 @media screen and (min-width: 250px) and  (max-width: 440px) {
@@ -6751,8 +6753,7 @@ padding-left: 36rem !important;
 
 @media screen and (min-width: 441px) and  (max-width: 550px) {
   #partner-body-content{
-      
-      height: 60rem!important;
+      height: 70rem!important;
   }
   .col-acm{
       margin-right: 3rem!important;
@@ -6773,15 +6774,12 @@ padding-left: 36rem !important;
   .partner-display{
     height: 5rem;
   }
-  .h3-part{
-
-  }
 }
 
 @media screen and (min-width:551px) and  (max-width: 650px) {
   #partner-body-content{
      
-      height: 60rem!important;
+      height: 70rem!important;
   }
   .col-acm{
       margin-right: 3rem!important;
@@ -6810,7 +6808,7 @@ padding-left: 36rem !important;
 @media screen and (min-width:651px) and  (max-width: 813px) {
   #partner-body-content{
   
-    height: 60rem!important;
+    height: 70rem!important;
   }
   .col-acm{
       margin-right: 3rem!important;
@@ -6890,7 +6888,7 @@ padding-left: 36rem !important;
 
 @media screen and  (min-width: 814px) and (max-width: 1024px) {
   .col-acm{
-      margin-left:: 0rem!important;
+      margin-left: 0rem!important;
   }
   .row{
         margin-top: 1rem;
