@@ -166,10 +166,17 @@ strong {
     height: 17rem;
     width: auto;
   }
+
+  .cardIMG3{
+    height: 3rem;
+    width: auto;
+  }
+
   .instaIMG{
     height: 6rem;
     width: auto;
   }
+  
 }
 
 @media screen and (max-width:1153px){
@@ -196,6 +203,10 @@ strong {
     height: 15rem;
     width: auto;
   }
+  .cardIMG3{
+    height: 3rem;
+    width: auto;
+  }
   .instaIMG{
     height: 6rem;
     width: auto;
@@ -209,6 +220,10 @@ strong {
   }
   .cardIMG2{
     height: 10rem;
+    width: auto;
+  }
+  .cardIMG3{
+    height: 3rem;
     width: auto;
   }
   .instaIMG{
@@ -2483,8 +2498,16 @@ hr {
   }
 }
 
-@media screen and (max-width:1153px){
+@media screen and (max-width:1025px){
+  .col-i-d{
+    margin-top: 16rem;
+  }
+}
 
+@media screen and (max-width:801px){
+  .col-i-d{
+    margin-top: 10rem;
+  }
 }
 
 .terms{
@@ -2518,9 +2541,16 @@ hr {
 
 @media screen and (max-width:801px){
   .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
+    padding: 4rem 1rem 0rem 1rem;
+  }
+}
+
+@media screen and (max-width:576px){
+  .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
     padding: 1rem 1rem 0rem 1rem;
   }
 }
+
 
 
 /*product page content*/
