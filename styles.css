@@ -288,6 +288,9 @@ strong {
     height: 21rem;
     width: auto;
   }
+  .product-left{
+    margin-right: 0rem;
+  }
 }
 
 @media screen and (max-width:770px){
@@ -2305,6 +2308,12 @@ font-size: 2.8rem!important;
   }
  }
 
+ @media screen and (max-width:575px){
+  .agency-txt{
+    padding-bottom: 4rem;
+  }
+ }
+
 
 /*about page: vertical nagigation */
 .btn-history {
@@ -2861,7 +2870,7 @@ height: 45rem;
       font-size:1.3rem;
       text-align: center;
       padding-left: 0rem;
-      padding-top: 20rem;
+      padding-top: 25rem;
   }
 }
 
@@ -5624,7 +5633,7 @@ padding-left: 3rem!important;
     background-position: top;
 }
 .h3-access, .access-product-dev{
-  text-align: left !important;
+  text-align: center;
 }
 .h3-access-p{
   text-align: left;
