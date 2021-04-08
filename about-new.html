@@ -1,5 +1,506 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--  <meta name="viewport" content="width=1364">-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <!-- BRB icon -->
+    <link rel="icon" href="brblogo.png" type="image/x-icon">
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap 4 Javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+    <!--scrollify-->
+    <!--scrollSpeed: 1100,-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js" integrity="sha256-RGlAwHKG24hsj1109SGQgvR+Orx7u8c6zyYH4Tk3ydU=" crossorigin="anonymous"></script>
+    <script>
+        $.scrollify({
+          section: ".scollstyle",
+          interstitialSection: ".navbar",
+          easing: "easeOutExpo",
+          scrollSpeed: 1000,
+          offset: 0,
+          scrollbars: true,
+          standardScrollElements: "",
+          setHeights: true,
+          overflowScroll: true,
+          updateHash: true,
+          touchScroll: true,
+          before: function() {},
+          after: function() {},
+          afterResize: function() {},
+          afterRender: function() {}
+        });
+    </script>
+    <!-- Own Javascript -->
+
+    <script src="effects_hover.js"></script>
+    <title>BRB</title>
+</head>
+<!--Header-->
+<section id="header-nav">
+  <nav class="navbar navbar-expand-lg navbar-light navbar-custom navbar-transparent navbar-product fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="binangonan_logo.png" class="cashmate"><img src="images/brb_logo.png" class="brblogo"></a>
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse ul-holder" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown about-dlist about-border ml-auto">
+            <!--<a class="nav-link about dropdown-toggle" href="about.html">
+                                  About</a> -->
+            <a class="nav-link about dropdown-toggle" href="about.html" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About</a>
+              <div class="dropdown-menu w-100" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="about.html#who">Who we are</a>
+                <a class="dropdown-item" href="about.html#mission">Mission</a>
+                <a class="dropdown-item" href="about.html#vision">Vision</a>
+                <a class="dropdown-item" href="about.html#history">History</a>
+                <a class="dropdown-item" href="about.html#meet-body-content">Meet Our Team</a>
+              </div>
+          </li>
+          <li class="nav-item dropdown services-border ml-auto">
+            <a class="nav-link services dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Products and Services
+            </a>
+            <ul class="dropdown-menu w-100" aria-labelledby="navbarDropdownMenuLink">
+
+              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="product-service.html#1">Cards</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="product-service.html#cards">BRB Card</a></li>
+                  <li><a class="dropdown-item" href="product-service.html#upi">Union Pay Card</a></li>
+                  <li><a class="dropdown-item" href="product-service.html#cobrand">Bancnet Card</a></li>
+              </li>
+            </ul>
+            <li><a class="dropdown-item" href="acquiring.html">Acquiring</a></li>
+            <li><a class="dropdown-item" href="product-service.html#instapay">Instapay</a></li>
+            <li><a class="dropdown-item" href="product-service.html#agency">Agency Services</a></li>
+          </li>
+        </ul>
+        </li>
+          <!--
+          <li class="nav-item services-border ml-auto">
+            <a class="nav-link services" href="services.html">Services</a>
+          </li>-->
+
+
+          <li class="nav-item partners-border ml-auto">
+            <a class="nav-link partners" href="partners.html">Partners</a>
+          </li>
+
+          <li class="nav-item letsTalk-border ml-auto">
+            <a class="nav-link letsTalk" href="talk.html">Let's Talk</a>
+          </li>
+
+          <!--
+        <li class="nav-item ml-auto btn-border">
+          <button type="button" class="btn btn-outline-primary log-btn">Login</button>
+        </li> -->
+        </ul>
+      </div>
+  </nav>
+</section>
+<body>
+
+
+    <!--Main Content-->
+
+  <section id="body-content">
+    <section id="who">
+      <div class="row row-w d-flex h-button justify-content-arpund">
+        <div class="col-lg-1 col-md-1 col-sm-1">
+         <!--<h1 class="h1-who">Who We Are</h1>-->
+          <p class="p-who">
+            <ul class="ul-none">
+              <li class=" "><img src="images/new/BRB websites assets/who we are/Asset 67vis.png" class="cashmate cashmate-hide" alt=""></li><br><br>
+              <li class=""><img src="images/new/BRB websites assets/who we are/Asset 68vis.png" class="cashmate cashmate-hide" alt=""> </li><br><br><br>
+              <li class=""><img src="images/new/BRB websites assets/who we are/Asset 69vis.png" class="cashmate cashmate-hide" alt=""></li>
+                 </ul>
+                </p>
+        </div>
+
+        <div class="col-lg-5 col-md-10 col-sm-6">
+          <p class="p-who">
+            <ul class="ul-none">
+              <li class=" "> BRB Digital is the first Philippine Rural Bank to launch its E-Money operations.</li><br><br>
+              <li class=""> BRB Digital has its own complete E-money system and facilities, including Card Management and Remittance System, Card Issuing and Personalization System, Switch, among others.</li><br><br>
+              <li class=""> As part of BRB's E-Money product offerings, it has initially launch its Cash Card products available to its BRB customers and the general public as Cashmate Card. It is also available as co-branded card for payroll, loan release, pension, etc.
+
+                  BRB will launch its E-Wallet, online banking, mobile banking facilities by Q2 2019.
+
+                  From being the oldest bank in Binangonan, Rizal, whose original mission was to extend credit to small farmers and merchants, BRB has now evolved into the most progressive and innovative Digital Rural Bank not only in Rizal but in the whole Philippines.</li>
+            </ul>
+
+        </div>
+          <div class="col-lg-6 col-md-12 col-sm-5">
+           <img src="images/new/BRB websites assets/who we are/Asset 66vis.png" class="aboutIMG " alt="">
+          </div>
+
+
+         <!-- <div class="row row-w">
+            <div class="col-lg-1 col-md-6 col-sm-1">
+              <h1 class="h1-who">Who We Are</h1>
+              <p class="p-who">
+                <ul class="ul-none">
+                  <li class=" "><img src="images/new/BRB websites assets/who we are/Asset 67vis.png" class="cashmate" alt=""></li><br><br>
+                  <li class=""><img src="images/new/BRB websites assets/who we are/Asset 68vis.png" class="cashmate" alt=""> </li><br><br>
+                  <li class=""><img src="images/new/BRB websites assets/who we are/Asset 69vis.png" class="cashmate" alt=""></li>
+                     </ul>
+                    </p>
+
+            </div>
+
+            <div class="col-lg-5 col-md-6 col-sm-1">
+              <p class="p-who">
+                <ul class="ul-none">
+                  <li class=" "> BRB Digital is the first Philippine Rural Bank to launch its E-Money operations.</li><br><br>
+                  <li class=""> BRB Digital has its own complete E-money system and facilities, including Card Management and Remittance System, Card Issuing and Personalization System, Switch, among others.</li><br><br>
+                  <li class=""> As part of BRB's E-Money product offerings, it has initially launch its Cash Card products available to its BRB customers and the general public as Cashmate Card. It is also available as co-branded card for payroll, loan release, pension, etc.
+
+                      BRB will launch its E-Wallet, online banking, mobile banking facilities by Q2 2019.
+
+                      From being the oldest bank in Binangonan, Rizal, whose original mission was to extend credit to small farmers and merchants, BRB has now evolved into the most progressive and innovative Digital Rural Bank not only in Rizal but in the whole Philippines.</li>
+                </ul>
+
+            </div>
+              <div class="col-lg-4 col-md-6 col-sm-11 col-who-1">
+               <img src="images/new/BRB websites assets/who we are/Asset 66vis.png" class="cashmate3 " alt="">
+              </div>-->
+    </div>
+  </section>
+
+  <section id="mission">
+
+    <div class="row row-m">
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <!--<h1 class="h1-who">Who We Are</h1>-->
+        <p class="p-who">
+          <h1 class="h1-who">Mission</h1>
+          <h2 class="h2-about">"TO PROVIDE CONVENIENT ACCESS TO FINANCIAL SERVICES FOR EVERYONE"</h2>
+          To pursue implementation of digital platforms, product and services under its E-money license such as but not limited to the following:
+          <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-9"> <ul class="ul-none">
+              <li>• Local and International Card Issurance</li>
+              <li>• Acquiring Business</li>
+              <li>• Digital Lending</li>
+            </ul></div>
+            <div class="col-lg-0"></div>
+          </div>
+          </p>
+
+      </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-who-1">
+         <img src="images/new/BRB websites assets/mission/Asset 117.png" class="aboutIMG" alt="">
+        </div>
+        <!--<div class="col-lg-6 col-md-6 col-sm-1">
+          <p class="p-who">
+            <h1 class="h1-who">Mission</h1>
+            <h2 class="h2-about">"TO PROVIDE CONVENIENT ACCESS TO FINANCIAL SERVICES FOR EVERYONE"</h2>
+            To pursue implementation of digital platforms, product and services under its E-money license such as<br>
+            but not limited to the following:
+            <br><br>
+            <ul class="ul-none">
+              <li>• Local and International Card Issurance</li>
+              <li>• Acquiring Business</li>
+              <li>• Digital Lending</li>
+            </ul>
+            </p>
+
+        </div>
+          <div class="col-lg-6 col-md-6 col-sm-11 col-who-1">
+           <img src="images/new/BRB websites assets/mission/Asset 117.png" class="cashmate3 " alt="">
+          </div>-->
+
+    </div>
+</section>
+
+<section id="vision">
+  <div class="row row-w">
+ <div class="col-lg-6 col-md-6 col-sm-6 col-who-1">
+       <img src="images/new/BRB websites assets/vission/Asset 71vis_s.png" class="aboutIMG aboutDesk" alt="">
+      </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-6">
+      <p class="p-who">
+        <h1 class="h1-who">Vision</h1>
+        <h2 class="h2-about">"WE AIM TO UPLIFT PEOPLE'S LIVES THROUGH FINANCIAL LITERACY AND ECONOMIC DEVELOPMENT"</h2>
+        We wil be:
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10"><ul class="ul-none">
+            <li>• Recognized for our ability to execute our services <br> decisively, with speed and with "repeatable excellence"</li>
+            <li>• Admired for being competitive-advantage; and</li>
+            <li>• Respected for the values and principles we stand for.</li>
+          </ul>
+        </div>
+        </div>
+
+        </p>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-6">
+        <img src="images/new/BRB websites assets/vission/Asset 71vis_s.png" class="aboutIMG_mobile" alt="">
+      </div>
+
+
+  </div>
+</section>
+
+    <!--<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12"> -->
+     <section id="history">
+        <div class="row row-h">
+             
+               <div class="row row-col-1">
+                 
+                  <div class="col col-up-1">
+                      The Securities Exchange Commission approved the extension of BRB's corporate life for another 50 years
+                  </div>
+                  
+                  <div class="col col-up-1">
+                      The Company increased its authorized capital from PHP 11.0mn to PHP 25.0mn
+                  </div>
+                  
+                  <div class="col col-up-1">
+                      BRB was granted a conditional Electronic Money Issuer (EMI) license by the Bangko Sentral ng Pilipinas (BSP)
+                  </div>
+                  
+                  <div class="col col-up-1">
+                    AgriNurture Inc. Group bought into the Bank at 50% + 1 <br><br>
+                    Applied for further P100.0m, bringing total authorized capital to P200M.
+
+                  </div>
+               </div>
+               
+               <div class="row">
+                <img src="images/new/BRB websites assets/history/Asset 70vis.png" class="historyIMG" alt="">
+                <img src="images/new/mobile/Asset 3.png" class="historyIMG_mobile" alt="historyIMG_mobile">
+               </div>
+ 
+               <div class="row row-col-2">
+                <div class="col col-up-2">
+                    BRB was started by Atty. Teofile Tanjuatco and authorized by the Bangko Sentral ng Pilipinas to operate as a rural bank
+                </div>
+                <div class="col col-up-2">
+                    Quezon Capital Rural Bank together with the families of Herbert Bautista and Renato Mercado acquired the majority stake in the Company
+                </div>
+                <div class="col col-up-2">
+                    A group of Filipino and Australian investors led by Robert Guy Tesoriero, Gregory Stephen Adams, and Leah Felisa Faustino acquired the majority stake in the Company
+                </div>
+                <div class="col col-up-2">
+                    The board approved to further increase the Company's authorized capital to PHP 100.0mn, but the Company is still waiting for BSP's approval at this August, before SEC filing. <br><br>
+                    The Company launched the first phase of the bank;s digital integration program and prepaid cash cards
+                </div>
+               </div>
+                <!-- <p class="p-h">
+               Binangonan Rural Bank, Inc. (BRB) was established in October 4, 1961 by Atty. Teofilo Tanjuatco, a lawyer and banker from Quezon City. Atty. Tanjuatco was the first President and Chairman of the Bank.<br><br>
+
+                 BRB obtained its authority to operate from the Bangko Sentral ng Pilipinas (BSP) on November 13, 1961, making BRB the oldest bank in Binangonan, Rizal. The Bank is registered with BSP as a Rural Bank under Republic Act No. 7353, Section 6 and 12. In January 4, 2010, the Securities and Exchange Commission (SEC) approved the extension of BRB's corporate life for another 50 years.<br><br>
+
+                 In February 2012, Quezon Capital Rural Bank (QCRB), one the best performing Rural Banks in the Philippines with over 40 branches, acquired majority control of the Bank, together with the families of Mayor Herbert Bautista and Renato Mercado. In May 2013, the SEC approved an increase in BRB's authorized capital to P25.0M from P11.0M previously. BRB's Board of Directors has again approved the increase in authorized capital to P100.0M.<br><br>
+
+                 A group of Filipino and Australian investors lead by Mr. Robert Guy Tesoriero and Mr. Gregory Stephen Adams and their Filipino partner, Ms. Leah Felisa T. Faustino, acquired majority ownership of BRB in 2016. This new group's vision is to transform BRB into a "Digital Bank" with digital product offering utilizing financial technologies designed to support an inclusive financial system by initially delivering cash cards to the lower-income, unbanked and underserved segments of the country, especially in the rural areas. BRB has branded its digital operations under "BRB Digital", to differentiate it from its traditional banking operations.<br><br>
+
+                 BRB applied and was granted an Electronic Money Issuer (EMI) License by the BSP in July 2017.
+
+
+
+                 Binangonan Rural Bank, Inc. (BRB) was established in October 4, 1961 by Atty. Teofilo Tanjuatco, a lawyer and banker from Quezon City. Atty. Tanjuatco waas the first President and Chairman of the banker <br><br> BRB obtained its authority to operate from the Bangko Sentral ng Pilipinas (BSP) on November 13, 1961, making BRB the oldest bank in Binangonan, Rizal. The bank is registered with BSP as a Rural Bank under Republic Act No. 7353, Section 6 and 12. In January 4, 2010, the Securities and Exchange Commission (SEC) approved the extension of BRB's corporate life for another 50 years. <br><br> In February 2012, Quezon Capital Rural Bank (QCRB), one the best performing rural banks in the Philippines with over 40 branches, acquired majority control of the bank, together with the families of Mayor Herbert Bautista and Renato Mercado.
+
+                 In May 2013, the SEC approved an increase in BRB's authorized capital to P25.0M from P11.0M previously. BRB's Board of Directors has again approved the increase in authorized to P100.0M. <br><br> A group of Filipino and Australian investors lead by Mr. Robert Guy Tesoriero and Mr. Gregory Stephen Adams and their Filipino partner, Ms. Leah Felisa T. Faustino, acquired majority ownership of BRB in 2016. This new group's vision is to transform BRB into a "Digital Bank" with digital product offering utilizing financial technologies designed to support an inclusive financial system by initially delivering cash cards to the lower-income, unbanked and underserved segments of the country, especially in the rural areas. BRB has branded its digital operations under "BRB Digital", to differentiate it from its traditional banking operations. <br><br> BRB applied and was granted an Electronic Money Issuer (EMI) License by the BSP in July 2017. </p>
+            </div>-->
+         </div>
+
+    </section>
+
+
+        <section id="meet-body-content">
+          <h1 class="h1-meet "><b>Meet Our Team</h1></b> <br>
+            <h1 class="h1-meet">Board of Directors</h1> <br>
+            <!--<h3 class="h3-meet purple">Meet The Team</h3>-->
+            <br>
+            <div class="row row-bod slideanim">
+              <div class="col-lg-3 col-md-2 col-sm-1">
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-5">
+                <img src="images/new/BRB websites assets/team/Asset 77.png" class="bod-picture rounded-circle">
+                <h6 class="h6-bod-name"><b>RENATO M. MERCADO, II </b><BR> Chairman</h6>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-5">
+                <img src="images/new/BRB websites assets/team/Asset 78.png" class="bod-picture rounded-circle">
+                <h6 class="h6-bod-name"><b>LEAH FELISA T. FAUTINO</b> <BR> President</h6>
+              </div>
+
+              <div class="col-lg-3 col-md-2 col-sm-1">
+              </div>
+
+            </div>
+
+
+    </section>
+
+    <section id="meet-body-content2">
+        <div class="row row-bod slideanim">
+          <div class="col-lg-2">
+          </div>
+          <div class="col-lg-1">
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <img src="images/new/BRB websites assets/directors/Asset 80.png" class="bod-picture2 rounded-circle">
+            <h6 class="h6-bod-name"><b> ATTY. ZEUS B. LIBROJO </b><BR> Director</h6>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <img src="images/new/BRB websites assets/directors/Asset 81.png" class="bod-picture2 rounded-circle">
+            <h6 class="h6-bod-name"><b>RAYMOND CHARLES STANLEY SPARKES</b> <BR> Director</h6>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <img src="images/new/BRB websites assets/directors/Asset 82.png" class="bod-picture2 rounded-circle ">
+            <h6 class="h6-bod-name"><b>ERIC J. SEVERINO</b> <BR>  Independent Director</h6>
+          </div>
+          <!--<div class="col-lg-2">
+            <img src="images/bod/eric.jpg" class="bod-picture2 rounded-circle">
+            <h6 class="h6-bod-name">ERIC J. SEVERINO <BR> Independent Director</h6>
+          </div>-->
+        </div>
+
+        <div class="row row-bod row-bod-end1 slideanim">
+          <div class="col-lg-2">
+          </div>
+          <div class="col-lg-1">
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <img src="images/new/BRB websites assets/directors/Asset 83.png" class="bod-picture2 rounded-circle">
+            <h6 class="h6-bod-name"><b>GENANDO DE LEON </b><BR> Independent Director</h6>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <img src="images/new/BRB websites assets/directors/Asset 84.png" class="bod-picture2 rounded-circle">
+            <h6 class="h6-bod-name"><b>VACANT </b><BR> Director</h6>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <img src="images/new/BRB websites assets/directors/Asset 85.png" class="bod-picture2 rounded-circle">
+            <h6 class="h6-bod-name"><b>ARSENIA TOMAS</b> <BR> Corporate Secretary</h6>
+          </div>
+          <div class="col-lg-2">
+
+          </div>
+          <div class="col-lg-2">
+
+          </div>
+
+        </div>
+
+      </section>
+
+  <section id="meet-body-content3">
+    <h1 class="h1-meet">Management</h1>
+    <div class="row row-bod slideanim">  <div class="col-lg-2">
+            </div>
+            <div class="col-lg-2 col-md-3">
+              <img src="images/new/BRB websites assets/management/Asset 87.png" class="bod-picture2 rounded-circle">
+              <h6 class="h6-bod-name"><b>LEAH FELISA T. FAUTINO</b> <BR> Chairman, President & CEO</h6>
+            </div>
+            <div class="col-lg-2 col-md-3">
+              <img src="images/new/BRB websites assets/management/Asset 88.png" class="bod-picture2 rounded-circle">
+              <h6 class="h6-bod-name"><b>MOHAMED MAWJI</b> <BR> General Manager, Digital Operations</h6>
+            </div>
+
+            <div class="col-lg-2 col-md-3">
+              <img src="images/new/BRB websites assets/management/Asset 92.png" class="bod-picture2 rounded-circle">
+              <h6 class="h6-bod-name"><b>LAURO MEDINA CRUZ JR. </b><BR>Head, Technology Division</h6>
+        </div>
+        <div class="col-lg-2 col-md-3">
+          <img src="images/new/BRB websites assets/management/Asset 93.png" class="bod-picture2 rounded-circle">
+              <h6 class="h6-bod-name"><b>HEEDE M. TANSIONGCO</b> <BR>Head, Accounting & Finance</h6>
+        </div>
+
+
+            <div class="col-lg-1">
+            </div>
+
+          </div>
+
+          <div class="row row-bod slideanim">
+            <div class="col-lg-2">
+            </div>
+            <div class="col-lg-2 col-md-3">
+              <img src="images/new/BRB websites assets/management/Asset 89.png" class="bod-picture2 rounded-circle">
+              <h6 class="h6-bod-name"><b>FEDERICO B. PEPILLO, JR.</b> <BR>Head, Chief Compliance & Risk Management Division</h6>
+            </div>
+
+            <div class="col-lg-2 col-md-3">
+              <img src="images/new/BRB websites assets/management/Asset 91.png" class="bod-picture2 rounded-circle">
+              <h6 class="h6-bod-name"><b>ALAN SUMAGAYSAY</b> <BR>Head, Internal Audit</h6>
+            </div>
+
+            <div class="col-lg-2 col-md-3">
+              <img src="images/new/BRB websites assets/management/Asset 94.png" class="bod-picture2 rounded-circle">
+              <h6 class="h6-bod-name"><b>ARSENIA BELISON TOMAS</b> <BR>Head, Human Resources Departmanent</h6>
+            </div>
+
+            <div class="col-lg-2 col-md-3">
+              <img src="images/new/BRB websites assets/management/Asset 95.png" class="bod-picture2 rounded-circle">
+                  <h6 class="h6-bod-name"><b>CHRIS ALDABA</b> <BR>Head, Business Dev't & Marketing Services</h6>
+
+            </div>
+            <div class="col-lg-1">
+            </div>
+
+          </div>
+        </section>
+
+
+
+    </section>
+<!--
+    <div class="container vertical-nav">
+        <a id="btn-history" href="#history-body-content" class="btn btn-nav btn-sm btn-history" role="button">History<i class="fas fa-chevron-up"></i></a>
+        <a id="btn-who" href="#who-body-content" class="btn btn-nav btn-sm btn-who" role="button">Who We Are<i class="fas fa-chevron-up"></i></a>
+        <a id="btn-meet" href="#meet-body-content" class="btn btn-nav btn-sm btn-meet" role="button">Meet the Team<i class="fas fa-chevron-up"></i></a>
+        <a id="btn-top-about" href="#header-nav" class="btn btn-nav btn-sm btn-top-about" role="button">Back to Top<i class="fas fa-chevron-up"></i></a>
+    </div>-->
+
+    <a id="btn-1" href="#who" class="btn btn-nav btn-sm btn-4" role="button">Who We Are</a>
+    <a id="btn-2" href="#mission" class="btn btn-nav btn-sm btn-5" role="button">Mission</a>
+    <a id="btn-3" href="#vision" class="btn btn-nav btn-sm btn-6" role="button">Vision</a>
+    <a id="btn-4" href="#history" class="btn btn-nav btn-sm btn-7" role="button">History</a>
+    <a id="btn-5" href="#meet-body-content" class="btn btn-nav btn-sm btn-8" role="button">Meet Our Team</a>
+
+
+
+    <section id="footer-content">
+      <footer class="fixed-bottom">
+        <a href="terms.html"  style="color:white">Terms and Condition</a> 
+      </footer>
+      </section>
+      <script>
+        $(function() {
+          $.scrollify({
+            section : "scrollstyle",
+          });
+        });
+      </script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js" integrity="sha256-RGlAwHKG24hsj1109SGQgvR+Orx7u8c6zyYH4Tk3ydU=" crossorigin="anonymous"></script>
+  
+      <script type="text/javascript" src="scripts-test.js"></script>
+</body>
+
+</html>
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,4 +528,4 @@
 
 
 </body>
-</html>
+</html>-->

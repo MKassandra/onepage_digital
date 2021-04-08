@@ -249,6 +249,11 @@ strong {
   width: auto;
 }
 
+.aboutIMG_mobile{
+  height: 0rem;
+  width: auto;
+}
+
 .productIMG{
   height: 35rem;
   width: auto;
@@ -268,6 +273,10 @@ strong {
     height: 30rem;
     width: auto;
   }
+  .aboutIMG_mobile{
+    height: 0rem;
+    width: auto;
+  }
 }
 
 @media screen and (max-width:1153px){
@@ -275,7 +284,10 @@ strong {
     height: 30rem;
     width: auto;
   }
-  
+  .aboutIMG_mobile{
+    height: 0rem;
+    width: auto;
+  }
   .productIMG{
     height: 30rem;
     width: auto;
@@ -287,7 +299,10 @@ strong {
     height: 30rem;
     width: auto;
   }
-  
+  .aboutIMG_mobile{
+    height: 0rem;
+    width: auto;
+  }
   .productIMG{
     height: 26rem;
     width: auto;
@@ -297,6 +312,10 @@ strong {
 @media screen and (max-width:801px){
   .aboutIMG{
     height: 23rem;
+    width: auto;
+  }
+  .aboutIMG_mobile{
+    height: 0rem;
     width: auto;
   }
   .productIMG{
@@ -313,14 +332,26 @@ strong {
     height: 20rem;
     width: auto;
   }
+  .aboutIMG_mobile{
+    height: 0rem;
+    width: auto;
+  }
   .productIMG{
     height: 21rem;
     width: auto;
   }
 }
 
-@media screen and (min-width:200px) and (max-width:700px){
+@media screen and (min-width:200px) and (max-width:576px){
   .aboutIMG{
+    height: 15rem;
+    width: auto;
+  }
+  .aboutDesk{
+    height: 0rem;
+  }
+
+  .aboutIMG_mobile{
     height: 15rem;
     width: auto;
   }
@@ -497,7 +528,7 @@ strong {
   background-color: transparent;
 }
 
-@media all and (max-width: 770px) {
+@media all and (max-width: 992px) {
   .navbar-product{
     background-image:linear-gradient(#ba95ff, #d0b0ff)!important;
   }
@@ -528,7 +559,7 @@ color: #3a3a3b !important;
     margin-top:2rem !important;
 }
 #navbarNav {
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   margin-top: 0;
 }
 .navbar{
@@ -679,7 +710,7 @@ hr {
           }
       }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 991px) {
 
           .dropdown-item,
               {
@@ -1435,6 +1466,23 @@ padding-top: 9rem!important;}
   font-size: small;
 }
 
+.row-col-1{
+  padding: 0rem 4rem;
+  font-size: small;
+}
+
+.row-col-2{
+  padding: 0rem 4rem;
+  font-size: small;
+}
+
+.col-up-1{
+  margin: 0 2rem;
+}
+
+.col-up-2{
+  margin: 0 2rem;
+}
 
 @media screen and (max-width:1281px){
   .row-col-h{
@@ -2557,7 +2605,7 @@ hr {
 
 @media screen and (max-width:1025px){
   .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
-    padding: 2rem 2rem 0rem 2rem;
+    padding: 4rem 2rem 0rem 2rem;
   }
 }
 
@@ -2923,6 +2971,12 @@ height: 45rem;
       text-align: center;
       padding-left: 0rem;
       padding-top: 25rem;
+  }
+}
+
+@media all and (min-width:511px) and (max-width: 1910px) {
+  .h3-p{
+      text-align: left;
   }
 }
 
@@ -5685,7 +5739,7 @@ padding-left: 3rem!important;
     background-position: top;
 }
 .h3-access, .access-product-dev{
-  text-align: center;
+  text-align: left;
 }
 .h3-access-p{
   text-align: left;
