@@ -428,9 +428,20 @@ strong {
   }
 }
 
+@media screen and (max-width:766px){
+  .historyIMG{
+    height: 6rem;
+    width: auto;
+  }
+}
+
 @media screen and (max-width:601px){
   .historyIMG{
     display: none;
+  }
+  .historyIMG_mobile{
+    height: 10rem;
+    width: auto;
   }
 }
 @media screen and (max-width:412px){
@@ -1610,6 +1621,11 @@ padding-top: 9rem!important;}
   text-align: center;
 }
 
+@media screen and (max-width:1920px){
+  #who, #mission,#vision,#history{
+    padding: 7rem 9rem 0rem 9rem;
+  }
+}
 
 @media screen and (max-width:1281px){
   #who, #mission,#vision,#history{
@@ -2492,6 +2508,12 @@ hr {
   margin-top: 20rem;
 }
 
+@media screen and (max-width:1920px){
+  .col-i-d{
+    margin-top: 18rem;
+  }
+}
+
 @media screen and (max-width:1281px){
   .col-i-d{
     margin-top: 18rem;
@@ -2515,7 +2537,7 @@ hr {
   text-align: justify;
 }
 
-@media screen and (max-width:1681px){
+@media screen and (max-width:1920px){
   .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
     padding: 7rem 9rem 0rem 9rem;
   }
@@ -6718,7 +6740,7 @@ margin: 0 -3rem;
 }
 @media screen and (min-width:290px) and (max-width: 800px)  {
   #partner-body-content{
-    padding:0rem 3rem;
+    padding:5rem 3rem;
     height: 40rem!important;
   }
 }
