@@ -1601,7 +1601,7 @@ padding-top: 9rem!important;}
 }
 
 #who, #mission,#vision,#history{
-  padding: 7rem 9rem 0rem 9rem;
+  padding: 9rem 9rem 0rem 9rem;
   line-height: 1;
   color: black;
   text-align: justify;
@@ -1613,13 +1613,13 @@ padding-top: 9rem!important;}
 
 @media screen and (max-width:1281px){
   #who, #mission,#vision,#history{
-    padding: 4rem 9rem 0rem 9rem;
+    padding: 7rem 9rem 0rem 9rem;
   }
 }
 
 @media screen and (max-width:1153px){
   #who, #mission,#vision,#history{
-    padding: 3rem 8rem 0rem 8rem;
+    padding: 5rem 8rem 0rem 8rem;
   }
 }
 
