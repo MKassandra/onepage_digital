@@ -2517,25 +2517,25 @@ hr {
 
 @media screen and (max-width:1681px){
   .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
-    padding: 7rem 9rem 0rem 9rem;
+    padding: 9rem 9rem 0rem 9rem;
   }
 }
 
 @media screen and (max-width:1281px){
   .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
-    padding: 4rem 9rem 0rem 9rem;
+    padding: 7rem 9rem 0rem 9rem;
   }
 }
 
 @media screen and (max-width:1153px){
   .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
-    padding: 3rem 8rem 0rem 8rem;
+    padding: 5rem 8rem 0rem 8rem;
   }
 }
 
 @media screen and (max-width:1025px){
   .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
-    padding: 2rem 2rem 0rem 2rem;
+    padding: 4rem 2rem 0rem 2rem;
   }
 }
 
