@@ -492,7 +492,7 @@ strong {
   }
 }
 
-@media screen and (max-width:766px){
+@media screen and (max-width:768px){
   .historyIMG{
     height: 7.5rem;
     width: auto;
@@ -501,10 +501,18 @@ strong {
 
 @media screen and (max-width:766px){
   .historyIMG{
-    height: 6rem;
+    height: 7rem;
     width: auto;
   }
 }
+
+@media screen and (max-width:736px){
+  .historyIMG{
+    height: 6.5rem;
+    width: auto;
+  }
+}
+
 
 @media screen and (max-width:601px){
   .historyIMG{
