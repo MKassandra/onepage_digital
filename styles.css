@@ -2526,6 +2526,7 @@ hr {
 .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
   padding: 7rem 9rem 0rem 9rem;
   text-align: center;
+  height: 45rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
