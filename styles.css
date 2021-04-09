@@ -259,6 +259,12 @@ strong {
   width: auto;
 }
 
+
+.productIMG_mobile{
+  height: 0rem;
+  width: auto;
+}
+
 .product-left{
   margin-right: 6rem;
 }
@@ -277,6 +283,11 @@ strong {
     height: 0rem;
     width: auto;
   }
+  
+.productIMG_mobile{
+  height: 0rem;
+  width: auto;
+}
 }
 
 @media screen and (max-width:1153px){
@@ -292,6 +303,11 @@ strong {
     height: 30rem;
     width: auto;
   }
+  
+.productIMG_mobile{
+  height: 0rem;
+  width: auto;
+}
 }
 
 @media screen and (max-width:1025px){
@@ -307,6 +323,11 @@ strong {
     height: 26rem;
     width: auto;
   }
+  
+.productIMG_mobile{
+  height: 0rem;
+  width: auto;
+}
 }
 
 @media screen and (max-width:801px){
@@ -322,6 +343,11 @@ strong {
     height: 21rem;
     width: auto;
   }
+  
+.productIMG_mobile{
+  height: 0rem;
+  width: auto;
+}
   .product-left{
     margin-right: 0rem;
   }
@@ -340,6 +366,11 @@ strong {
     height: 21rem;
     width: auto;
   }
+  
+.productIMG_mobile{
+  height: 0rem;
+  width: auto;
+}
 }
 
 @media screen and (min-width:200px) and (max-width:576px){
@@ -360,6 +391,15 @@ strong {
     height: 13rem;
     width: auto;
   }
+
+  .productDesk{
+    height: 0rem;
+  }
+  
+  .productIMG_mobile{
+    height: 13rem;
+    width: auto;
+}
 }
 
 
@@ -2526,7 +2566,6 @@ hr {
 .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
   padding: 7rem 9rem 0rem 9rem;
   text-align: center;
-  height: 45rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2543,6 +2582,7 @@ hr {
   background-image: url("images/new/BRB websites assets/co\ branded/Asset 21.png");
 }
 .acquiring{
+  height: 45rem;
   background-image: url("images/new/BRB websites assets/international/Asset\ 34.png");
 }
 .instapay{
@@ -2556,7 +2596,6 @@ hr {
 .col-i-d{
   margin-top: 20rem;
 }
-
 @media screen and (max-width:1920px){
   .col-i-d{
     margin-top: 18rem;
