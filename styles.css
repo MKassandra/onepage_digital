@@ -381,7 +381,7 @@ strong {
     height: 15rem;
     width: auto;
   }
-  .aboutDesk,.productDesk{
+  .aboutDesk{
     height: 0rem;
   }
 
@@ -1750,6 +1750,23 @@ padding-top: 9rem!important;}
   }
 }
 
+@media screen and (max-width:413px){
+  #who {
+    background-image: url("images/new/mobile/Asset\ 4.png");
+  }
+  
+  #mission{
+    background-image: url("images/new/mobile/Asset\ 9.png");
+  }
+  
+  #vision{
+    background-image: url("images/new/mobile/Asset\ 21.png");
+    }
+  #history{
+    background-image: url("images/new/mobile/Asset\ 2.png");
+  }
+}
+
 
 
 #who-body-content2{
@@ -2569,6 +2586,28 @@ hr {
 
 .agency{
   background-image: url("images/new/BRB websites assets/agency/Asset\ 20.png");
+}
+
+@media screen and (max-width:413px){
+  .cards{
+    background-image: url("images/new/mobile/Asset\ 13.png");
+  }
+  .upi{
+    background-image: url("images/new/mobile/Asset\ 12.png");
+  }
+  .cobrand{
+    background-image: url("images/new/mobile/Asset\ 14.png");
+  }
+  .acquiring{
+    background-image: url("images/new/mobile/Asset\ 11.png");
+  }
+  .instapay{
+    background-image: url("images/new/mobile/Asset\ 21.png");
+  }
+  
+  .agency{
+    background-image: url("images/new/BRB websites assets/agency/Asset\ 20.png");
+  }
 }
 
 .col-i-d{
