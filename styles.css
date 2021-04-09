@@ -275,6 +275,7 @@ strong {
 }
 @media screen and (max-width:1981px){
   .productIMG_mobile{
+    display: none;
     height: 0rem;
     width: auto;
   }
