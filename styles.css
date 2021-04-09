@@ -273,6 +273,12 @@ strong {
   height: 25rem;
   width: auto;
 }
+@media screen and (max-width:1981px){
+  .productIMG_mobile{
+    height: 0rem;
+    width: auto;
+  }
+}
 
 @media screen and (max-width:1281px){
   .productIMG{
