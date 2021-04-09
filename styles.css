@@ -378,7 +378,7 @@ strong {
     height: 15rem;
     width: auto;
   }
-  .aboutDesk{
+  .aboutDesk,.productDesk{
     height: 0rem;
   }
 
@@ -393,7 +393,7 @@ strong {
   }
 
   .productDesk{
-    height: 0rem;
+     height: 0rem;
   }
   
   .productIMG_mobile{
@@ -2184,59 +2184,6 @@ font-size: 1.8rem!important;
     font-size: 1.8rem !important;
   }
 }
-@media screen and (min-width: 4059px) {
-  .h1-meet{
-    font-size: 3rem!important;
-  }
-  .h3-meet{
-
-  }
-  .bod-picture {
-    height: 34rem;
-    width: 34rem;
-  }
-  .bod-picture2 {
-    height: 30rem;
-    width: 30rem;
-  }
-.h6-bod-name{
-    font-size: 1.8rem !important;
-  }
-}
-
-@media screen and (max-width: 5400px) {
-  .h1-meet{
-font-size: 2.8rem!important;
-  }
-  .h3-meet{
-
-  }
-  .row-bod{
-      text-align:center!important;
-  }
-}
-  .bod-pic2{
-    height: 8rem;
-    width: 8rem;
-  }
-
-  .col-s-custom{
-    padding: 0 0rem !important;
-    margin-right: 0rem;
-  }
-
-  .col-h{
-    margin-left: 0rem !important;
-
-  }
-
-  .bod-pic1{
-    margin-bottom:  0rem;
-    height: 8rem;
-    width: 8rem;
-  }
-}
-
 
 @media screen and (max-width: 480px) {
 .h1-meet{
