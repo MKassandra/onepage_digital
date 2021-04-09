@@ -270,15 +270,8 @@ strong {
 }
 
 .productIMG_mobile{
-  height: 25rem;
+  height: 0rem;
   width: auto;
-}
-@media screen and (max-width:1981px){
-  .productIMG_mobile{
-    display: none;
-    height: 0rem;
-    width: auto;
-  }
 }
 
 @media screen and (max-width:1281px){
@@ -290,11 +283,14 @@ strong {
     height: 0rem;
     width: auto;
   }
-  
-.productIMG_mobile{
-  height: 0rem;
-  width: auto;
-}
+  .aboutIMG{
+    height: 30rem;
+    width: auto;
+  }
+  .productIMG_mobile{
+    height: 0rem;
+    width: auto;
+  }
 }
 
 @media screen and (max-width:1153px){
