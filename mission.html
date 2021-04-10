@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--  <meta name="viewport" content="width=1364">-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <!-- BRB icon -->
+    <link rel="icon" href="brblogo.png" type="image/x-icon">
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap 4 Javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+    <!--scrollify-->
+    <!--scrollSpeed: 1100,-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js" integrity="sha256-RGlAwHKG24hsj1109SGQgvR+Orx7u8c6zyYH4Tk3ydU=" crossorigin="anonymous"></script>
+    <script>
+        $.scrollify({
+          section: ".scollstyle",
+          interstitialSection: ".navbar",
+          easing: "easeOutExpo",
+          scrollSpeed: 1000,
+          offset: 0,
+          scrollbars: true,
+          standardScrollElements: "",
+          setHeights: true,
+          overflowScroll: true,
+          updateHash: true,
+          touchScroll: true,
+          before: function() {},
+          after: function() {},
+          afterResize: function() {},
+          afterRender: function() {}
+        });
+    </script>
+    <!-- Own Javascript -->
+
+    <script src="effects_hover.js"></script>
+    <title>BRB</title>
+</head>
+<!--Header-->
+<section id="header-nav">
+  <nav class="navbar navbar-expand-lg navbar-light navbar-custom navbar-transparent navbar-product fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="binangonan_logo.png" class="cashmate"><img src="images/brb_logo.png" class="brblogo"></a>
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse ul-holder" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown about-dlist about-border ml-auto">
+                  <!--<a class="nav-link about dropdown-toggle" href="about.html">
+                                        About</a> -->
+                  <a class="nav-link about dropdown-toggle" href="about.html" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      About</a>
+                    <div class="dropdown-menu w-100" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="about.html#who">Who we are</a>
+                      <a class="dropdown-item" href="mission.html">Mission</a>
+                      <a class="dropdown-item" href="vision.html">Vision</a>
+                      <a class="dropdown-item" href="history.html">History</a>
+                      <a class="dropdown-item" href="meet.html">Meet Our Team</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown services-border ml-auto">
+                  <a class="nav-link services dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Products and Services
+                  </a>
+                  <ul class="dropdown-menu w-100" aria-labelledby="navbarDropdownMenuLink">
+      
+                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="product-service.html#1">Cards</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="product-service.html#cards">BRB Card</a></li>
+                        <li><a class="dropdown-item" href="product-service.html#upi">Union Pay Card</a></li>
+                        <li><a class="dropdown-item" href="product-service.html#cobrand">Bancnet Card</a></li>
+                    </li>
+                  </ul>
+                  <li><a class="dropdown-item" href="acquiring.html">Acquiring</a></li>
+                  <li><a class="dropdown-item" href="instapay.html">Instapay</a></li>
+                  <li><a class="dropdown-item" href="agency.html">Agency Services</a></li>
+                </li>
+              </ul>
+              </li>
+          <!--
+          <li class="nav-item services-border ml-auto">
+            <a class="nav-link services" href="services.html">Services</a>
+          </li>-->
+
+
+          <li class="nav-item partners-border ml-auto">
+            <a class="nav-link partners" href="partners.html">Partners</a>
+          </li>
+
+          <li class="nav-item letsTalk-border ml-auto">
+            <a class="nav-link letsTalk" href="talk.html">Let's Talk</a>
+          </li>
+
+          <!--
+        <li class="nav-item ml-auto btn-border">
+          <button type="button" class="btn btn-outline-primary log-btn">Login</button>
+        </li> -->
+        </ul>
+      </div>
+  </nav>
+</section>
+<body>
+
+
+    <!--Main Content-->
+
+  <section id="body-content">
+  <section id="mission">
+    <div class="row row-m">
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <!--<h1 class="h1-who">Who We Are</h1>-->
+        <p class="p-who">
+          <h1 class="h1-who">Mission</h1>
+          <h2 class="h2-about">"TO PROVIDE CONVENIENT ACCESS TO FINANCIAL SERVICES FOR EVERYONE"</h2>
+          To pursue implementation of digital platforms, product and services under its E-money license such as but not limited to the following:
+          <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-9"> <ul class="ul-none">
+              <li>• Local and International Card Issurance</li>
+              <li>• Acquiring Business</li>
+              <li>• Digital Lending</li>
+            </ul></div>
+            <div class="col-lg-0"></div>
+          </div>
+          </p>
+
+      </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-who-1">
+         <img src="images/new/BRB websites assets/mission/Asset 117.png" class="aboutIMG" alt="">
+        </div>
+        <!--<div class="col-lg-6 col-md-6 col-sm-1">
+          <p class="p-who">
+            <h1 class="h1-who">Mission</h1>
+            <h2 class="h2-about">"TO PROVIDE CONVENIENT ACCESS TO FINANCIAL SERVICES FOR EVERYONE"</h2>
+            To pursue implementation of digital platforms, product and services under its E-money license such as<br>
+            but not limited to the following:
+            <br><br>
+            <ul class="ul-none">
+              <li>• Local and International Card Issurance</li>
+              <li>• Acquiring Business</li>
+              <li>• Digital Lending</li>
+            </ul>
+            </p>
+
+        </div>
+          <div class="col-lg-6 col-md-6 col-sm-11 col-who-1">
+           <img src="images/new/BRB websites assets/mission/Asset 117.png" class="cashmate3 " alt="">
+          </div>-->
+
+    </div>
+</section>
+
+
+
+    </section>
+<!--
+    <div class="container vertical-nav">
+        <a id="btn-history" href="#history-body-content" class="btn btn-nav btn-sm btn-history" role="button">History<i class="fas fa-chevron-up"></i></a>
+        <a id="btn-who" href="#who-body-content" class="btn btn-nav btn-sm btn-who" role="button">Who We Are<i class="fas fa-chevron-up"></i></a>
+        <a id="btn-meet" href="#meet-body-content" class="btn btn-nav btn-sm btn-meet" role="button">Meet the Team<i class="fas fa-chevron-up"></i></a>
+        <a id="btn-top-about" href="#header-nav" class="btn btn-nav btn-sm btn-top-about" role="button">Back to Top<i class="fas fa-chevron-up"></i></a>
+    </div>-->
+
+    <a id="btn-1" href="#who" class="btn btn-nav btn-sm btn-4" role="button">Who We Are</a>
+    <a id="btn-2" href="#mission" class="btn btn-nav btn-sm btn-5" role="button">Mission</a>
+    <a id="btn-3" href="#vision" class="btn btn-nav btn-sm btn-6" role="button">Vision</a>
+    <a id="btn-4" href="#history" class="btn btn-nav btn-sm btn-7" role="button">History</a>
+    <a id="btn-5" href="#meet-body-content" class="btn btn-nav btn-sm btn-8" role="button">Meet Our Team</a>
+
+
+
+    <section id="footer-content">
+      <footer class="fixed-bottom">
+        <a href="terms.html"  style="color:white">Terms and Condition</a> 
+      </footer>
+      </section>
+      <script>
+        $(function() {
+          $.scrollify({
+            section : "scrollstyle",
+          });
+        });
+      </script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js" integrity="sha256-RGlAwHKG24hsj1109SGQgvR+Orx7u8c6zyYH4Tk3ydU=" crossorigin="anonymous"></script>
+  
+      <script type="text/javascript" src="scripts-test.js"></script>
+</body>
+
+</html>

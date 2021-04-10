@@ -32,17 +32,27 @@ html {
     src:url('font/open-sans/OpenSans-Semibold.ttf');
 }
 
+@font-face {
+  font-family: Quicksand;
+  src:url('font/Quicksand-Regular.ttf');
+}
+
+@font-face {
+  font-family: Quicksand_bold;
+  src:url('font/Quicksand-SemiBold.ttf');
+}
+
 .t-down{
     padding: 10rem 10rem;
     text-align:center;
 }
 body {
-    font-family: openSans !important;
+    font-family: Quicksand !important;
     width: 100%;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: myBento_head !important;
+    font-family: Quicksand_bold !important;
 }
 
 p {
@@ -1712,7 +1722,6 @@ padding-top: 9rem!important;}
 
 #who, #mission,#vision,#history{
   padding: 7rem 9rem 0rem 9rem;
-  line-height: 1;
   color: black;
   text-align: justify;
   background-size: cover !important;
