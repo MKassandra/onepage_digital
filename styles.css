@@ -1705,10 +1705,13 @@ padding-top: 9rem!important;}
 
 
 
-#who {
-  background-image: url("images/new/BRB websites assets/who we are/Asset\ 4.png");
+#about-body-content {
+  background-image: url("images/bg/about_full.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
+/*
 #mission{
   background-image: url("images/new/BRB websites assets/mission/Asset 118.png");
 }
@@ -1719,9 +1722,10 @@ padding-top: 9rem!important;}
 #history{
   background-image: url("images/new/BRB websites assets/history/Asset 2.png");
 }
-
+*/
 #who, #mission,#vision,#history{
-  padding: 7rem 9rem 0rem 9rem;
+  /*padding: 7rem 9rem 0rem 9rem;
+  padding: 19rem 9rem 19rem 9rem;*/
   color: black;
   text-align: justify;
   background-size: cover !important;
@@ -1730,9 +1734,26 @@ padding-top: 9rem!important;}
 }
 
 @media screen and (max-width:1920px){
-  #who, #mission,#vision,#history{
+  #who, #mission,#vision,#history,#meet-body-content{
+     padding: 7rem 9rem 0rem 9rem;
+     /*padding: 19rem 9rem 19rem 9rem;/*
+  }
+
+  #who{
+    padding: 7rem 9rem 0rem 9rem;
+ }
+
+  #mission{
     padding: 7rem 9rem 0rem 9rem;
   }
+  
+  #vision{
+    padding: 7rem 9rem 0rem 9rem;
+   }
+
+  #history{
+    padding: 7rem 9rem 0rem 9rem;
+  }*/
 }
 
 @media screen and (max-width:1281px){
@@ -1803,7 +1824,12 @@ padding-top: 9rem!important;}
 .row-m{
 padding-top: 17rem;
 }*/
+.row-mission{
 
+}
+.row-vision{
+
+}
 
 /*
 .row-who{
@@ -1998,8 +2024,8 @@ padding-top: 17rem!important;
 #meet-body-content {
     padding: 4rem 0rem;
     color: black;
-    background-image: url("images/new/BRB websites assets/team/Asset 76.png");
-    /*background-image: url("images/meet2.png");*/
+  /*  background-image: url("images/new/BRB websites assets/team/Asset 76.png");
+    background-image: url("images/meet2.png");*/
     background-size: cover!important;
     height: 45rem;
     background-repeat: no-repeat;
@@ -2009,8 +2035,8 @@ padding-top: 17rem!important;
 #meet-body-content2 {
     padding: 4rem 0rem;
     color: black;
-    background-image: url("images/new/BRB websites assets/directors/Asset 65vis.png");
-    /*background-image: url("images/meet2.png");*/
+  /*  background-image: url("images/new/BRB websites assets/directors/Asset 65vis.png");
+    background-image: url("images/meet2.png");*/
     background-size: cover!important;
     background-repeat: no-repeat;
     padding-bottom: 1rem;
@@ -2020,8 +2046,8 @@ padding-top: 17rem!important;
     padding: 4rem 0rem;
     padding-top: 7rem;
     color: black;
-    background-image: url("images/new/BRB websites assets/team/Asset 76.png");
-    /*background-image: url("images/meet2.png");*/
+    /* background-image: url("images/new/BRB websites assets/team/Asset 76.png");
+   background-image: url("images/meet2.png");*/
     background-size: cover!important;
     background-position: bottom left;
     background-repeat: no-repeat;
