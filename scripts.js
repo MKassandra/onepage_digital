@@ -142,7 +142,7 @@ function showCalendar(month, year) {
         daydate1 = $(this).text();
       }
       var msg2 = document.getElementById("textarea-char-counter").value.slice(46, (document.getElementById("textarea-char-counter").value).length);
-      var msg1 = "Hi BRBI! Are you free to meet on " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + "?";
+      var msg1 = "Hi BRB! Are you free to meet on " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + "?";
       document.getElementById("textarea-char-counter").value = msg1 + msg2;
       //alert((document.getElementById("textarea-char-counter").value).length);
     } else {
