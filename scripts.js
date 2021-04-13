@@ -151,7 +151,7 @@ function showCalendar(month, year) {
       } else {
         daydate1 = $(this).text();
       }
-      var msg3 = "Hi BRBI! Are you free to meet on " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + "?";
+      var msg3 = "Hi BRB! Are you free to meet on " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + "?";
       document.getElementById("textarea-char-counter").value = msg3;
       //alert((document.getElementById("textarea-char-counter").value).length);
     }

@@ -149,11 +149,12 @@ strong {
 
 
 .cardIMG1{
-  height: 13rem;
+  height: 323px;
+  /*height: 13rem;*/
   width: auto;
 }
 .cardIMG2{
-  height: 19rem;
+  height: 22rem;
   width: auto;
 }
 
@@ -255,6 +256,8 @@ strong {
 }
 
 .aboutIMG{
+  
+  visibility: hidden;
   height: 30rem;
   width: auto;
 }
@@ -1708,8 +1711,9 @@ padding-top: 9rem!important;}
 .about-body-content {
   background-image: url("images/bg/about_3.png");
   background-size: cover;
-  background-position: top;
+  background-position: top center;
   background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 
@@ -1738,6 +1742,7 @@ padding-top: 9rem!important;}
   text-align: justify;
   background-size: cover !important;
   background-repeat: no-repeat;
+  min-height: 100vh;
   text-align: center;
  
 }
@@ -1746,6 +1751,7 @@ padding-top: 9rem!important;}
 #who, #mission,#vision,#history{
  padding: 7rem 9rem 0rem 9rem;
    /*padding: 19rem 9rem 19rem 9rem;*/
+   
   color: black;
   text-align: justify;
  /* background-size: cover !important;*/
@@ -1754,8 +1760,8 @@ padding-top: 9rem!important;}
 }
 
 @media screen and (max-width:1920px){
-  .who, .mission,.vision,.history,.meet-body-content{
-     padding: 7rem 9rem 7rem 9rem;
+  #who, #mission,#vision,#history{
+    padding: 7rem 9rem 0rem 9rem;
     
     }
      /*padding: 19rem 9rem 19rem 9rem;/*
@@ -1779,7 +1785,7 @@ padding-top: 9rem!important;}
 }
 
 @media screen and (max-width:1281px){
-  .who, .mission,.vision,.history{
+  #who, #mission,#vision,#history{
     padding: 4rem 9rem 0rem 9rem;
   }
 }
@@ -2617,10 +2623,11 @@ hr {
 }
 
 .product_s-body-content{
-  background-image: url("images/bg/product_ful2.png");
-  background-position: top;
+ /* background-image: url("images/bg/product_ful2.png");*/
+  background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 .product_s-c-body-content{
@@ -2632,13 +2639,14 @@ hr {
 
 .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
   padding: 7rem 9rem 0rem 9rem;
+  min-height: 100vh;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding-bottom: 0rem!important;
 }
-/*
+
 .cards{
   background-image: url("images/new/BRB websites assets/owned/Asset 19.png");
 }
@@ -2659,7 +2667,7 @@ hr {
 .agency{
   background-image: url("images/new/BRB websites assets/agency/Asset\ 20.png");
 }
-*/
+
 @media screen and (max-width:413px){
   .cards{
     background-image: url("images/new/mobile/Asset\ 13.png");
@@ -6912,7 +6920,7 @@ margin: 0 -3rem;
     padding-right: 2rem;
     padding-left: 2rem;
     padding-top: 5rem;
-    padding-bottom: 85rem;
+    padding-bottom: 40rem;
     height: 45rem;
   /*  background-image: url("images/new/BRB websites assets/partners/Asset 75vis.png");*/
     background-size: cover;
@@ -6952,32 +6960,32 @@ padding-left: 36rem !important;
 }
 
 .partner-display{
-  height: 5rem;
+  height: 3rem;
   width: auto;
   /*margin: 1rem 0rem;*/
 }
 
 .partner-display2{
   height: auto;
-  width: 11rem;
+  width: 8rem;
    /*margin: 1rem 0rem;*/
 }
 
 .partner-display3{
-  height: 7rem;
+  height: 5rem;
   width: auto;
    /*margin: 1rem 0rem;*/
 }
 
 .partner-display4{
-  height: 6rem;
+  height: 4rem;
   width: auto;
   margin: 0rem 0rem;
 }
 
 
 .partner-down{
-  margin-top:3rem;
+  margin-top:2rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -7244,7 +7252,8 @@ padding-left: 36rem !important;
     height: 6rem;}
 }
 .row{
-      padding-top: 1.6rem;
+  padding-top: 1.3rem;
+     /* padding-top: 1.6rem;*/
 }
 .row-p1{
   padding-left: 42rem!important
@@ -7495,10 +7504,10 @@ font-size: 8rem!important;
 
 /*calendar style*/
 .c-form, .c-cal {
-    margin-top: 1.2rem;
+    /*margin-top: 1.2rem;*/
 }
 .c-form{
-  margin-top: 5rem !important;
+  /*margin-top: 5rem !important;*/
     margin-left: 2rem !important;
 }
 

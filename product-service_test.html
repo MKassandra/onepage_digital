@@ -28,20 +28,30 @@
   <!-- Own Javascript -->
   <script>
     $.scrollify({
-      section: ".scollstyle",
+      section: ".cards, .upi, .cobrand, .acquiring,.instapay,.agency",
       easing: "easeOutExpo",
       scrollSpeed: 1000,
-      offset: 0,
+      offset: -200,
       scrollbars: true,
       standardScrollElements: "",
-      setHeights: true,
+      setHeights: false,
       overflowScroll: true,
       updateHash: true,
       touchScroll: true,
-      before: function() {},
-      after: function() {},
-      afterResize: function() {},
-      afterRender: function() {}
+      before: function (index, sections) {
+            if (index == 1) {
+                scrollifyOptions.offset = 0;
+                $.scrollify.setOptions(scrollifyOptions);
+            }
+            else if (index == 2) {
+                scrollifyOptions.offset = -50;
+                $.scrollify.setOptions(scrollifyOptions);
+            }
+        },
+        after: function () { },
+        afterResize: function () { },
+        afterRender: function () { },
+        offsets: function () { }
     });
 </script>
   <script src="effects_hover.js"></script>
@@ -115,10 +125,9 @@
   </section>
   <!--Main Content-->
 
-  <section id="body-content">
+  <section class="product_s-body-content">
     <section id="cards">
       <section class="cards">
-        <div class="scrollstyle">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6">
             <img src="images/new/BRB websites assets/owned/Asset 109.png" class="productIMG" alt="">
@@ -129,13 +138,13 @@
             <p class="p-h">A card so simple, so small, but multipurpose.</p>
           </div>
         </div>
-      </div>
+      
       </section>
     </section>
 
     <section id="upi">
       <section class="upi">
-        <div class="scrollstyle">
+
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6">
             <img src="images/new/BRB websites assets/UPI/Asset 105.png" class="productIMG" alt="">
@@ -146,13 +155,13 @@
             <p class="p-h p-h-w">An international card that is accepted by nearly 22 million merchants in 180 countries and regions worldwide. </p>
           </div>
         </div>
-        </div>
+     
       </section>
     </section>
 
     <section id="cobrand">
       <section class="cobrand">
-        <div class="scrollstyle">
+ 
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6">
             <img src="images/new/BRB websites assets/co branded/Asset 115.png" class="productIMG product-left" alt="">
@@ -163,13 +172,13 @@
             <p class="p-h">Co-branded Bancnet cards that you can personalize by putting your own design.</p>
           </div>
         </div>
-        </div>
+      
       </section>
     </section>
 
     <section id="instapay">
       <section class="instapay">
-        <div class="scrollstyle">
+  
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6">
             <img src="images/new/BRB websites assets/instapay/instapay.PNG" class="instaIMG" alt=""> <br>
@@ -183,13 +192,13 @@
             <img src="images/new/BRB websites assets/instapay/Asset 101.png" class="productIMG" alt="">
           </div>
         </div>
-        </div>
+     
       </section>
     </section>
 
     <section id="agency">
       <section class="agency">
-        <div class="scrollstyle">
+  
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6">
             <img src="images/new/BRB websites assets/agency/Asset 21.png" class="productIMG" alt="">
@@ -200,7 +209,7 @@
             <h1 class="h2-insta agency-txt">Watch out for this upcoming project of BRB!</h1>
           </div>
         </div>
-        </div>
+      
       </section>
     </section>
     <!--section class="product-s-3">
@@ -235,19 +244,13 @@
 
 
 
-    <a id="btn-1" href="#cards" class="btn btn-nav btn-sm btn-5" role="button">Cards</a>
-    <a id="btn-2" href="acquiring.html" class="btn btn-nav btn-sm btn-6" role="button">Acquiring</a>
-    <a id="btn-3" href="#instapay" class="btn btn-nav btn-sm btn-7" role="button">Instapay</a>
-    <a id="btn-4" href="#agency" class="btn btn-nav btn-sm btn-8" role="button">Agency Services</a>
-
-
     <footer class="fixed-bottom">
       <a href="terms.html"  style="color:white">Terms and Condition</a> 
     </footer>
     <script>
       $(function() {
         $.scrollify({
-          section : ".scrollstyle",
+          section : ".cards, .upi, .cobrand, .acquiring,.instapay,.agency",
         });
       });
     </script>
