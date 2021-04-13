@@ -2055,11 +2055,26 @@ padding-top: 17rem!important;
   /*  background-image: url("images/new/BRB websites assets/team/Asset 76.png");
     background-image: url("images/meet2.png");*/
     background-size: cover!important;
-    height: 45rem;
+    height: 100vh;
+    /*height: 45rem;*/
     background-repeat: no-repeat;
     background-position: center;
     padding-bottom: 1rem;
 }
+
+.meet-body-content {
+  padding: 4rem 0rem;
+  color: black;
+/*  background-image: url("images/new/BRB websites assets/team/Asset 76.png");
+  background-image: url("images/meet2.png");*/
+  background-size: cover!important;
+  height: 45rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 1rem;
+}
+
+
 #meet-body-content2 {
     padding: 4rem 0rem;
     color: black;
