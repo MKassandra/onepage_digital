@@ -421,8 +421,11 @@ strong {
 
 
 .historyIMG{
+  min-height: 250px;
+
+  /*
   height: 11.2rem;
-  width: auto;
+  width: auto;*/
 }
 
 .historyIMG_mobile{
@@ -1521,6 +1524,27 @@ padding-top: 9rem!important;}
     
 }
 
+.history-image{
+  background-image: url("images/new/BRB websites assets/history/Asset 70vis.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  min-height: 250px;
+
+}
+
+.history-up{
+  align-self: flex-end;
+  padding-left: 12%;
+  flex: 0 1 25%;
+}
+
+
+.history-down{
+  align-self: flex-end;
+  padding-right: 12%;
+  flex: 0 1 25%;
+}
 .row-a {
   padding: 0 2rem !important;
 }
@@ -1747,6 +1771,12 @@ padding-top: 9rem!important;}
  
 }
 
+.history{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 
 #who, #mission,#vision,#history{
  padding: 7rem 9rem 0rem 9rem;
@@ -1785,8 +1815,11 @@ padding-top: 9rem!important;}
 }
 
 @media screen and (max-width:1281px){
-  #who, #mission,#vision,#history{
+  #who, #mission,#vision{
     padding: 4rem 9rem 0rem 9rem;
+  }
+  #history{
+    padding: 4rem 2rem 0rem 2rem;
   }
 }
 
@@ -2136,13 +2169,13 @@ padding-top: 17rem!important;
 
 .bod-picture{
     height:14rem;
-    width:14rem;
+    width:auto;
     padding-bottom: 0.5rem;
 }
 
 .bod-picture2{
     height:11rem;
-    width:11rem;
+    width:auto;
     padding-bottom: 0.5rem;
 }
 
@@ -2316,6 +2349,7 @@ font-size: 1.1rem!important;
 font-size: 1rem!important;
   }
   .h3-meet{
+   
   }
 .h6-bod-name{
     font-size: 1rem !important;
@@ -2325,12 +2359,15 @@ font-size: 1rem!important;
 
 @media screen and (min-width: 990px) {
   .h1-meet{
-font-size: 3rem!important;
+font-size: 3rem;
   }
   .h3-meet{
+    font-size: 2rem!important;
+    text-align: center;
   }
 .h6-bod-name{
     font-size: 1rem !important;
+    text-align: center;
   }
 }
 
@@ -2466,13 +2503,14 @@ font-size: 3rem!important;
   font-weight: bolder;
 }
 
-.h1-meet {
+.h1-meet,.h3-meet {
   color:#523883 !important;
     margin: 0rem 0rem;
     text-align: center;
     /*padding-left: -3rem;*/
     padding-bottom: 0 !important;
 }
+
 
 .h2-insta {
   color:#523883 !important;
@@ -7516,10 +7554,19 @@ font-size: 8rem!important;
     padding-left: 2rem;
     padding-right: 2rem;
     /*padding-top: 3.5rem;*/
-    padding-bottom: 5rem;
+    padding-bottom: 0rem;
     /*padding-bottom: 6rem;*/
 
 
+}
+
+.p-talk{
+  padding-top: 0rem;
+  font-size: 0.8rem;
+}
+
+.row-talkFB{
+  padding-top: 0rem;
 }
 .h6-fb{
   font-size: 1rem!important;
