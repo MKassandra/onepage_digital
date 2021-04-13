@@ -1853,10 +1853,10 @@ padding-top: 9rem!important;}
 padding-top: 17rem;
 }*/
 .row-mission{
-
+  padding-top: 7rem !important;
 }
 .row-vision{
-
+  padding-top: 7rem !important;
 }
 
 /*
@@ -2068,7 +2068,7 @@ padding-top: 17rem!important;
 /*  background-image: url("images/new/BRB websites assets/team/Asset 76.png");
   background-image: url("images/meet2.png");*/
   background-size: cover!important;
-  height: 45rem;
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
   padding-bottom: 1rem;
@@ -2085,6 +2085,17 @@ padding-top: 17rem!important;
     padding-bottom: 1rem;
 }
 
+.meet-body-content2 {
+  padding: 4rem 0rem;
+  color: black;
+  height: 100vh;
+/*  background-image: url("images/new/BRB websites assets/directors/Asset 65vis.png");
+  background-image: url("images/meet2.png");*/
+  background-size: cover!important;
+  background-repeat: no-repeat;
+  padding-bottom: 1rem;
+}
+
 #meet-body-content3 {
     padding: 4rem 0rem;
     padding-top: 7rem;
@@ -2095,6 +2106,18 @@ padding-top: 17rem!important;
     background-position: bottom left;
     background-repeat: no-repeat;
     padding-bottom: 10rem!important;
+}
+
+.meet-body-content3 {
+  padding: 4rem 0rem;
+  padding-top: 7rem;
+  color: black;
+  /* background-image: url("images/new/BRB websites assets/team/Asset 76.png");
+ background-image: url("images/meet2.png");*/
+  background-size: cover!important;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  padding-bottom: 10rem!important;
 }
 
 .meet-sm{
