@@ -3114,6 +3114,7 @@ height: 45rem;
 @media all and (min-width:511px) and (max-width: 1910px) {
   .h3-p{
       text-align: left;
+      font-weight: bolder !important;
   }
   .h3-right{
     text-align: right !important;
