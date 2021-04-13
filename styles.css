@@ -276,7 +276,7 @@ strong {
 
 .aboutIMG{
   
-  visibility: hidden;
+  /*visibility: hidden;*/
   height: 30rem;
   width: auto;
 }
@@ -1562,7 +1562,7 @@ padding-top: 9rem!important;}
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
-  min-height: 200px;
+  min-height: 220px;
 
 }
 
@@ -1774,7 +1774,20 @@ padding-top: 9rem!important;}
 }
 
 
+#who{
+  background-image: url("images/new/BRB websites assets/who we are/Asset\ 4.png");
+}
 
+#mission{
+  background-image: url("images/new/BRB websites assets/mission/Asset 118.png");
+}
+
+#vision{
+  background-image: url("images/new/BRB websites assets/vission/Asset 36.png");
+  }
+#history{
+  background-image: url("images/new/BRB websites assets/history/Asset 2.png");
+}
 /*
 #who{
   background-image: url("images/new/BRB websites assets/mission/Asset 118.png");
@@ -1792,17 +1805,18 @@ padding-top: 9rem!important;}
 }
 */
 
+ /*
 .who,.mission,.vision,.history{
-  /*padding: 7rem 9rem 0rem 9rem;
-  padding: 19rem 9rem 19rem 9rem;*/
+ padding: 7rem 9rem 0rem 9rem;
+  padding: 19rem 9rem 19rem 9rem;
   color: black;
   text-align: justify;
   background-size: cover !important;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  /*min-height: 100vh;
   text-align: center;
  
-}
+}*/
 
 .history{
   display: flex;
@@ -1817,16 +1831,22 @@ padding-top: 9rem!important;}
    
   color: black;
   text-align: justify;
- /* background-size: cover !important;*/
+ background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
 }
 
 @media screen and (max-width:1920px){
-  #who, #mission,#vision,#history{
+  #who, #mission,#vision{
     padding: 7rem 9rem 0rem 9rem;
-    
     }
+
+    
+  #history{
+    padding: 4rem 2rem 0rem 2rem;
+  }
+
+
      /*padding: 19rem 9rem 19rem 9rem;/*
   }
 
@@ -1857,8 +1877,11 @@ padding-top: 9rem!important;}
 }
 
 @media screen and (max-width:1153px){
-  #who, #mission,#vision,#history{
+  #who, #mission,#vision{
     padding: 3rem 8rem 0rem 8rem;
+  }
+  #history{
+    padding: 4rem 2rem 0rem 2rem;
   }
 }
 
@@ -2131,8 +2154,8 @@ padding-top: 17rem!important;
 .meet-body-content {
   padding: 4rem 0rem;
   color: black;
-/*  background-image: url("images/new/BRB websites assets/team/Asset 76.png");
-  background-image: url("images/meet2.png");*/
+ background-image: url("images/new/BRB websites assets/team/Asset 76.png");
+/* background-image: url("images/meet2.png");*/
   background-size: cover!important;
   height: 100vh;
   background-repeat: no-repeat;
@@ -2155,8 +2178,8 @@ padding-top: 17rem!important;
   padding: 4rem 0rem;
   color: black;
   height: 100vh;
-/*  background-image: url("images/new/BRB websites assets/directors/Asset 65vis.png");
-  background-image: url("images/meet2.png");*/
+  background-image: url("images/new/BRB websites assets/directors/Asset 65vis.png");
+/*  background-image: url("images/meet2.png");*/
   background-size: cover!important;
   background-repeat: no-repeat;
   padding-bottom: 1rem;
@@ -2178,8 +2201,8 @@ padding-top: 17rem!important;
   padding: 4rem 0rem;
   padding-top: 7rem;
   color: black;
-  /* background-image: url("images/new/BRB websites assets/team/Asset 76.png");
- background-image: url("images/meet2.png");*/
+  background-image: url("images/new/about_cut/meet3.png");
+  /*background-image: url("images/meet2.png");*/
   background-size: cover!important;
   background-position: bottom left;
   background-repeat: no-repeat;
@@ -2559,7 +2582,7 @@ font-size: 3rem;
  }
 
 @media screen and (max-width:1281px){
-  .h2-insta {
+  .h2-about,.h2-insta {
     font-size: 1.6rem;
   }
  }
