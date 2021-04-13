@@ -149,7 +149,7 @@ strong {
 
 
 .cardIMG1{
-  height: 223px;
+  height: 248px;
   /*height: 13rem;*/
   width: auto;
 }
@@ -170,7 +170,7 @@ strong {
 
 @media screen and (max-width:1281px){
   .cardIMG1{
-    height: 12rem;
+    height: 248px;
     width: auto;
   }
   .cardIMG2{
@@ -192,7 +192,7 @@ strong {
 
 @media screen and (max-width:1153px){
   .cardIMG1{
-    height: 12rem;
+    height: 248px;
     width: auto;
   }
   .cardIMG2{
@@ -207,7 +207,7 @@ strong {
 
 @media screen and (max-width:1025px){
   .cardIMG1{
-    height: 12rem;
+    height: 248px;
     width: auto;
   }
   .cardIMG2{
@@ -226,7 +226,7 @@ strong {
 
 @media screen and (max-width:801px){
   .cardIMG1{
-    height: 12rem;
+    height: 248px;
     width: auto;
   }
   .cardIMG2{
