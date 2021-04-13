@@ -149,7 +149,7 @@ strong {
 
 
 .cardIMG1{
-  height: 323px;
+  height: 223px;
   /*height: 13rem;*/
   width: auto;
 }
@@ -2699,7 +2699,7 @@ hr {
 }
 
 .product_s-body-content{
- background-image: url("images/bg/product_ful2.png");
+ /*background-image: url("images/bg/product_ful2.png");*/
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2722,7 +2722,7 @@ hr {
   background-position: center;
   padding-bottom: 0rem!important;
 }
-/*
+
 .cards{
   background-image: url("images/new/BRB websites assets/owned/Asset 19.png");
 }
@@ -2742,7 +2742,7 @@ hr {
 
 .agency{
   background-image: url("images/new/BRB websites assets/agency/Asset\ 20.png");
-}*/
+}
 
 @media screen and (max-width:413px){
   .cards{
