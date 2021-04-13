@@ -2623,7 +2623,7 @@ hr {
 }
 
 .product_s-body-content{
- /* background-image: url("images/bg/product_ful2.png");*/
+ background-image: url("images/bg/product_ful2.png");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2646,7 +2646,7 @@ hr {
   background-position: center;
   padding-bottom: 0rem!important;
 }
-
+/*
 .cards{
   background-image: url("images/new/BRB websites assets/owned/Asset 19.png");
 }
@@ -2666,7 +2666,7 @@ hr {
 
 .agency{
   background-image: url("images/new/BRB websites assets/agency/Asset\ 20.png");
-}
+}*/
 
 @media screen and (max-width:413px){
   .cards{
@@ -3115,6 +3115,14 @@ height: 45rem;
   .h3-p{
       text-align: left;
   }
+  .h3-right{
+    text-align: right !important;
+  }
+
+  .h3-customize{
+    padding-top: 7rem;
+  }
+
 }
 
 @media all and (min-width: 511px) and (max-width: 800px) {
@@ -3216,31 +3224,12 @@ height: 45rem;
       height: 42rem;
   }
 
-  .s_customize{
-
-  }
-
-  .s_upgrade{
-
-  }
-
-  .s_cashless{
-
-  }
-
-  .s_access{
-
-  }
-
-  .s_simple{
-
-  }
-
 }
 @media all and (min-width: 1241px) and (max-width: 1367px) {
   .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
       height: 42rem;
   }
+
 }
 @media screen and (min-width: 1440px) {
   .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
@@ -3280,7 +3269,7 @@ height: 45rem;
   }
   .h3-p{
 padding-top: 17rem;
-padding-left: 15rem;
+padding-right: 15rem;
     font-size:4.5rem!important;}
 }
 
