@@ -3363,6 +3363,24 @@ left:0.3rem;
 .s_simple {
     background-image: url("images/bg/p-slide5_2.jpg") !important;
 }
+
+@media screen and (max-width:801px){
+  .s_upgrade {
+  background-position: left;
+}
+  .s_customize {
+    background-image: url("images/new/mobile/Asset 22_2.png") !important;
+   
+}
+.s_cashless {
+  background-image: url("images/new/mobile/Asset 23_2.png") !important;
+}
+
+.s_access {
+  background-image: url("images/new/mobile/Asset 24.png") !important;
+}
+
+}
 /*MEDIA-PRODUCT*/
 
 /*
@@ -3411,7 +3429,7 @@ height: 45rem;
       font-size:1.3rem;
       text-align: center;
       padding-left: 0rem;
-      padding-top: 25rem;
+      padding-top: 10rem;
   }
 }
 
