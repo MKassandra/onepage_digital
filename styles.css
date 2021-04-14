@@ -3320,7 +3320,9 @@ left:0.3rem;
   }
 
 } */
-
+.h3-cashless{
+  padding-top: 6rem !important;
+}
 @media all and (min-width:200px) and (max-width: 298px) {
   .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
 height: 45rem;
