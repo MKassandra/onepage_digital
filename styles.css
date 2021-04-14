@@ -626,7 +626,7 @@ strong {
 
 .navbar-transparent{
   font-family: myBento !important;
-  background-color: transparent;
+  background-color: #be99ff ;
 }
 
 @media all and (max-width: 992px) {
