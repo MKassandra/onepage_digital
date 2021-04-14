@@ -1624,7 +1624,14 @@ padding-top: 9rem!important;}
     flex: 0 1 25%;
   }
 
+  
+.p-history-up, .p-history-down {
+  font-size: 0.7rem;
 }
+
+}
+
+
 .row-a {
   padding: 0 2rem !important;
 }
