@@ -2750,8 +2750,12 @@ padding-top: 1rem;
   }
  }
 
+ .agency-title{
+  padding-top: 1rem;
+  padding-left: 8rem;
+  font-size: 2.5rem;
+}
 .agency-txt{
-  padding-top: 4rem;
   padding-left: 7rem;
 }
 @media screen and (max-width:1025px){
