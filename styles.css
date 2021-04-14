@@ -2194,7 +2194,7 @@ padding-top: 17rem!important;
     background-size: cover!important;
     background-position: bottom left;
     background-repeat: no-repeat;
-    padding-bottom: 10rem!important;
+   /* padding-bottom: 10rem!important;*/
 }
 
 .meet-body-content3 {
@@ -2576,8 +2576,11 @@ font-size: 3rem;
 }
 
 @media screen and (max-width:1921px){
-  .h2-about,.h2-insta {
+  .h2-insta {
     font-size: 2.2rem;
+  }
+  .h2-about{
+    font-size: 2.1rem;
   }
  }
 
@@ -2592,7 +2595,7 @@ font-size: 3rem;
     font-size: 1.5rem;
   }
    .h1-who{
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
  }
 
