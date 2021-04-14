@@ -3207,7 +3207,7 @@ left:0.3rem;
 }
 
 .s_customize {
-      background-image: url("images/bg/p-slide6.png") !important;
+      background-image: url("images/bg/p-slide6_2.png") !important;
 }
 
 .s_upgrade {
@@ -3215,11 +3215,11 @@ left:0.3rem;
 }
 
 .s_cashless {
-    background-image: url("images/bg/p-slide8.png") !important;
+    background-image: url("images/bg/p-slide8_2.png") !important;
 }
 
 .s_access {
-    background-image: url("images/bg/p-slide7.png") !important;
+    background-image: url("images/bg/p-slide7_2.png") !important;
 }
 
 .s_simple {
@@ -3282,6 +3282,7 @@ height: 45rem;
   }
   .h3-right{
     text-align: right !important;
+    font-weight: bolder !important;
   }
 
   .h3-customize{
