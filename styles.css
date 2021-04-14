@@ -3423,7 +3423,7 @@ height: 45rem;
 
 @media all and (min-width:299px) and (max-width: 510px) {
   .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
-    height: 100vh;
+    height: 42rem;
   }
   .h3-p{
       font-size:1.3rem;
