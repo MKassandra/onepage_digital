@@ -1596,6 +1596,7 @@ padding-top: 9rem!important;}
   min-height: 220px;
 
 }
+/*
 @media screen and (max-width:415px){
   .history-image{
     background-image: url("images/new/mobile/Asset 3.png");
@@ -1604,7 +1605,7 @@ padding-top: 9rem!important;}
     height: 70rem;
     width: 12rem;
   }
-}
+}*/
 
 
 .history-up{
