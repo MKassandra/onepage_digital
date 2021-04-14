@@ -2589,7 +2589,7 @@ padding-top: 1rem;
   font-weight: bolder;
 }
 
-.h1-meet,.h3-meet {
+.h1-meet,.h3-meet,.h2-product {
   color:#523883 !important;
     margin: 0rem 0rem;
     text-align: center;
@@ -2612,17 +2612,26 @@ padding-top: 1rem;
   .h2-about{
     font-size: 2.1rem;
   }
+  .h2-product{
+    font-size: 2.1rem;
+  }
  }
 
 @media screen and (max-width:1281px){
   .h2-about,.h2-insta {
     font-size: 1.6rem;
   }
+  .h2-product{
+    font-size: 2rem;
+  }
  }
 
 @media screen and (max-width:1153px){
   .h2-insta,.h2-about {
     font-size: 1.5rem;
+  }
+  .h2-product{
+    font-size: 1.9rem;
   }
    .h1-who{
     font-size: 4rem;
@@ -7063,7 +7072,7 @@ margin: 0 -3rem;
     /*padding: 0rem 1rem;*/
     padding-right: 2rem;
     padding-left: 2rem;
-    padding-top: 7rem;
+    padding-top: 6rem;
     /*padding-bottom: 40rem;*/
     height: 45rem;
   /*  background-image: url("images/new/BRB websites assets/partners/Asset 75vis.png");*/
