@@ -1,5 +1,6 @@
 html {
     zoom: 100% !important;
+    scroll-snap-type: y mandatory;
 }
 
 /*font style - basic*/
@@ -446,11 +447,11 @@ strong {
 }
 
 .p-history-up{
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .p-history-down{
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .historyIMG{
@@ -1788,6 +1789,20 @@ padding-top: 9rem!important;}
 #history{
   background-image: url("images/new/BRB websites assets/history/Asset 2.png");
 }
+#meet{
+  background-image: url("images/new/BRB websites assets/directors/Asset 65vis.png");
+
+}
+
+#meet2{
+  background-image: url("images/new/BRB websites assets/directors/Asset 65vis.png");
+
+}
+
+#meet3{
+  background-image: url("images/new/about_cut/meet3.png");
+ 
+}
 /*
 #who{
   background-image: url("images/new/BRB websites assets/mission/Asset 118.png");
@@ -1825,10 +1840,12 @@ padding-top: 9rem!important;}
 }
 
 
-#who, #mission,#vision,#history{
- padding: 7rem 9rem 0rem 9rem;
+#who, #mission,#vision,#history,#meet,#meet2,#meet3{
+ padding: 2rem 9rem 0rem 9rem;
    /*padding: 19rem 9rem 19rem 9rem;*/
-   
+   height: 100vh;
+   width: 100vw;
+   scroll-snap-align: start;
   color: black;
   text-align: justify;
  background-size: cover;
@@ -2151,11 +2168,11 @@ padding-top: 17rem!important;
     padding-bottom: 1rem;
 }
 
-.meet-body-content {
+.meet {
   padding: 4rem 0rem;
   color: black;
- background-image: url("images/new/BRB websites assets/team/Asset 76.png");
-/* background-image: url("images/meet2.png");*/
+ /*background-image: url("images/new/BRB websites assets/team/Asset 76.png");
+ background-image: url("images/meet2.png");*/
   background-size: cover!important;
   height: 100vh;
   background-repeat: no-repeat;
@@ -2175,11 +2192,11 @@ padding-top: 17rem!important;
 }
 
 .meet-body-content2 {
-  padding: 4rem 0rem;
+  /*padding: 4rem 0rem;*/
   color: black;
   height: 100vh;
-  background-image: url("images/new/BRB websites assets/directors/Asset 65vis.png");
-/*  background-image: url("images/meet2.png");*/
+ /* background-image: url("images/new/BRB websites assets/directors/Asset 65vis.png");
+  background-image: url("images/meet2.png");*/
   background-size: cover!important;
   background-repeat: no-repeat;
   padding-bottom: 1rem;
@@ -2198,11 +2215,11 @@ padding-top: 17rem!important;
 }
 
 .meet-body-content3 {
-  padding: 4rem 0rem;
-  padding-top: 7rem;
+  padding: 0rem 8rem;
+ /* padding-top: 7rem;*/
   color: black;
-  background-image: url("images/new/about_cut/meet3.png");
-  /*background-image: url("images/meet2.png");*/
+  /*background-image: url("images/new/about_cut/meet3.png");
+  background-image: url("images/meet2.png");*/
   background-size: cover!important;
   background-position: bottom left;
   background-repeat: no-repeat;
@@ -2221,6 +2238,10 @@ padding-top: 17rem!important;
 .row-bod{
     text-align:center!important;
     margin: 1rem 4rem!important;
+}
+.row-bod2{
+  text-align:center!important;
+    margin: 0rem 4rem!important;
 }
 
 .bod-picture{
@@ -2422,7 +2443,7 @@ font-size: 3rem;
     text-align: center;
   }
 .h6-bod-name{
-    font-size: 1rem !important;
+    font-size: 0.8rem !important;
     text-align: center;
   }
 }
@@ -2563,8 +2584,8 @@ font-size: 3rem;
   color:#523883 !important;
     margin: 0rem 0rem;
     text-align: center;
-    margin-top: -1rem;
-    /*padding-left: -3rem;*/
+  /*  margin-top: -1rem;
+    padding-left: -3rem;*/
     padding-bottom: 0 !important;
 }
 
@@ -2781,7 +2802,8 @@ hr {
 }
 
 .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
-  padding: 7rem 9rem 0rem 9rem;
+  padding: 2rem 9rem 0rem 9rem;
+   scroll-snap-align: start;
   /*min-height: 100vh;*/
   text-align: center;
   background-size: cover;
@@ -2866,7 +2888,7 @@ hr {
 
 @media screen and (max-width:1920px){
   .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
-    padding: 7rem 9rem 0rem 9rem;
+    padding: 5rem 9rem 0rem 9rem;
   }
 }
 
