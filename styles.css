@@ -2198,8 +2198,8 @@ padding-top: 17rem!important;
 .meet-body-content2 {
   /*padding: 4rem 0rem;*/
   color: black;
-  height: 100vh;
- /* background-image: url("images/new/BRB websites assets/directors/Asset 65vis.png");
+ /*  height: 100vh;
+ background-image: url("images/new/BRB websites assets/directors/Asset 65vis.png");
   background-image: url("images/meet2.png");*/
   background-size: cover!important;
   background-repeat: no-repeat;
@@ -2219,7 +2219,7 @@ padding-top: 17rem!important;
 }
 
 .meet-body-content3 {
-  padding: 0rem 8rem;
+  padding: 1rem 8rem;
  /* padding-top: 7rem;*/
   color: black;
   /*background-image: url("images/new/about_cut/meet3.png");
@@ -2229,6 +2229,31 @@ padding-top: 17rem!important;
   background-repeat: no-repeat;
   /*padding-bottom: 10rem!important;*/
 }
+@media screen and (max-width:1281px){
+  .meet-body-content3 {
+    padding: 1rem 6rem;
+  }
+}
+
+@media screen and (max-width:1153px){
+  .meet-body-content3 {
+    padding: 1rem 3rem;
+  }
+}
+
+@media screen and (max-width:1025px){
+  .meet-body-content3 {
+    padding: 1rem 1rem;
+  }
+}
+
+@media screen and (max-width:801px){
+  .meet-body-content3 {
+    padding: 1rem 0rem;
+  }
+}
+
+
 
 .meet-sm{
   font-size: small!important;
