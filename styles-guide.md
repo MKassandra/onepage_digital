@@ -26,6 +26,20 @@ must be from HIGHEST to LOWEST
 
 }
 
+
+MOBILE
+@media screen and (max-width:415px){
+
+}
+
+@media screen and (max-width:376px){
+
+}
+
+@media screen and (max-width:321px){
+
+}
+
 ## Colors
 Purple: #4c008a
 Text Gray: #3a3a3b

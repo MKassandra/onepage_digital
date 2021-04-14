@@ -295,6 +295,25 @@ strong {
   min-height: 200px;
 }
 
+@media screen and (max-width:415px){
+  .product-image{
+    background-image: url("images/new/mobile/Asset\ 3.png")!important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+  }
+  
+}
+
+@media screen and (max-width:376px){
+
+}
+
+@media screen and (max-width:321px){
+
+}
+
+
 .productIMG{
   height: 35rem;
   width: auto;
@@ -606,6 +625,8 @@ strong {
     display: none;
   }
 }*/
+
+
 
 .card1{
   margin-left: 10rem;
@@ -1908,13 +1929,14 @@ padding-top: 9rem!important;}
 
 @media screen and (max-width:1025px){
   #who, #mission,#vision,#history{
-    padding: 2rem 2rem 0rem 2rem;
+    padding: 4rem 2rem 0rem 2rem;
   }
 }
 
 @media screen and (max-width:801px){
-  #who, #mission,#vision,#history{
-    padding: 2rem 3rem 0rem 3rem;
+  #who, #mission,#vision,#history,#meet,#meet2,#meet3{
+    padding: 2rem 1rem 0rem 1rem;
+    flex-wrap: wrap-reverse ;
   }
 }
 
@@ -2153,11 +2175,24 @@ padding-top: 17rem!important;
   }
 
   .ul-none {
+ line-height: 2;
   list-style-type: none;
-  text-align: left!important;
+  list-style-position: outside;
+  text-align: left;
+  margin: 0 0 0 32px;
+}
+.list-one{
+  list-style-image: url("images/new/BRB websites assets/who we are/Asset 67vis_2.png");
+background-repeat: no-repeat;
+
 }
 
 
+.list-two{
+  list-style-image: url("images/new/BRB websites assets/who we are/Asset 68vis_2.png");
+  background-repeat: no-repeat;
+ 
+}
 
 #meet-body-content {
     padding: 4rem 0rem;
@@ -2509,16 +2544,6 @@ padding-top: 1rem;
   }
 }
 
-@media screen and (max-width: 480px) {
-.h1-meet{
-  font-size: 2.5rem!important
-}
-
-.row-bod-end1{
-  margin-top: 0rem!important;
-}
-
-}
 
 @media screen and (max-width: 990px) {
 .h1-meet{
@@ -2530,6 +2555,18 @@ padding-top: 1rem;
 }
 
 }
+
+
+@media screen and (max-width: 480px) {
+  .h1-meet{
+    font-size: 2rem!important
+  }
+  
+  .row-bod-end1{
+    margin-top: 0rem!important;
+  }
+  
+  }
 
 @media all (min-width:991px) and (max-width: 1080px) {
 .h1-meet{
@@ -2991,7 +3028,9 @@ hr {
     padding: 1rem 1rem 0rem 1rem;
   }
 }
+.row-instapay{
 
+}
 
 
 /*product page content*/
