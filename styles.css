@@ -7605,6 +7605,9 @@ font-size: 8rem!important;
 
 
 }
+.row-talk{
+  padding-top:0;
+}
 
 .p-talk{
   padding-top: 0rem;
