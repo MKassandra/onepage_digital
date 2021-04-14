@@ -1614,19 +1614,19 @@ padding-top: 9rem!important;}
   }
   .history-up{
     align-self: flex-end;
-    padding-left: 12%;
+    padding-left: 2rem;
     flex: 0 1 25%;
   }
   
   .history-down{
     align-self: flex-end;
-    padding-right: 12%;
+    padding-right: 2rem;
     flex: 0 1 25%;
   }
 
   
 .p-history-up, .p-history-down {
-  font-size: 0.7rem;
+  font-size: 0.45rem;
 }
 
 }
