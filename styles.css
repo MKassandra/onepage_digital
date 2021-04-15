@@ -269,9 +269,9 @@ strong {
 }
 }
 @media screen and (min-width:200px) and (max-width:599px){
-  .cardIMG1{
-    height: 4rem;
-    width: auto;
+  .cardIMG1,.cardIMG2{
+    height: 10rem;
+    margin-top: 1rem;
   }
 }
 
@@ -451,12 +451,12 @@ strong {
   }
 
   .productIMG{
-    height: 13rem;
+    height: 18rem;
     width: auto;
   }
 
   .productDesk{
-     height: 0rem;
+     /*height: 0rem;*/
   }
   
   .productIMG_mobile{
@@ -4048,6 +4048,10 @@ padding-top: 1rem;
  }
 
  @media screen and (max-width:575px){
+  .agency-title{
+    padding-left: 0rem;
+  }
+
   .agency-txt{
     padding-bottom: 4rem;
   }
@@ -4215,12 +4219,15 @@ hr {
 }
 .upi{
   background-image: url("images/new/BRB websites assets/UPI/Asset\ 17.png");
+
 }
 .cobrand{
   background-image: url("images/new/BRB websites assets/co\ branded/Asset 21.png");
+
 }
 .acquiring{
   background-image: url("images/new/BRB websites assets/international/Asset\ 34.png");
+  
 }
 .instapay{
   background-image: url("images/new/BRB websites assets/instapay/Asset\ 27.png");
@@ -4230,15 +4237,26 @@ hr {
   background-image: url("images/new/BRB websites assets/agency/Asset\ 20.png");
 }
 
-@media screen and (max-width:413px){
+.flex__row{
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width:571px){
+  .row{
+    margin-top: 0rem !important;
+  }
   .cards{
     background-image: url("images/new/mobile/Asset\ 13.png");
+ 
   }
   .upi{
     background-image: url("images/new/mobile/Asset\ 12.png");
+  
   }
   .cobrand{
     background-image: url("images/new/mobile/Asset\ 14.png");
+  
   }
   .acquiring{
     background-image: url("images/new/mobile/Asset\ 11.png");
@@ -4249,6 +4267,11 @@ hr {
   
   .agency{
     background-image: url("images/new/BRB websites assets/agency/Asset\ 20.png");
+  }
+
+  .flex__row{
+    flex-direction: column-reverse;
+    margin-top: 3rem !important;
   }
 }
 
