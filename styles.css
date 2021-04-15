@@ -4271,6 +4271,7 @@ hr {
   }
   .acquiring{
     background-image: url("images/new/mobile/Asset\ 11.png");
+    background-position: top center;
   }
   .instapay{
     background-image: url("images/new/mobile/Asset\ 21.png");
