@@ -2837,6 +2837,11 @@ padding-top: 9rem!important;}
     
 }
 
+
+.flex__history{
+  display: flex;
+  flex-direction: column;
+}
 .history-image{
   background-image: url("images/new/BRB websites assets/history/Asset 70vis.png");
   background-repeat: no-repeat;
@@ -2857,20 +2862,19 @@ padding-top: 9rem!important;}
   flex: 0 1 25%;
 }
 
+.flex__history{
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (max-width:415px){
+  .flex__history{
+    display: flex;
+    flex-direction: row;
+  }
   .history-image{
+    background-image: url("images/new/mobile/Asset 3.png");
     min-height: 90px;
-  }
-  .history-up{
-    align-self: flex-end;
-    padding-left: 2rem;
-    flex: 0 1 25%;
-  }
-  
-  .history-down{
-    align-self: flex-end;
-    padding-right: 2rem;
-    flex: 0 1 25%;
   }
 
   
@@ -3965,6 +3969,12 @@ padding-top: 1rem;
   font-weight: bolder;
 }
 
+@media screen and (max-width:415px){
+  .h4-acquire{
+    font-size: 1rem;
+  }
+}
+
 .h1-meet,.h3-meet,.h2-product {
   color:#523883 !important;
     margin: 0rem 0rem;
@@ -4241,6 +4251,7 @@ hr {
   display: flex;
   flex-direction: row;
 }
+
 
 @media screen and (max-width:571px){
   .row{
@@ -8513,6 +8524,17 @@ margin: 0 -3rem;
 }
 .partner-dev{
   text-align: center;
+}
+
+.flex__partner{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:801px){
+  .flex__partner{
+    flex-direction: column;
+}
 }
 @media screen and (min-width:290px) and (max-width: 800px)  {
   #partner-body-content{
