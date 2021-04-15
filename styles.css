@@ -4611,7 +4611,7 @@ left:0.3rem;
 }
 
 .s_upgrade {
-  background-image: url("images/bg/p-slide1.jpg") !important;
+  background-image: url("images/bg/p-slide_2.png") !important;
 }
 
 .s_cashless {
@@ -4628,7 +4628,8 @@ left:0.3rem;
 
 @media screen and (max-width:801px){
   .s_upgrade {
-  background-position: left;
+    background-image: url("images/new/mobile/services_mobile.png") !important;
+   
 }
   .s_customize {
     background-image: url("images/new/mobile/Asset 22_2.png") !important;
@@ -4697,7 +4698,7 @@ height: 45rem;
     padding-top: 10rem!important;
   }
   .h3-balance{
-    padding-top: 25rem !important;
+    padding-top: 10rem !important;
   }
 }
 
