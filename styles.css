@@ -272,7 +272,7 @@ strong {
 }
 @media screen and (min-width:200px) and (max-width:599px){
   .cardIMG1,.cardIMG2{
-    height: 15rem;
+    height: 11rem;
     margin: 1rem 0rem;
   }
 }
