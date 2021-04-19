@@ -1194,6 +1194,14 @@ button,
 }
 
 }
+
+
+@media screen and (max-width:321px){
+  .history__image{
+    min-width: 155px;
+  }
+}
+
 .whoweare h1 {
   font-size: 4rem;
   color: #ffffb0;
@@ -2951,7 +2959,7 @@ padding-top: 9rem!important;}
     display: flex;
     align-self: flex-end;
     padding-right: 1%;
-    /*flex: 0 1 25%;*/
+    flex: 0 1 26%;
   }
   
   .history_text{
@@ -3750,7 +3758,7 @@ background-repeat: no-repeat;
 }
 
 .bod-down-little{
-  margin-top: 5rem !important;
+  margin-top: 5rem;
 }
 
 .row-bod-end1{
@@ -3800,7 +3808,13 @@ background-repeat: no-repeat;
       width:auto;
       padding-bottom: 0.5rem;
   }
-
+  .round-big{
+    height: 7rem !important;
+  }
+  
+  .bod-down-little{
+    margin-top: 0rem;
+  }
 
 }
 
