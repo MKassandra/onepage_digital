@@ -155,7 +155,9 @@ strong {
   width: auto;
 }
 .cardIMG2{
-  height: 23rem;
+  height: 25rem;
+ /* height: 30rem;
+  height: 23rem;*/
   width: auto;
   margin-left: -4rem;
 }
@@ -3646,7 +3648,7 @@ background-repeat: no-repeat;
 }
 
 .meet-body-content3 {
-  padding: 1rem 8rem;
+  padding: 1rem 4rem;
  /* padding-top: 7rem;*/
   color: black;
   /*background-image: url("images/new/about_cut/meet3.png");
@@ -3697,7 +3699,7 @@ background-repeat: no-repeat;
 }
 .row-bod2{
   text-align:center!important;
-    margin: 0rem 4rem!important;
+    margin: 0rem 7rem!important;
 }
 
 .row-meet-up{
@@ -3743,9 +3745,14 @@ background-repeat: no-repeat;
     padding-bottom: 0.5rem;
 }
 
-.bod-down-little{
-  margin-top: 8rem !important;
+.round-big{
+  height: 16rem !important;
 }
+
+.bod-down-little{
+  margin-top: 5rem !important;
+}
+
 .row-bod-end1{
   margin-top: 0rem !important;
 }
