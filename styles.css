@@ -3827,6 +3827,14 @@ background-repeat: no-repeat;
     margin: 0rem 0rem !important;
   }
 
+  .bod-switch1{
+    display: none;
+  }
+
+  .bod-switch2{
+    display: flex;
+  }
+
 }
 
 
@@ -3909,7 +3917,9 @@ background-repeat: no-repeat;
       width:auto;
       padding-bottom: 0.5rem;
   }
-
+  .bod-switch2{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 2640px) {
@@ -4454,6 +4464,9 @@ hr {
     flex-direction: column-reverse;
     margin-top: 3rem !important;
   }
+
+  .flex__column{
+    flex-direction: row-reverse;
 }
 
 .col-i-d{
