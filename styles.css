@@ -445,7 +445,7 @@ strong {
 }
 }
 
-@media screen and (min-width:200px) and (max-width:576px){
+@media screen and (max-width:576px){
   .aboutIMG{
     height: 15rem;
     width: auto;
@@ -473,6 +473,14 @@ strong {
     float: right;
 }
 }
+
+@media screen and (max-width:415px){
+  .aboutIMG{
+    height: 21rem;
+    width: auto;
+  }
+}
+
 
 .p-history-up{
   font-size: 0.7rem;
@@ -4431,6 +4439,9 @@ hr {
   flex-direction: row;
 }
 
+.scrollstyle-top{
+  padding-top: 6rem;
+}
 
 @media screen and (max-width:571px){
   .row{
@@ -9991,4 +10002,144 @@ flex: 1;
   .image__h_mobile{
     height: 20rem;
   }
+}
+
+.who-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.who-container1{
+flex: 1;
+}
+
+.who-container2{
+  flex: 1;
+}
+
+.mission-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mission-container1{
+  flex: 1;
+  margin: 0rem 5rem;
+  text-align: center;
+  }
+  
+.mission-container2{
+    flex: 1;
+  }
+
+.aboutIMG2{
+  height: 35rem;
+  width: auto;
+}
+
+.w{
+background-image: url("images/new/about_cut/who_2.jpg");
+background-position: right;
+background-size: cover;
+min-height: 570px;
+background-repeat: no-repeat;
+padding: 9rem 5rem;
+}
+
+.aboutIMG__mobile{
+  display: none;
+}
+
+@media screen and (max-width:801px){
+  .who-container1{
+    flex: 0 1 47%;
+  }
+}
+
+@media screen and (max-width:415px){
+  .w{
+    background-image: url("images/new/mobile/Asset\ 4.png");
+    background-position: right;
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    padding: 4rem 5rem;
+    }
+
+  .who-container1{
+    flex: 0 1 86%;
+    font-size: smaller;
+  }
+
+  .aboutIMG__mobile{
+    display: flex;
+    margin:0 2rem;
+  }
+}
+
+@media screen and (max-width:376px){
+  .w{
+    background-image: url("images/new/mobile/Asset\ 4.png");
+    background-position: right;
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    padding: 4rem 5rem;
+    }
+
+  .who-container1{
+    flex: 0 1 86%;
+    font-size: smaller;
+  }
+
+  .aboutIMG__mobile{
+    display: flex;
+    margin:0 5rem;
+  }
+}
+
+@media screen and (max-width:321px){
+  .w{
+    background-image: url("images/new/mobile/Asset\ 4.png");
+    background-position: right;
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    padding: 4rem 5rem;
+    }
+
+  .who-container1{
+    flex: 0 1 86%;
+    font-size: smaller;
+  }
+
+  .aboutIMG__mobile{
+    display: flex;
+    margin:0 5rem;
+  }
+}
+
+.m{
+background-image: url("images/new/about_cut/mission.png");
+background-position: right;
+background-size: cover;
+min-height: 570px;
+background-repeat: no-repeat;
+padding: 9rem 5rem;
+}
+
+.v{
+  background-image: url("images/new/about_cut/vision.png");
+  background-position: right;
+  background-size: cover;
+  min-height: 570px;
+  background-repeat: no-repeat;
+  padding: 9rem 5rem;
+}
+
+.w-img{
+  background-image: url("images/new/BRB websites assets/mission/Asset 117.png");
+  background-size:55%;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: 0 1 50%;
 }

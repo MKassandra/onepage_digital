@@ -26,11 +26,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js" integrity="sha256-RGlAwHKG24hsj1109SGQgvR+Orx7u8c6zyYH4Tk3ydU=" crossorigin="anonymous"></script>
     <script>
         $.scrollify({
-          section: ".scollstyle",
+          section: ".who, .mission, .vision",
           interstitialSection: ".navbar",
           easing: "easeOutExpo",
           scrollSpeed: 1000,
-          offset: 0,
+          offset: 10,
           scrollbars: true,
           standardScrollElements: "",
           setHeights: true,
@@ -109,7 +109,7 @@
 <body class="body-content">
     <section id="who">
         <section class="who">
-        <div class="scrollstyle">
+        <div class="scrollstyle scrollstyle-top">
         <div class="row row-w d-flex h-button justify-content-arpund">
          <!-- <div class="col-lg-1 col-md-1 col-sm-1">
            <h1 class="h1-who">Who We Are</h1>
@@ -174,7 +174,7 @@
     </section>
 
     <section id="mission">
-        <div class="2 scrollstyle">
+        <div class="2 scrollstyle scrollstyle-top">
         <div class="row row-m">
           <div class="col-lg-6 col-md-6 col-sm-1">
             <!--<h1 class="h1-who">Who We Are</h1>-->
@@ -211,7 +211,7 @@
     </section>
 
 <section id="vision">
-    <div class="scrollstyle">
+    <div class="scrollstyle scrollstyle-top">
   <div class="flex__row row row-w">
  <div class="col-lg-6 col-md-6 col-sm-2 col-who-1">
        <img src="images/new/BRB websites assets/vission/Asset 71vis_s.png" class="aboutIMG" alt="">
@@ -236,7 +236,7 @@
 </section>
 
   <section id="history-body">
-      <div class="snap">
+      <div class="snap scrollstyle">
         <section class="historybg">
           <div class="h1-meet container container--brbtext">
             <h1>History</h1>
@@ -292,11 +292,11 @@
 
 
     <section id="meet">
-        <div class="meet scroll">
+        <div class="meet scrollstyle scrollstyle-top">
           <h1 class="h1-meet"><b>Meet Our Team</h1></b> <br>
           <h1 class="h3-meet ">Board of Directors</h1> <br>
           <!--<h3 class="h3-meet purple">Meet The Team</h3>-->
-          <div class="row row-bod slideanim scrollstyle">
+          <div class="row row-bod slideanim ">
             <div class="col-lg-12 col-md-12 col-sm-12">
               <img src="images/new/BRB websites assets/team/Asset 77.png" class="bod-picture rounded-circle">
               <h6 class="h6-bod-name"><b>KENNETH TAN </b><BR> President & Chairman</h6>
@@ -456,7 +456,7 @@
       <script>
         $(function() {
           $.scrollify({
-            section : ".",
+            section : ".scrollstyle",
           });
         });
       </script>
