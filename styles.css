@@ -2932,6 +2932,10 @@ padding-top: 9rem!important;}
   display: flex;
   flex-direction: column;
 }
+
+.flex__history_mobile{
+  flex-direction: row-reverse;
+}
 .history-image{
   background-image: url("images/new/BRB websites assets/history/Asset 70vis.png");
   background-repeat: no-repeat;
@@ -2979,7 +2983,7 @@ padding-top: 9rem!important;}
     display: flex;
     align-self: flex-end;
     padding-left: 1%;
-    /*flex: 0 1 25%;*/
+    flex: 0 1 26%;
   }
   
   .history-up3{
@@ -2987,7 +2991,7 @@ padding-top: 9rem!important;}
     display: flex;
     align-self: flex-end;
     padding-right: 1%;
-    flex: 0 1 26%;
+    /*flex: 0 1 26%;*/
   }
   
   .history_text{
