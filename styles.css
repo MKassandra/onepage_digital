@@ -10044,6 +10044,20 @@ flex: 1;
     flex: 1;
   }
 
+  .vision-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .vision-container1{
+  flex: 1;
+  }
+  
+  .vision-container2{
+    flex: 1;
+    margin: 0rem 5rem;
+  text-align: center;
+  }
+
 .aboutIMG2{
   height: 35rem;
   width: auto;
