@@ -1067,11 +1067,6 @@ button,
   text-align: justify;
 }
 
-.history__p{
-  padding-right: 4rem;
-  text-align: justify;
-}
-
 @media screen and (max-width:415px){
 
 .history {
@@ -1160,7 +1155,6 @@ button,
   font-size: 0.8rem;
 }
 
-
 @media (min-width: 64em) {
   .history__pp {
     display: -webkit-box;
@@ -1176,10 +1170,8 @@ button,
   }
 }
 
-
 .history__p {
-  padding-right: 0rem;
-  padding-top: 30%;
+  padding-top: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3373,10 +3365,6 @@ padding-top: 9rem!important;}
 }
 
 @media screen and (max-width:413px){
-  #who, #mission,#vision,#history,#meet,#meet2,#meet3{
-    min-height: 100vh;
-  }
-
   #who {
     background-image: url("images/new/mobile/Asset\ 4.png");
   }
@@ -3390,10 +3378,6 @@ padding-top: 9rem!important;}
     }
   #history{
     background-image: url("images/new/mobile/Asset\ 2.png");
-  }
-
-  .p-who{
-    font-size: smaller;
   }
 }
 
@@ -4477,9 +4461,6 @@ hr {
 }
 
 @media screen and (max-width:571px){
-  .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
-    min-height: 100vh;
-  }
   .row{
     margin-top: 0rem !important;
   }
