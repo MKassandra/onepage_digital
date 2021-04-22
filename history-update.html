@@ -15,14 +15,19 @@
     <title>Binangonan Rural Bank Inc.</title>
 
     <style>
-        
+        .historybg1{
+            background-image: url("images/new/BRB websites assets/history/Asset 2.png");
+        }
 .history1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: teal;
+  
 }
-
+ 
+.flex__history_mobile{
+  flex-direction: row-reverse;
+}
 @media (min-width: 64em) {
   .history1 {
     margin-top: 5rem;
@@ -110,7 +115,7 @@
   -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
   font-size: 0.7rem;
-  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 @media (min-width: 64em) {
@@ -132,7 +137,7 @@
   font-size: 0.7rem;
   -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
-  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 @media (min-width: 64em) {
@@ -163,20 +168,7 @@
         -ms-flex: 1 0 100%;
             flex: 1 0 100%;
   }
-
-  @media all and (min-width:801px) {
-    /*.history__image1 {
-    background-image: url("images/new/mobile/Asset 3.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: contain;
-  }*/
-  }
-
-  
-.flex__history_mobile{
-  flex-direction: row-reverse !important;
-}
+ 
 }
 
     </style>
@@ -186,9 +178,9 @@
     <div class="main-content">
       
       <section class="historybg1">
-        <div class="history__title container container--brbtext">
-          <h1>History</h1>
-        </div>
+        <div class="h1-meet container container--brbtext">
+            <h1>History</h1>
+          </div>
         <div class="history1 flex__history_mobile">
           <div class="history__container1 ">
             <div class="history__pp1 ">
