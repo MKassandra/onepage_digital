@@ -3856,7 +3856,9 @@ background-repeat: no-repeat;
   background-image: url("images/meet2.png");*/
   background-size: cover!important;
   background-repeat: no-repeat;
-  padding-bottom: 1rem;
+  padding: 9rem 0rem;
+  height: 100vh;
+
 }
 
 #meet-body-content3 {
@@ -3903,6 +3905,14 @@ background-repeat: no-repeat;
 @media screen and (max-width:801px){
   .meet-body-content3 {
     padding: 1rem 0rem;
+  }
+}
+@media screen and (max-width:415px){
+  .meet-body-content2 {
+    padding: 6rem 0rem;
+  }
+  .meet-body-content3 {
+    padding: 5rem 0rem;
   }
 }
 
@@ -3957,6 +3967,42 @@ background-repeat: no-repeat;
   
 }
 
+@media screen and (max-width:415px){
+  .row-bod{
+    text-align:center!important;
+    margin: 1rem 0rem !important;
+}
+.row-bod2{
+  text-align:center!important;
+    margin: 0rem 0rem!important;
+}
+
+}
+
+@media screen and (max-width:376px){
+  .row-bod{
+    text-align:center!important;
+    margin: 1rem 0rem !important;
+}
+.row-bod2{
+  text-align:center!important;
+    margin: 0rem 0rem!important;
+}
+
+}
+
+@media screen and (max-width:321px){
+  .row-bod{
+    text-align:center!important;
+    margin: 1rem 0rem !important;
+}
+.row-bod2{
+  text-align:center!important;
+    margin: 0rem 0rem!important;
+}
+
+}
+
 .bod-picture{
     height:14rem;
     width:auto;
@@ -3968,6 +4014,89 @@ background-repeat: no-repeat;
     width:auto;
     padding-bottom: 0.5rem;
 }
+.bod__flex{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.bod__avatar{
+  flex: 0 1 23%;
+  margin: 0 2px;
+}
+
+.bod__avatar2{
+  flex: 0 1 23%;
+  margin: 0 2px;
+}
+
+.bod__text{
+  font-size: 0.5rem;
+  margin-top: auto;
+    text-align: center;
+}
+
+.bod__zeus{
+  background-image: url("images/new/BRB websites assets/directors/Asset 80.png");
+  background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 8rem;
+}
+
+.bod__ray{
+  background-image: url("images/new/BRB websites assets/directors/Asset 81_2.png");
+  background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 8rem;
+}
+
+.bod__leah{
+  background-image: url("images/new/BRB websites assets/management/Asset 87.png");
+  background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 8rem;
+}
+
+.bod__chris{
+  background-image: url("images/new/BRB websites assets/management/Asset 95_2.png");
+  background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 8rem;
+}
+
+.bod__genando{
+  background-image: url("images/new/BRB websites assets/directors/Asset 83_2.png");
+  background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 8rem;
+}
+
+.bod__eric{
+  background-image: url("images/new/BRB websites assets/directors/Asset 82_2.png");
+  background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 8rem;
+}
+
+.bod__arsenia{
+  background-image: url("images/new/BRB websites assets/directors/Asset 85.png");
+  background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 8rem;
+}
+
 
 .round-big{
   height: 16rem !important;
@@ -4024,12 +4153,12 @@ background-repeat: no-repeat;
   }
 
   .bod-picture2{
-      height:6rem;
+      height:5rem;
       width:auto;
       padding-bottom: 0.5rem;
   }
   .round-big{
-    height: 7rem !important;
+    height: 6rem !important;
   }
   
   .bod-down-little{
