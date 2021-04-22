@@ -3857,8 +3857,6 @@ background-repeat: no-repeat;
   background-size: cover!important;
   background-repeat: no-repeat;
   padding: 9rem 0rem;
-  height: 100vh;
-
 }
 
 #meet-body-content3 {
@@ -4033,6 +4031,19 @@ background-repeat: no-repeat;
 .bod__avatar2{
   flex: 0 1 23%;
   margin: 0 2px;
+  align-self: center;
+}
+
+@media screen and (max-width:415px){
+  .bod__avatar2{
+    align-self: unset;
+  }
+}
+
+
+.bod__avatar__big{
+  flex: 0 1 45%;
+  margin: 0 2px;
 }
 
 .bod__text{
@@ -4096,6 +4107,47 @@ background-repeat: no-repeat;
     background-repeat: no-repeat;
     min-height: 8rem;
 }
+
+.bod__allan{
+  background-image: url("images/new/BRB websites assets/management/Asset 91.png");
+  background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 8rem;
+}
+
+.bod__ken{
+  background-image: url("images/new/BRB websites assets/team/Asset 77.png");
+  background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 10rem;
+}
+
+.bod__fed{
+  background-image: url("images/new/BRB websites assets/management/Asset 89.png");
+  background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 8rem;
+}
+
+.bod__lau{
+  background-image: url("images/new/BRB websites assets/management/Asset 92.png");
+  background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 8rem;
+}
+
+.bod__heede{
+  background-image: url("images/new/BRB websites assets/management/Asset 93_2.png");
+  background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 8rem;
+}
+
 
 
 .round-big{
@@ -4340,6 +4392,7 @@ font-size: 1rem!important;
   .h1-meet{
 font-size: 3rem;
 padding-top: 1rem;
+line-height: 3;
   }
   .h3-meet{
     font-size: 2rem!important;
@@ -4354,7 +4407,8 @@ padding-top: 1rem;
 
 @media screen and (max-width: 990px) {
 .h1-meet{
-  font-size: 2.5rem!important
+  font-size: 2.5rem!important;
+  line-height: 3;
 }
 
 .row-bod-end1{
@@ -4366,7 +4420,8 @@ padding-top: 1rem;
 
 @media screen and (max-width: 480px) {
   .h1-meet{
-    font-size: 2rem!important
+    font-size: 2rem!important;
+    line-height: 2;
   }
   
   .row-bod-end1{
