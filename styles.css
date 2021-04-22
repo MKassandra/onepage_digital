@@ -4534,7 +4534,7 @@ hr {
 
 @media screen and (max-width:571px){
   .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
-    min-height: 100vh;
+    /*min-height: 100vh;*/
   }
   .row{
     margin-top: 0rem !important;
@@ -4571,14 +4571,14 @@ hr {
   .flex__column{
     flex-direction: row-reverse;
 }
-
+/*
   .cards__row{
     margin-top: 8rem;
   }
 
   .upi__row{
     margin-top: 5.5rem;
-  }
+  }*/
 }
 
 .col-i-d{
