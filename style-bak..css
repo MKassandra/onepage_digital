@@ -1281,7 +1281,7 @@ button,
       padding: 2%;
     }
   }
-}
+  
 
 @media screen and (max-width:321px){
   .history__image{
@@ -3131,7 +3131,7 @@ padding-top: 9rem!important;}
   font-size: 0.45rem;
 }
 
-}}}
+}
 
 
 
@@ -10395,4 +10395,3 @@ padding: 9rem 5rem;
   }
 }
 
-}
