@@ -445,6 +445,26 @@ strong {
 }
 }
 
+@media screen and (max-width:661px){
+  .aboutIMG{
+    height: 21rem;
+    width: auto;
+  }
+  .aboutIMG_mobile{
+    height: 0rem;
+    width: auto;
+  }
+  .productIMG{
+    height: 21rem;
+    width: auto;
+  }
+  
+.productIMG_mobile{
+  height: 21rem;
+  width: auto;
+}
+}
+
 @media screen and (max-width:576px){
   .aboutIMG{
     height: 15rem;
@@ -4551,6 +4571,14 @@ hr {
   .flex__column{
     flex-direction: row-reverse;
 }
+
+  .cards__row{
+    margin-top: 8rem;
+  }
+
+  .upi__row{
+    margin-top: 5.5rem;
+  }
 }
 
 .col-i-d{
@@ -10282,3 +10310,4 @@ padding: 9rem 5rem;
             flex: 1 0 100%;
   }
 }
+
