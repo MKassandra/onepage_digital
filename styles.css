@@ -1101,7 +1101,9 @@ button,
   padding: 2%;
   width: 100%;
 }
-
+.history_text_top{
+  padding-bottom: 53px;
+}
 .history_text_up{
   padding-left: 0rem;
 }
@@ -1124,6 +1126,8 @@ button,
   }
 }
 
+
+  
 
 .history__image {
   background-image: url("images/new/BRB websites assets/history/Asset 70vis.png");  
@@ -1251,6 +1255,33 @@ button,
 
 }
 
+
+@media screen and (max-width:370px){
+  .history_text_top{
+    padding-bottom: 0px;
+  }
+  .history_text_up{
+    padding-left: 0rem;
+  }
+  
+  .history_text_down{
+    padding-right: 0rem !important;
+  }
+  
+  @media (min-width: 64em) {
+    .history {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly;
+      padding: 2%;
+    }
+  }
+  
 
 @media screen and (max-width:321px){
   .history__image{
@@ -3024,7 +3055,7 @@ padding-top: 9rem!important;}
   
   .history_text{
     font-size: 0.7rem;
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
   }
 
   .history_text_up{
@@ -3052,6 +3083,55 @@ padding-top: 9rem!important;}
 }
 
 }
+
+
+@media screen and (max-width:370px){
+
+  .history-up2{
+    display: flex;
+    align-self: flex-end;
+    padding-left: 1%;
+    flex: 0 1 26%;
+  }
+  
+  .history-up3{
+    text-align: right;
+    display: flex;
+    align-self: flex-end;
+    padding-right: 1%;
+    /*flex: 0 1 26%;*/
+  }
+  
+  .history_text{
+    font-size: 0.7rem;
+    padding-bottom: 4rem;
+  }
+
+  .history_text_up{
+    padding-left: 1rem;
+  }
+
+
+  .history_text_down{
+    padding-right: 1rem;
+  }
+
+  .flex__history{
+    display: flex;
+    flex-direction: row;
+  }
+  .history-image{
+    background-image: url("images/new/mobile/Asset 3.png");
+    min-height: 90px;
+    flex:0 1 100%;
+  }
+
+  
+.p-history-up, .p-history-down {
+  font-size: 0.45rem;
+}
+
+}}
 
 
 
