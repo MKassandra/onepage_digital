@@ -16,10 +16,11 @@
 
     <style>
         
-.history {
+.history1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: teal;
 }
 
 @media (min-width: 64em) {
@@ -68,7 +69,7 @@
   }
 }
 
-.history__imgcontainer {
+.history__imgcontainer1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -83,7 +84,7 @@
 }
 
 @media (min-width: 64em) {
-  .history__imgcontainer {
+  .history__imgcontainer1 {
     max-width: 1614px;
     -webkit-box-flex: 100%;
         -ms-flex: 100%;
@@ -143,7 +144,7 @@
 }
 
 .history__image1 {
-  background-image: url("images/new/BRB websites assets/history/Asset 70vis.png");
+  background-image:url("images/new/mobile/Asset 3.png"); 
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
@@ -162,6 +163,20 @@
         -ms-flex: 1 0 100%;
             flex: 1 0 100%;
   }
+
+  @media all and (min-width:801px) {
+    /*.history__image1 {
+    background-image: url("images/new/mobile/Asset 3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }*/
+  }
+
+  
+.flex__history_mobile{
+  flex-direction: row-reverse !important;
+}
 }
 
     </style>
@@ -170,11 +185,11 @@
   <body>
     <div class="main-content">
       
-      <section class="historybg">
+      <section class="historybg1">
         <div class="history__title container container--brbtext">
           <h1>History</h1>
         </div>
-        <div class="history1">
+        <div class="history1 flex__history_mobile">
           <div class="history__container1 ">
             <div class="history__pp1 ">
               <p>The Securities Exchange Commission approved the extension of BRB's corporate life for another 50 years
