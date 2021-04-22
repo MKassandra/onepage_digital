@@ -4392,7 +4392,7 @@ font-size: 1rem!important;
   .h1-meet{
 font-size: 3rem;
 padding-top: 1rem;
-line-height: 3;
+line-height: 2;
   }
   .h3-meet{
     font-size: 2rem!important;
@@ -9072,6 +9072,132 @@ margin: 0 -3rem;
     flex-direction: row;
 }
 
+.partner__flex{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.partner__sb{
+  margin: 1rem 0rem;
+}
+
+.partner__se{
+  margin: 1rem 5rem;
+}
+.partner__icon{
+  flex: 0 1 20%;
+}
+
+.partner__logo{
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 5rem;
+}
+
+.partner__logo2{
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 3.5rem;
+}
+
+.bsp{
+  background-image: url("images/new/BRB websites assets/partners/bsp.png");
+}
+
+.amlc{
+  background-image: url("images/new/BRB websites assets/partners/amlc.png");
+}
+
+.rbap{
+  background-image: url("images/new/BRB websites assets/partners/rbap.jpg");
+}
+
+.bancnet{
+  background-image: url("images/new/BRB websites assets/partners/bancnet.png");
+}
+
+.nextbank{
+  background-image: url("images/new/BRB websites assets/partners/nextbank.jpg");
+}
+
+.pmti{
+  background-image: url("images/new/BRB websites assets/partners/pmti.jpg");
+}
+
+.union{
+  background-image: url("images/new/BRB websites assets/partners/union.png");
+
+}
+
+.itc{
+  background-image: url("images/new/BRB websites assets/partners/itc.jpg");
+
+}
+
+.goldpac{
+  background-image: url("images/new/BRB websites assets/partners/goldpac.png");
+
+}
+
+.da5{
+  background-image: url("images/new/BRB websites assets/partners/da5.png");
+
+}
+
+.paynet{
+  background-image: url("images/partner/paynet.png");
+
+}
+
+.ppmi{
+  background-image: url("images/new/BRB websites assets/partners/ppmi.webp");
+
+}
+
+.global{
+  background-image: url("images/new/BRB websites assets/partners/global.jpg");
+
+}
+
+.acm{
+  background-image: url("images/partner/acm.png");
+
+}
+
+.squidpay{
+  background-image: url("images/new/BRB websites assets/partners/squidpay.png");
+
+}
+
+.visa{
+  background-image: url("images/new/BRB websites assets/partners/visa.png");
+
+}
+
+.agri{
+  background-image: url("images/partner/agrinuture.jpg");
+
+}
+
+.ibayad{
+  background-image: url("images/partner/ibayad.png");
+
+}
+
+.lgu{
+  background-image: url("images/new/BRB websites assets/partners/lgu.png");
+}
+
 @media screen and (max-width:801px){
   .flex__partner{
     flex-direction: column;
@@ -9660,9 +9786,58 @@ font-size: 8rem!important;
     /*padding-top: 3.5rem;*/
     padding-bottom: 0rem;
     /*padding-bottom: 6rem;*/
-
-
 }
+
+.talk__flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.talk__info{
+  flex: 0 1 20%;
+}
+
+.talk__form{
+  flex: 0 1 40%;
+}
+
+.talk__cal{
+  flex: 0 1 20%;
+}
+
+
+@media screen and (max-width:1025px){
+  .talk__info{
+    flex: 0 1 20%;
+  }
+  
+  .talk__form{
+    flex: 0 1 35%;
+  }
+  
+  .talk__cal{
+    flex: 0 1 20%;
+  }
+}
+
+
+@media screen and (max-width:415px){
+  .talk__info{
+    flex: 0 1 100%;
+    margin-top: 2rem;
+  }
+  
+  .talk__form{
+    flex: 0 1 100%;
+    margin-top: 2rem;
+  }
+  
+  .talk__cal{
+    flex: 0 1 20%;
+    margin: 2rem 0rem;
+  }
+}
+
 .row-talk{
   padding-top:1rem;
 }
@@ -9707,9 +9882,6 @@ font-size: 8rem!important;
   /*padding: 0rem 3.8rem;*/
 }
 
-.calendar-move{
-
-}
 .col-yr{
   padding: 0rem 0rem !important;
 }
@@ -9802,7 +9974,8 @@ label,
 }
 
 .md-form{
-  padding-right: 1rem;
+  text-align: left;
+  /*padding-right: 1rem;*/
 }
 
 small {
@@ -9810,7 +9983,7 @@ small {
 }
 
 .c-form{
-  text-align: left;
+  text-align: center;
 }
 
 .talk-1,
@@ -9829,7 +10002,7 @@ small {
 .btn-stalk {
     padding: 1rem 5rem !important;
     background-color: #c4a1ff !important;
-    margin: 0rem 9rem !important;
+    /*margin: 0rem 9rem !important;*/
 }
 
 .col-form-label {
@@ -9888,7 +10061,7 @@ small {
 
 @media all and (min-width:321px) and (max-width: 360px) {
   .btn-stalk{
-    margin: 0 3rem!important;
+    /*margin: 0 3rem!important;*/
   }
 
   .c-form{
@@ -9924,7 +10097,7 @@ small {
 
 @media all and (min-width:361px) and (max-width: 414px) {
   .btn-stalk{
-    margin: 0 4rem!important;
+    /*margin: 0 4rem!important;*/
   }
 
   .c-form{
@@ -9961,7 +10134,7 @@ small {
 
 @media all and (min-width:415px) and (max-width: 500px) {
   .btn-stalk{
-    margin: 0 0rem!important;
+    /*margin: 0 0rem!important;*/
   }
 
   .btn-l{
@@ -9997,7 +10170,7 @@ small {
   }
 
   .btn-stalk{
-    margin: 0 7rem!important;
+    /*margin: 0 7rem!important;*/
   }
 
   .c-form{
@@ -10016,7 +10189,7 @@ small {
   }
 
   .btn-stalk{
-    margin: 0 15rem!important;
+   /* margin: 0 15rem!important;*/
   }
 }
 @media all and (min-width:991px) and (max-width: 1024px) {
@@ -10027,7 +10200,7 @@ small {
   }
 
   .btn-stalk{
-    margin: 0 4rem!important;
+   /* margin: 0 4rem!important;*/
   }
 
 }
@@ -10040,7 +10213,7 @@ small {
   }
 
   .btn-stalk{
-    margin: 0 6rem!important;
+   /* margin: 0 6rem!important;*/
   }
 }
 
@@ -10050,13 +10223,13 @@ small {
     margin-left: 0.5rem;
   }
   .btn-stalk{
-    margin: 0 8rem!important;
+  /*  margin: 0 8rem!important;*/
   }
 }
 
 @media all and (min-width:1281px) and (max-width: 1366px) {
   .btn-stalk{
-    margin: 0 9rem!important;
+   /* margin: 0 9rem!important;*/
   }
 }
 
@@ -10084,7 +10257,7 @@ small {
 
   }
   .btn-stalk{
-margin: 0rem 14rem!important;
+/*margin: 0rem 14rem!important;*/
   }
 
   .btn-l, .btn-r{
@@ -10110,7 +10283,7 @@ margin: 0rem 14rem!important;
       padding: 1rem 0rem!important;
   }
   .btn-stalk{
-margin: 0 15rem!important;
+/*margin: 0 15rem!important;*/
   }
 
   .btn-l, .btn-r{
@@ -10138,7 +10311,7 @@ margin: 0 15rem!important;
     padding: 1.4rem 0rem!important;
   }
   .btn-stalk{
-    margin: 0rem 18rem!important;
+    /*margin: 0rem 18rem!important;*/
   }
 
   .btn-l, .btn-r{
@@ -10163,7 +10336,7 @@ margin: 0 15rem!important;
   padding: 2rem 0rem!important;
   }
   .btn-stalk{
-    margin: 0rem 24rem!important;
+    /*margin: 0rem 24rem!important;*/
     padding: 1.5rem 6.5rem !important;
     font-size: 1.5rem!important;
   }
@@ -10197,7 +10370,7 @@ margin: 0 15rem!important;
   padding: 2.7rem 0rem!important;
   }
   .btn-stalk{
-    margin: 0rem 38rem!important;
+    /*margin: 0rem 38rem!important;*/
     padding: 2.5rem 10.5rem !important;
     font-size: 2.5rem!important;
   }
@@ -10242,7 +10415,7 @@ margin: 0 15rem!important;
 padding: 4rem 0rem!important;
   }
   .btn-stalk{
-    margin: 0rem 50rem!important;
+    /*margin: 0rem 50rem!important;*/
     padding: 3.5rem 13.5rem !important;
     font-size: 3.6rem!important;
   }
