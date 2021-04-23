@@ -288,6 +288,10 @@ strong {
     text-align: justify;
     font-size: 0.7rem;
   }
+  .instaIMG{
+    height: 5rem;
+    width: auto;
+  }
 }
 
 .aboutIMG{
