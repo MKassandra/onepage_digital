@@ -3527,7 +3527,7 @@ padding-top: 9rem!important;}
 
 @media screen and (max-width:413px){
   #who, #mission,#vision,#history,#meet,#meet2,#meet3{
-    min-height: 100vh;
+    /*min-height: 100vh;*/
   }
 
   #who {
