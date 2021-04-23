@@ -428,7 +428,27 @@ strong {
 
 @media screen and (max-width:770px){
   .aboutIMG{
-    height: 34rem;
+    height: 25rem;
+    width: auto;
+  }
+  .aboutIMG_mobile{
+    height: 0rem;
+    width: auto;
+  }
+  .productIMG{
+    height: 21rem;
+    width: auto;
+  }
+  
+.productIMG_mobile{
+  height: 21rem;
+  width: auto;
+}
+}
+
+@media screen and (max-width:730px){
+  .aboutIMG{
+    height: 22rem;
     width: auto;
   }
   .aboutIMG_mobile{
@@ -3530,7 +3550,7 @@ padding-top: 9rem!important;}
   }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 485px) {
   .row-w{
     padding-top: 6.3rem !important;
 }
@@ -3922,7 +3942,7 @@ background-repeat: no-repeat;
 }
 .h6-bod-name{
     text-align: center !important;
-    font-size:0.9rem;
+    font-size:0.7rem;
     padding-bottom: 2rem;
 }
 
@@ -4032,7 +4052,7 @@ background-repeat: no-repeat;
 .bod__avatar2{
   flex: 0 1 23%;
   margin: 0 2px;
-  align-self: center;
+  align-self: end;
 }
 
 @media screen and (max-width:415px){
