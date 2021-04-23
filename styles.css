@@ -4945,7 +4945,7 @@ hr {
 
 @media screen and (max-width:576px){
   .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
-    padding: 1rem 1rem 0rem 1rem;
+    padding: 1rem 2rem 0rem 2rem;
   }
 }
 .row-instapay{
@@ -5027,6 +5027,12 @@ margin-top: -7rem!important;
   .product-dev{
   margin-top: -17rem!important;
 }
+}
+.brb__card{
+  background-image: url("images/new/BRB websites assets/owned/Asset 109.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
 }
 
 /* product icon button*/
@@ -10884,6 +10890,7 @@ align-self: flex-end;
 -ms-flex: 25%;
   flex: 25%;
 font-size: 0.8rem;
+text-align: justify;
 }
 .history__pp1 :first-child {
 padding-left: 10rem;
@@ -10902,6 +10909,7 @@ padding-bottom: 50px;
 padding: 0;
 padding-right: 10rem;
 font-size: 0.8rem;
+text-align: justify;
 }
 }
 
