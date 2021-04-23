@@ -256,7 +256,7 @@ strong {
     width: auto;
   }
   .cardIMG3{
-    height: 3rem;
+    height: 2rem;
     width: auto;
   }
   .instaIMG{
@@ -10784,6 +10784,7 @@ flex-direction: row-reverse;
 
 .p__history{
   font-size: 0.7rem;
+  text-align: justify;
 }
 
 @media (min-width: 64em) {
@@ -10803,6 +10804,7 @@ padding: 2%;
 
 .p__history{
   font-size: 0.9rem;
+  text-align: justify;
 }
 }
 
