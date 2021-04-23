@@ -274,7 +274,8 @@ strong {
     width: auto;
 }
 }
-@media screen and (min-width:200px) and (max-width:599px){
+
+@media screen and (min-width:416px) and (max-width:599px){
   .cardIMG1,.cardIMG2{
     height: 9rem;
     margin: 1rem 0rem;
@@ -282,7 +283,7 @@ strong {
   .p-cards,.p-cobrand{
     display: none;
   }
-
+  
   .p-mobile{
     display: flex;
     text-align: justify;
@@ -292,8 +293,74 @@ strong {
     height: 5rem;
     width: auto;
   }
-}
-
+  }
+  
+  @media screen and (min-width:377px) and (max-width:415px){
+  .cardIMG1,.cardIMG2{
+    height: 9rem;
+    margin: 1rem 0rem;
+  }
+  .p-cards,.p-cobrand{
+    display: none;
+  }
+  
+  .p-mobile{
+    display: flex;
+    text-align: justify;
+    font-size: 0.7rem;
+    margin:0rem 4.5rem;
+    margin-top: -1rem;
+  }
+  .instaIMG{
+    height: 5rem;
+    width: auto;
+  }
+  }
+  
+  @media screen and (min-width:322px) and (max-width:376px){
+  .cardIMG1,.cardIMG2{
+    height: 9rem;
+    margin: 1rem 0rem;
+  }
+  .p-cards,.p-cobrand{
+    display: none;
+  }
+  
+  .p-mobile{
+    display: flex;
+    text-align: justify;
+    font-size: 0.7rem;
+    margin:0rem 3rem;
+    margin-top: -1rem;
+  }
+  .instaIMG{
+    height: 5rem;
+    width: auto;
+  }
+  }
+  
+  @media screen and (min-width:280px) and (max-width:321px){
+  .cardIMG1,.cardIMG2{
+    height: 9rem;
+    margin: 1rem 0rem;
+  }
+  .p-cards,.p-cobrand{
+    display: none;
+  }
+  
+  .p-mobile{
+    display: flex;
+    text-align: justify;
+    font-size: 0.7rem;
+    margin:0rem 3rem;
+    margin-top: -1rem;
+  }
+  .instaIMG{
+    height: 5rem;
+    width: auto;
+  }
+  }
+  
 .aboutIMG{
   
   /*visibility: hidden;*/
@@ -498,47 +565,79 @@ strong {
   .aboutDesk{
     height: 0rem;
   }
-
+  
   .aboutIMG_mobile{
     height: 15rem;
     width: auto;
   }
-
+  
   .productIMG{
     height: 12rem;
     width: auto;
   }
-
-
+  
+  
   .productDesk{
      /*height: 0rem;*/
   }
   
   .productIMG_mobile{
     float: right;
-}
-}
-
-@media screen and (max-width:415px){
+  }
+  }
+  
+  @media screen and (max-width:415px){
   .aboutIMG{
     height: 21rem;
     width: auto;
   }
-}
-
-@media screen and (max-width:376px){
+  .productIMG{
+    height: 22rem;
+    width: auto;
+    margin-top: 1.5rem;
+  }
+  
+  .agencyIMG{
+    height: 16rem !important;
+    width: auto;
+    margin-top: 1.2rem;
+  }
+  }
+  
+  @media screen and (max-width:376px){
   .aboutIMG{
     height: 20rem;
     width: auto;
   }
-}
-
-@media screen and (max-width:321px){
+  .productIMG{
+    height: 17rem;
+    width: auto;
+    margin-top: 1.2rem;
+  }
+  .agencyIMG{
+    height: 13rem !important;
+    width: auto;
+    margin-top: 1.2rem;
+  }
+  }
+  
+  @media screen and (max-width:321px){
   .aboutIMG{
     height: 14rem;
     width: auto;
   }
-}
+  .productIMG{
+    height: 17rem;
+    width: auto;
+    margin-top: 1.2rem;
+  }
+  .agencyIMG{
+    height: 12rem !important;
+    width: auto;
+    margin-top: 1.2rem;
+  }
+  }
+  
 
 .p-history-up{
   font-size: 0.7rem;
@@ -4859,7 +4958,7 @@ hr {
 
 @media screen and (max-width:571px){
   .cards, .upi, .cobrand, .acquiring,.instapay,.agency{
-    /*min-height: 100vh;*/
+    min-height: 100vh;
   }
   .row{
     margin-top: 0rem !important;
