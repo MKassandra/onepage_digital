@@ -3817,8 +3817,8 @@ padding-top: 17rem!important;
  line-height: 2;
   list-style-type: none;
   list-style-position: outside;
-  text-align: left;
-  margin: 0 0 0 32px;
+  text-align: justify;
+  /*margin: 0 0 0 32px;*/
 }
 .list-one{
   list-style-image: url("images/new/BRB websites assets/who we are/Asset 67vis_2.png");
