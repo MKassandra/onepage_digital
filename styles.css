@@ -286,6 +286,7 @@ strong {
   .p-mobile{
     display: flex;
     text-align: justify;
+    font-size: 0.7rem;
   }
 }
 
