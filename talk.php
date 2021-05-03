@@ -25,7 +25,7 @@ if (isset($_POST['Email'])) {
     }
 
     $name = $_POST['Name']; // required
-    $email = $_POST['Contact']; // required
+    $contact = $_POST['Contact']; // required
     $email = $_POST['Email']; // required
     $message = $_POST['Message']; // required
 
