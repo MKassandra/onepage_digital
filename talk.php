@@ -3,7 +3,7 @@ if (isset($_POST['Email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "kassandra.bernabe@brbdigital.net";
-    $email_subject = "Test New form submissions";
+    $email_subject = "Schedule Request Submission";
 
     function problem($error)
     {
@@ -78,8 +78,12 @@ if (isset($_POST['Email'])) {
 
     <!-- include your success message below -->
 
-    Thank you for contacting us. We will be in touch with you very soon.
+   
+   
 
 <?php
+echo 
+
+"<center>Thank you for contacting us. We will be in touch with you very soon." . " -" . "<a href='talk.html' style='text-decoration:none;color:#4c008a;'> Return Home</a> </center>";
 }
 ?>
