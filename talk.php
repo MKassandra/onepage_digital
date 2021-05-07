@@ -1,10 +1,7 @@
 <?php
 if (isset($_POST['Email'])) {
 
-    // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "kassandra.bernabe@brbdigital.net";
-    $email_subject = "Schedule Request Submission";
-
+  
     function problem($error)
     {
         echo "We are very sorry, but there were error(s) found with the form you submitted. ";
@@ -19,6 +16,7 @@ if (isset($_POST['Email'])) {
         !isset($_POST['Name']) ||
         !isset($_POST['Contact']) ||
         !isset($_POST['Email']) ||
+        !isset($_POST['Subject']) ||
         !isset($_POST['Message'])
     ) {
         problem('We are sorry, but there appears to be a problem with the form you submitted.');
@@ -27,6 +25,7 @@ if (isset($_POST['Email'])) {
     $name = $_POST['Name']; // required
     $contact = $_POST['Contact']; // required
     $email = $_POST['Email']; // required
+    $subject = $_POST['Subject']; // required
     $message = $_POST['Message']; // required
 
     $error_message = "";
@@ -47,6 +46,7 @@ if (isset($_POST['Email'])) {
         $error_message .= 'The Contact number you entered does not appear to be valid.<br>';
     }
 
+ 
 
     if (strlen($message) < 2) {
         $error_message .= 'The Message you entered do not appear to be valid.<br>';
@@ -67,7 +67,12 @@ if (isset($_POST['Email'])) {
     $email_message .= "Name: " . clean_string($name) . "\n";
     $email_message .= "Contact: " . clean_string($contact) . "\n";
     $email_message .= "Email: " . clean_string($email) . "\n";
+    $email_message .= "Subject: " . clean_string($subject) . "\n";
     $email_message .= "Message: " . clean_string($message) . "\n";
+  
+    // EDIT THE 2 LINES BELOW AS REQUIRED
+  $email_to = "kassandra.bernabe@brbdigital.net";
+  $email_subject = "Form Submission";
 
     // create email headers
     $headers = 'From: ' . $email . "\r\n" .
