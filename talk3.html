@@ -196,44 +196,47 @@
           </div>
 
           <div class="talk__form container c-form">
-            <!-- Material form group -->
-            <form method="post" action="talk2.php">
-              <!-- Large input -->
+          
+            <form class="contact__form" method="post" action="mail.php">
+
+                 <!-- form message -->
+                 <div class="row">
+                    <div class="col">
+                        <div class="alert alert-success alert-danger contact__msg" style="display: none" role="alert">
+                            Your message was sent successfully.
+                        </div>
+                    </div>
+                </div>
+                <!-- end message -->
+
               <div class="md-form">
-                  <label for="inputMDEx Name">Name</label>
-                <input type="text" id="inputMDEx Name" name="Name" class="form-control form-b" placeholder="Your Name" required>
+                  <label for="inputMDEx name">Name</label>
+                <input type="text" id="inputMDEx name" name="name" class="form-control form-b" placeholder="Your Name" required>
 
               </div>
              <div class="md-form ">
-                 <label for="inputMDEx Contact">Contact Number</label>
-                <input type="text" id="inputMDEx Contact" name="Contact" class="form-control form-b" placeholder="Your Contact No.">
+                 <label for="inputMDEx contact">Contact Number</label>
+                <input type="text" id="inputMDEx contact" name="contact" class="form-control form-b" placeholder="Your Contact No." required>
               </div>
               <div class="md-form">
-                  <label for="inputMDEx Email">Email</label>
-                <input type="text" id="inputMDEx Email"  name="Email" class="form-control form-b" placeholder="name@example.com">
+                  <label for="inputMDEx email">Email</label>
+                <input type="text" id="inputMDEx email"  name="email" class="form-control form-b" placeholder="name@example.com" required>
               </div>
               <div class="md-form">
-                <label for="inputMDEx Subject">Subject</label>
-                <div>
-                <select name="subject" size="1">
-                  <option value="activate">Activation</option>
-                  <option value="business">Business Partnership</option>
-                  <option value="inquiry">General Inquiries</option>
-                  <option value="others">Others</option>
-                  </select>
-                </div>
+                <label for="inputMDEx subject">Subject</label>
+                <input type="text" id="inputMDEx subject"  name="subject" class="form-control form-b">
                 </div>
 
             <!--Text Area Message -->
               <div class="md-form ">
-                  <label for="textarea-char-counter Message">Message</label>
-                <textarea id="textarea-char-counter" name="Message" class="form-control form-b md-textarea" maxlength="300" length="120" rows="4">Hi BRB! Are you free to meet on </textarea>
+                  <label for="textarea-char-counter message">Message</label>
+                <textarea id="textarea-char-counter" name="message" class="form-control form-b md-textarea" maxlength="300" length="120" rows="4">Hi BRB! Are you free to meet on </textarea>
 
               </div>
               <!-- </div><small>*Note: Please contanct for confirmation</small> -->
               <br>
 
-              <button type="submit" class="btn mr-auto btn-stalk rounded-pill ">Send</button>
+              <button name="submit" type="submit" class="btn mr-auto btn-stalk rounded-pill" value="Send Message">Send</button>
             </form>
           </div>
 
@@ -526,7 +529,8 @@
       <a href="terms.html" class="footer-text"  style="color:white">Terms and Conditions</a> 
     </footer>
   </section>
-
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="main.js"></script>
   <script type="text/javascript" src="scripts-test.js"></script>
 </body>
 

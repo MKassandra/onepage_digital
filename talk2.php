@@ -1,4 +1,5 @@
 <?php
+/*
 if (isset($_POST['Email'])) {
 
   
@@ -77,128 +78,32 @@ if (isset($_POST['Email'])) {
         'Reply-To: ' . $email . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
     @mail($email_to, $email_subject, $email_message, $headers);
+*/
 
+    $name = $_POST['Name'];
+     $contact = $_POST['Contact']; 
+     $email = $_POST['Email']; 
+     $subject = $_POST['Subject']; 
+     $message = $_POST['Message']; 
 
-    /* $name = $_POST['Name']; // required
-     $contact = $_POST['Contact']; // required
-     $email = $_POST['Email']; // required
-     $message = $_POST['Message']; // required
+    $email_from = 'sample@gmail.com';
 
-    $email_from = $email;
-
-   
      $email_subject = "Schedule Request Submission";
 
      $email_body ="Name: $name.\n".   
                   "Contact: $contact.\n".;
                   "Email: $email.\n".;
+                  "Subject: $subject.\n".;
                   "Message: $message.\n".;
                   
     $email_to = "kassandra.bernabe@brbdigital.net"; 
                   
-    $headers = "From: $email \r\n";
+    $headers = "From: $email_from \r\n";
 
     $headers . = "Reply-To: $email \r\n";
 
     mail($to,$email_subject,$email_body,$headers);
     
-    header("Location: talk.html");
-*/
+    header("Location: http://binangonanruralbank.net/talk.html");
+
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-  <section id="header-nav">
-    <nav class="navbar navbar-expand-lg navbar-light navbar-custom navbar-transparent navbar-product">
-        <a class="navbar-brand" href="index.html"><img src="binangonan_logo.png" class="cashmate"><img src="images/brb_logo.png" class="brblogo"></a>
-      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse ul-holder" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item dropdown about-dlist about-border ml-auto">
-      
-            <a class="nav-link about dropdown-toggle" href="about.html" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                About</a>
-              <div class="dropdown-menu w-100" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="about.html#who">Who we are</a>
-                  <a class="dropdown-item" href="about.html#mission">Mission</a>
-                  <a class="dropdown-item" href="about.html#vision">Vision</a>
-                  <a class="dropdown-item" href="about.html#history-body">History</a>
-                  <a class="dropdown-item" href="about.html#meet">Meet Our Team</a>
-              </div>
-          </li>
-          <li class="nav-item dropdown services-border ml-auto">
-            <a class="nav-link services dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Products and Services
-            </a>
-            <ul class="dropdown-menu w-100" aria-labelledby="navbarDropdownMenuLink">
-
-              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="product-service.html#1">Cards</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="product-service.html#cards">BRB Card</a></li>
-                  <li><a class="dropdown-item" href="product-service.html#upi">Union Pay Card</a></li>
-                  <li><a class="dropdown-item" href="product-service.html#cobrand">Cobranded Card</a></li>
-              </li>
-            </ul>
-            <li><a class="dropdown-item" href="product-service.html#acquiring">Merchant Acquiring</a></li>
-            <li><a class="dropdown-item" href="product-service.html#instapay">Instapay</a></li>
-            <li><a class="dropdown-item" href="product-service.html#agency">EMI Agent Services</a></li>
-          </li>
-        </ul>
-        </li>
-  
-            <li class="nav-item partners-border ml-auto">
-              <a class="nav-link partners" href="partners.html">Partners</a>
-            </li>
-  
-            <li class="nav-item letsTalk-border ml-auto">
-              <a class="nav-link letsTalk" href="talk.html">Let's Talk</a>
-            </li>
-            
-          </ul>
-      </div>
-    </nav>
-
-  </section>
-  <!--Main Content-->
-    <section id="talk-body-content">
-
-        
-Thank you for contacting us. We will be in touch with you very soon." . " -" . "<a href='talk.html' style='text-decoration:none;color:#4c008a;'> Return Home</a> ;
-
-        
-
-    </section>
-
-
-
-  <!-- jQuery -->
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <!-- Your custom scripts (optional) -->
-  <script type="text/javascript" src="scripts.js"></script>
-
-  <section id="footer-content">
-    <footer class="fixed-bottom">
-      <a href="terms.html" class="footer-text"  style="color:white">Terms and Conditions</a> 
-    </footer>
-  </section>
-
-  <script type="text/javascript" src="scripts-test.js"></script>
-</body>
-</html>
